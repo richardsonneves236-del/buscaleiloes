@@ -541,7 +541,7 @@ function render(resetLimite=true){
   document.getElementById('viewTitle').textContent=
     state.view==='favoritos'?'Favoritos':state.view==='vistos'?'Vistos recentemente':state.view==='oportunidades'?'Melhores oportunidades':'Resultados';
   setNotice();
-  if(state.view==='buscar' && !buscou && !state.q && !algumFiltroAtivo()){
+  if(state.view==='buscar' && !buscou){
     document.getElementById('countBox').innerHTML='';
     document.getElementById('grid').innerHTML='';
     const mw0=document.getElementById('moreWrap'); if(mw0) mw0.style.display='none';
@@ -603,7 +603,7 @@ function render(resetLimite=true){
 /* ===== Eventos ===== */
 document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));t.classList.add('active');state.view=t.dataset.view;render();});
 document.querySelectorAll('#searchpanel .seg').forEach(s=>s.onclick=()=>{document.querySelectorAll('#searchpanel .seg').forEach(x=>x.classList.remove('active'));s.classList.add('active');state.cat=s.dataset.cat;Object.values(state.filtros).forEach(set=>set.clear());buildChips();render();});
-document.getElementById('q').oninput=e=>{state.q=e.target.value;if(state.view==='buscar')render();};
+document.getElementById('q').oninput=e=>{state.q=e.target.value;};
 document.getElementById('q').onkeydown=e=>{if(e.key==='Enter'){buscou=true;state.view='buscar';render();}};
 document.getElementById('goBtn').onclick=()=>{buscou=true;state.view='buscar';document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x.dataset.view==='buscar'));render();};
 

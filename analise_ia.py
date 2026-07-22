@@ -66,11 +66,26 @@ def descobrir_modelo():
             return ("exp" in n or "preview" in n, "thinking" in n, "lite" in n, "8b" in n, n)
 
         nomes.sort(key=rank)
-        if nomes:
-            return nomes[0]
-        print("  (nenhum modelo Flash encontrado na conta)")
+        return nomes
     except Exception as e:
         print(f"  (não consegui listar modelos: {e})")
+    return []
+
+
+def modelo_valido(candidatos):
+    """Testa cada modelo com uma chamada mínima e devolve o primeiro que
+    realmente responde (200). Evita usar modelos que a conta lista mas que
+    dão 404 na hora de gerar."""
+    for nm in candidatos:
+        try:
+            url = f"{BASE}/models/{nm}:generateContent"
+            body = {"contents": [{"parts": [{"text": "ok"}]}]}
+            r = requests.post(url, params={"key": API_KEY}, json=body, timeout=30)
+            if r.status_code == 200:
+                return nm
+            print(f"  modelo {nm}: HTTP {r.status_code} (pulando)")
+        except Exception as e:
+            print(f"  modelo {nm}: erro {e}")
     return None
 
 MARCAS_LIQUIDAS = ["Toyota", "Honda", "Volkswagen", "Chevrolet", "Hyundai", "Jeep", "Fiat", "Yamaha"]
@@ -150,9 +165,11 @@ def main():
         return
 
     if not MODEL:
-        MODEL = descobrir_modelo()
+        candidatos = descobrir_modelo()
+        print(f"Modelos Flash disponíveis: {candidatos[:8]}")
+        MODEL = modelo_valido(candidatos)
     if not MODEL:
-        print("Não encontrei um modelo Gemini válido — pulando análise de IA.")
+        print("Nenhum modelo Gemini funcional encontrado — pulando análise de IA.")
         return
     print(f"Modelo Gemini em uso: {MODEL}")
 

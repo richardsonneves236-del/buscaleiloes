@@ -90,8 +90,8 @@
   .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(276px,1fr));gap:20px}
   .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--sh);transition:box-shadow .18s,transform .18s;position:relative}
   .card:hover{box-shadow:var(--sh-md);transform:translateY(-2px)}
-  .media{position:relative;aspect-ratio:16/10;background:var(--surface-2);overflow:hidden}
-  .media .slide{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background-size:cover;background-position:center;opacity:0;transition:opacity .25s} .media .slide.on{opacity:1}
+  .thumb{position:relative;aspect-ratio:16/10;background:var(--surface-2);overflow:hidden}
+  .thumb .slide{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background-size:cover;background-position:center;opacity:0;transition:opacity .25s} .thumb .slide.on{opacity:1}
   .ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#f0f2f6,#e7eaf0)}
   .ph svg{width:52px;height:52px;color:#c2c9d6}
   .badge{position:absolute;top:12px;left:12px;font-size:10.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:4px 9px;border-radius:6px;background:rgba(255,255,255,.95);box-shadow:0 1px 3px rgba(16,24,40,.14);z-index:2}
@@ -525,7 +525,7 @@ function render(resetLimite=true){
       + fotos.map((u,k)=>`<img class="slide ${k===0?'on':''}" src="${u}" loading="lazy" onerror="this.style.display='none'">`).join('')
       + (fotos.length>1?`<button class="cn prev" type="button">${I.arrowL}</button><button class="cn next" type="button">${I.arrowR}</button><div class="dots">${fotos.map((_,k)=>`<i class="${k===0?'on':''}"></i>`).join('')}</div>`:'');
     card.innerHTML=`
-      <div class="media" data-idx="0">
+      <div class="thumb" data-idx="0">
         ${mediaInner}
         <button class="fav ${fav?'on':''}" aria-label="Favoritar">${fav?I.heartFill:I.heart}</button>
         <span class="badge ${l.cat==='veiculo'?'veic':'imov'}">${l.cat==='veiculo'?'Veículo':'Imóvel'}</span>
@@ -545,7 +545,7 @@ function render(resetLimite=true){
       <div class="cfoot"><span class="house">${l.fonte}${l.real?'<span class="rt">Real</span>':''}</span><span class="date">${I.cal}${dtBR(l.dataLeilao)}</span></div>`;
     grid.appendChild(card);
     if(fotos.length>1){
-      const media=card.querySelector('.media');const slides=[...media.querySelectorAll('.slide')],dots=[...media.querySelectorAll('.dots i')];
+      const media=card.querySelector('.thumb');const slides=[...media.querySelectorAll('.slide')],dots=[...media.querySelectorAll('.dots i')];
       const go=n=>{let i=(n+slides.length)%slides.length;media.dataset.idx=i;slides.forEach((s,k)=>s.classList.toggle('on',k===i));dots.forEach((dd,k)=>dd.classList.toggle('on',k===i));};
       media.querySelector('.prev').onclick=e=>{e.stopPropagation();go(+media.dataset.idx-1);};
       media.querySelector('.next').onclick=e=>{e.stopPropagation();go(+media.dataset.idx+1);};

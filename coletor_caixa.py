@@ -144,15 +144,14 @@ def parse_csv(texto: str, uf: str):
         tipo = classificar_tipo(descricao)
         titulo = limpar_titulo(descricao, tipo, bairro)
 
-        # Fotos: a Caixa hospeda as imagens num endereço previsível pelo código
-        # do imóvel. Tentamos 2 candidatas; no site, se não carregar, cai no ícone.
+        # Fotos: a Caixa nomeia as imagens como F + código com zeros à esquerda
+        # (13 dígitos) + índice da foto. Ex.: código 10005120 -> F000001000512021.jpg
+        # No site, se alguma não carregar, cai no ícone (sem imagem quebrada).
         cod = re.sub(r"\D", "", numero or "")
         fotos = []
         if cod:
-            fotos = [
-                f"https://venda-imoveis.caixa.gov.br/fotos/{cod}21.jpg",
-                f"https://venda-imoveis.caixa.gov.br/fotos/{cod}22.jpg",
-            ]
+            base = f"F{cod.zfill(13)}"
+            fotos = [f"https://venda-imoveis.caixa.gov.br/fotos/{base}{i}.jpg" for i in (21, 22, 23)]
 
         lotes.append({
             "cat": "imovel",
@@ -178,18 +177,19 @@ def parse_csv(texto: str, uf: str):
 SESSAO = requests.Session()
 SESSAO.headers.update(HEADERS)
 
-def coletar_uf(uf: str, tentativas: int = 4):
+def coletar_uf(uf: str, tentativas: int = 6):
     """Baixa o CSV da Caixa para uma UF e devolve os lotes.
     A Caixa costuma 'segurar' requisições rápidas em sequência, então
-    tentamos algumas vezes com pausa e mostramos diagnóstico se vier vazio."""
+    tentamos várias vezes com pausa crescente e diagnóstico se vier vazio."""
     url = URL.format(uf=uf)
     for t in range(tentativas):
+        espera = 3 * (t + 1)  # backoff crescente: 3, 6, 9, 12, 15s...
         try:
             r = SESSAO.get(url, timeout=90)
             r.raise_for_status()
         except Exception as e:
             print(f"  [{uf}] erro ao baixar (tentativa {t+1}): {e}")
-            time.sleep(4)
+            time.sleep(espera)
             continue
         # A Caixa usa encoding latin-1 (ISO-8859-1) e separador ';'
         texto = r.content.decode("latin-1", errors="replace")
@@ -200,14 +200,32 @@ def coletar_uf(uf: str, tentativas: int = 4):
         # Veio 0: mostra o que chegou para diagnosticar, e tenta de novo
         amostra = texto[:120].replace("\n", " ").replace("\r", " ")
         print(f"  [{uf}] 0 (tentativa {t+1}, status={r.status_code}, bytes={len(r.content)}, inicio={amostra!r})")
-        time.sleep(4)
+        time.sleep(espera)
     return []
+
+def carregar_previo():
+    """Lê o dados.json anterior e agrupa os lotes por UF, para não perder
+    dados de um estado se a Caixa bloquear justamente aquela requisição hoje."""
+    try:
+        with open("dados.json", encoding="utf-8") as f:
+            data = json.load(f)
+        prev = {}
+        for l in data.get("lotes", []):
+            prev.setdefault(l.get("uf"), []).append(l)
+        return prev
+    except Exception:
+        return {}
 
 def main():
     print("Coletando imóveis da Caixa (todas as UFs)...")
+    prev = carregar_previo()
     todos = []
     for uf in UFS:
-        todos.extend(coletar_uf(uf))
+        lotes = coletar_uf(uf)
+        if not lotes and prev.get(uf):
+            lotes = prev[uf]
+            print(f"  [{uf}] 0 agora — mantendo {len(lotes)} da coleta anterior")
+        todos.extend(lotes)
         time.sleep(1.5)  # pausa educada entre estados
 
     saida = {

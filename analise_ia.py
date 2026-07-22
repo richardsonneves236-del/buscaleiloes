@@ -41,10 +41,37 @@ except ImportError:
     sys.exit(0)
 
 API_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
-MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.0-flash").strip()
+MODEL = os.environ.get("GEMINI_MODEL", "").strip()  # vazio = descobre sozinho
 MAX_IA = int(os.environ.get("MAX_IA", "40"))
-ENDPOINT = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
+BASE = "https://generativelanguage.googleapis.com/v1beta"
 HEADERS = {"User-Agent": "Mozilla/5.0 (compativel; BuscaLeiloes/1.0)"}
+
+
+def descobrir_modelo():
+    """Pergunta ao Gemini quais modelos existem e escolhe um Flash válido.
+    Assim não quebra quando o Google renomeia os modelos."""
+    try:
+        r = requests.get(f"{BASE}/models", params={"key": API_KEY}, timeout=30)
+        r.raise_for_status()
+        nomes = []
+        for m in r.json().get("models", []):
+            if "generateContent" in m.get("supportedGenerationMethods", []):
+                nm = m["name"].split("/")[-1]
+                low = nm.lower()
+                if "flash" in low and "embedding" not in low and "vision" not in low:
+                    nomes.append(nm)
+
+        def rank(n):
+            n = n.lower()
+            return ("exp" in n or "preview" in n, "thinking" in n, "lite" in n, "8b" in n, n)
+
+        nomes.sort(key=rank)
+        if nomes:
+            return nomes[0]
+        print("  (nenhum modelo Flash encontrado na conta)")
+    except Exception as e:
+        print(f"  (não consegui listar modelos: {e})")
+    return None
 
 MARCAS_LIQUIDAS = ["Toyota", "Honda", "Volkswagen", "Chevrolet", "Hyundai", "Jeep", "Fiat", "Yamaha"]
 
@@ -108,7 +135,8 @@ def analisar_com_gemini(lote, texto):
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"},
     }
-    r = requests.post(ENDPOINT, params={"key": API_KEY}, json=body, timeout=90)
+    url = f"{BASE}/models/{MODEL}:generateContent"
+    r = requests.post(url, params={"key": API_KEY}, json=body, timeout=90)
     r.raise_for_status()
     data = r.json()
     txt = data["candidates"][0]["content"]["parts"][0]["text"]
@@ -116,9 +144,17 @@ def analisar_com_gemini(lote, texto):
 
 
 def main():
+    global MODEL
     if not API_KEY:
         print("GEMINI_API_KEY não definido — pulando análise de IA (isso é normal até você adicionar a chave).")
         return
+
+    if not MODEL:
+        MODEL = descobrir_modelo()
+    if not MODEL:
+        print("Não encontrei um modelo Gemini válido — pulando análise de IA.")
+        return
+    print(f"Modelo Gemini em uso: {MODEL}")
 
     try:
         with open("dados.json", encoding="utf-8") as f:

@@ -84,8 +84,16 @@ def parse_csv(texto: str, uf: str):
 
     lotes = []
     for row in leitor:
-        # Normaliza os nomes das colunas (tira espaços/acentos variáveis)
-        campos = { (k or "").strip().lower(): (v or "").strip() for k, v in row.items() }
+        # Normaliza os nomes das colunas (tira espaços/acentos variáveis).
+        # Obs.: quando uma linha tem MAIS colunas que o cabeçalho (endereço com ';'
+        # ou coluna extra), o DictReader junta o excedente numa lista sob a chave
+        # None — por isso tratamos valores que vêm como lista.
+        campos = {}
+        for k, v in row.items():
+            chave = (k or "").strip().lower()
+            if isinstance(v, list):
+                v = " ".join(x for x in v if x)
+            campos[chave] = (v or "").strip()
 
         def pega(*nomes):
             for n in nomes:

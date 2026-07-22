@@ -181,6 +181,15 @@
   .chk b{color:var(--ink)}
   .aitease{background:var(--surface-2);border:1px dashed var(--line);border-radius:10px;padding:12px 14px;font-size:12.5px;color:var(--muted)}
   .aitease b{color:var(--ink-2)}
+  .iabox{background:#f0f5ff;border:1px solid #d6e2ff;border-radius:10px;padding:14px;display:flex;flex-direction:column;gap:10px;font-size:13.5px;color:var(--ink-2);line-height:1.5}
+  .iabox p{margin:0}
+  .iaresumo{font-weight:500;color:var(--ink)}
+  .iagrid{display:flex;gap:24px;flex-wrap:wrap}
+  .iagrid>div{display:flex;flex-direction:column;gap:2px}
+  .ialbl{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--faint);font-weight:600}
+  .iarisk{margin:4px 0 0;padding-left:18px}
+  .iaverd{background:#fff;border:1px solid #d6e2ff;border-radius:8px;padding:9px 11px}
+  .iafoot{font-size:11.5px;color:var(--muted);border-top:1px dashed #d6e2ff;padding-top:8px}
   .mfoot{padding:16px 20px;border-top:1px solid var(--line)}
   .mfoot .golink{margin:0;display:block;text-align:center}
 </style>
@@ -446,7 +455,19 @@ function openAnalise(l){
       ${a.pos.length?`<div class="msec"><h4>Sinais positivos</h4><ul class="plist pos">${a.pos.map(t=>`<li><span class="mk">✓</span><span>${t}</span></li>`).join('')}</ul></div>`:''}
       ${a.att.length?`<div class="msec"><h4>Pontos de atenção</h4><ul class="plist att">${a.att.map(t=>`<li><span class="mk">!</span><span>${t}</span></li>`).join('')}</ul></div>`:''}
       <div class="msec"><h4>Verifique antes de dar lance</h4><ul class="chk">${a.chk.map(c=>`<li><span class="box"></span><span><b>${c[0]}.</b> ${c[1]}</span></li>`).join('')}</ul></div>
-      <div class="aitease"><b>Análise por IA do edital (próximo passo):</b> um agente vai ler o edital deste lote e responder sozinho ocupação, dívidas e riscos. Precisa de chave de API e roda no servidor — não dá pra fazer no site estático atual.</div>
+      ${l.ia ? `<div class="msec"><h4>Análise por IA do edital</h4>
+        <div class="iabox">
+          <p class="iaresumo">${l.ia.resumo||''}</p>
+          <div class="iagrid">
+            <div><span class="ialbl">Ocupação</span><b>${l.ia.ocupacao||'—'}</b></div>
+            <div><span class="ialbl">Financiamento / FGTS</span><b>${l.ia.financiamento||'—'}</b></div>
+          </div>
+          ${l.ia.dividas?`<p><b>Dívidas / ônus:</b> ${l.ia.dividas}</p>`:''}
+          ${(l.ia.riscos&&l.ia.riscos.length)?`<div><b>Riscos:</b><ul class="iarisk">${l.ia.riscos.map(x=>`<li>${x}</li>`).join('')}</ul></div>`:''}
+          ${l.ia.veredito?`<p class="iaverd"><b>Veredito:</b> ${l.ia.veredito}</p>`:''}
+          <div class="iafoot">Gerado por IA a partir da página oficial — confira sempre o edital antes de dar lance.</div>
+        </div></div>`
+      : `<div class="aitease"><b>Análise por IA do edital:</b> assim que a chave gratuita do Gemini for adicionada, os melhores lotes ganham aqui uma leitura automática do edital (ocupação, dívidas, riscos e veredito). Este lote ainda não foi analisado.</div>`}
     </div>
     <div class="mfoot"><a class="golink" href="${l.url}" target="_blank" rel="noopener">Ver leilão / edital na fonte</a></div>`;
   document.getElementById('overlay').classList.add('open');

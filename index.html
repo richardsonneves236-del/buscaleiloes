@@ -317,7 +317,15 @@ let LOTES=SAMPLE.slice(); let FONTE_DADOS='amostra';
 
 const TIPOS={veiculo:['Carro','Moto','Caminhão','Van'],imovel:['Apartamento','Casa','Terreno','Comercial','Rural','Imóvel']};
 function phIcon(l){return (l.cat==='veiculo')?I.car:I.home;}
-function fotosDe(l){return (l.fotos&&l.fotos.length)?l.fotos:[];}
+function fotosDe(l){
+  if(l.fotos&&l.fotos.length)return l.fotos;
+  // Imóveis da Caixa: as fotos são derivadas do número do imóvel (F + 13 dígitos + índice)
+  if(l.fonte==='Caixa'&&l.numero){
+    const cod=(''+l.numero).replace(/\D/g,'');
+    if(cod){const base='F'+cod.padStart(13,'0');return [21,22,23].map(i=>'https://venda-imoveis.caixa.gov.br/fotos/'+base+i+'.jpg');}
+  }
+  return [];
+}
 
 /* ===== Índice de oportunidade (regras transparentes) ===== */
 const MARCAS_LIQUIDAS=['Toyota','Honda','Volkswagen','Chevrolet','Hyundai','Jeep','Fiat','Yamaha'];
@@ -610,14 +618,32 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape')closeAnalise();});
 
 /* ===== Carregar dados reais (dados.json) ===== */
 function initIds(){LOTES.forEach((l,i)=>l.id=i);}
+async function lerFonte(){
+  // 1) tenta o arquivo compactado (leve: ~1 MB). 2) cai pro dados.json normal.
+  try{
+    const r=await fetch('dados.json.gz',{cache:'no-store'});
+    if(r.ok){
+      if(typeof DecompressionStream!=='undefined'&&r.body){
+        const ds=r.body.pipeThrough(new DecompressionStream('gzip'));
+        const txt=await new Response(ds).text();
+        return JSON.parse(txt);
+      }
+      // navegador sem DecompressionStream: browser costuma descomprimir sozinho
+      const t=await r.text();
+      try{return JSON.parse(t);}catch(e){}
+    }
+  }catch(e){}
+  const r2=await fetch('dados.json',{cache:'no-store'});
+  if(r2.ok)return await r2.json();
+  return null;
+}
 async function carregarDados(){
   try{
-    const r=await fetch('dados.json',{cache:'no-store'});
-    if(r.ok){const data=await r.json();
-      if(data&&Array.isArray(data.lotes)&&data.lotes.length){
-        LOTES=data.lotes;FONTE_DADOS='real';
-        document.getElementById('statusTxt').textContent=`${LOTES.length} lotes reais · ${data.atualizadoEm||''}`;
-      }}
+    const data=await lerFonte();
+    if(data&&Array.isArray(data.lotes)&&data.lotes.length){
+      LOTES=data.lotes;FONTE_DADOS='real';
+      document.getElementById('statusTxt').textContent=`${LOTES.length} lotes reais · ${data.atualizadoEm||''}`;
+    }
   }catch(e){}
   initIds();buildChips();render();
 }

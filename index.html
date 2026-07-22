@@ -91,7 +91,7 @@
   .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--sh);transition:box-shadow .18s,transform .18s;position:relative}
   .card:hover{box-shadow:var(--sh-md);transform:translateY(-2px)}
   .media{position:relative;aspect-ratio:16/10;background:var(--surface-2);overflow:hidden}
-  .media .slide{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transition:opacity .25s} .media .slide.on{opacity:1}
+  .media .slide{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background-size:cover;background-position:center;opacity:0;transition:opacity .25s} .media .slide.on{opacity:1}
   .ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#f0f2f6,#e7eaf0)}
   .ph svg{width:52px;height:52px;color:#c2c9d6}
   .badge{position:absolute;top:12px;left:12px;font-size:10.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:4px 9px;border-radius:6px;background:rgba(255,255,255,.95);box-shadow:0 1px 3px rgba(16,24,40,.14);z-index:2}
@@ -104,12 +104,12 @@
   .dots{position:absolute;bottom:10px;right:12px;display:flex;gap:4px;z-index:2}
   .dots i{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.65)} .dots i.on{background:#fff;width:14px;border-radius:6px}
   .cbody{padding:14px 15px;display:flex;flex-direction:column;gap:9px;flex:1}
-  .score{display:inline-flex;align-items:center;gap:7px;align-self:flex-start;font-size:12px;font-weight:700;padding:4px 10px;border-radius:6px}
+  .score{display:inline-flex;align-items:center;gap:7px;align-self:flex-start;font-size:12px;font-weight:700;padding:4px 10px;border-radius:6px;white-space:nowrap;line-height:1.2}
   .score .sd{width:7px;height:7px;border-radius:50%}
   .score.alta{background:var(--good-soft);color:var(--good)} .score.alta .sd{background:var(--good)}
   .score.media{background:var(--warn-soft);color:var(--warnc)} .score.media .sd{background:#d99413}
   .score.baixa{background:var(--line-2);color:var(--muted)} .score.baixa .sd{background:var(--faint)}
-  .ctitle{font-weight:600;font-size:15px;line-height:1.35;color:var(--ink);letter-spacing:-.01em}
+  .ctitle{font-weight:600;font-size:15px;line-height:1.35;color:var(--ink);letter-spacing:-.01em;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;min-height:60px}
   .meta{display:flex;flex-direction:column;gap:5px;font-size:13px;color:var(--muted)}
   .meta .row{display:flex;align-items:center;gap:7px}
   .meta svg{width:15px;height:15px;color:var(--faint);flex-shrink:0}
@@ -130,6 +130,59 @@
   .golink.sample:hover{border-color:var(--faint);background:var(--surface-2)}
   .empty{text-align:center;padding:72px 20px;color:var(--muted);font-size:15px}
   @media(max-width:640px){.nav{gap:14px;padding:0 16px}.tab span.txt{display:none}.wrap{padding:16px}}
+
+  /* Oportunidades: controles + perfil */
+  .oppctrl{padding:16px;margin-bottom:20px}
+  .oppline{display:flex;gap:26px;flex-wrap:wrap;align-items:flex-end;margin-top:14px}
+  .fld{display:flex;flex-direction:column;gap:7px}
+  .seg2{border:1px solid var(--line);background:var(--surface);color:var(--muted);font-weight:600;font-size:13px;padding:6px 14px;border-radius:20px;cursor:pointer}
+  .seg2.active{background:var(--brand);color:#fff;border-color:var(--brand)}
+  .seg2.active[data-on="alta"]{background:var(--good);border-color:var(--good)}
+  .seg2.active[data-on="media"]{background:var(--warnc);border-color:var(--warnc)}
+  .seg2.active[data-on="baixa"]{background:var(--muted);border-color:var(--muted)}
+  select.mini{border:1px solid var(--line);border-radius:var(--r-sm);padding:9px 11px;font-size:14px;background:var(--surface);color:var(--ink);outline:none;min-width:150px}
+  .prfrange{display:flex;gap:6px;align-items:center}
+  .prfrange input{width:104px;border:1px solid var(--line);border-radius:var(--r-sm);padding:9px 11px;font-size:14px;outline:none}
+  .prfrange input:focus,select.mini:focus{border-color:var(--brand)}
+
+  /* Barras de critério nos cards de oportunidade */
+  .bk{display:flex;flex-direction:column;gap:6px;margin-top:2px}
+  .bk .brow{display:flex;align-items:center;gap:9px;font-size:11.5px;color:var(--muted)}
+  .bk .blab{width:70px;flex-shrink:0}
+  .bk .btrack{flex:1;height:6px;background:var(--line-2);border-radius:4px;overflow:hidden}
+  .bk .bfill{display:block;height:100%;border-radius:4px}
+
+  /* Botões do card */
+  .btns{display:flex;gap:8px;padding:0 15px 15px}
+  .btns .golink{margin:0;flex:1}
+  .anbtn{flex:0 0 auto;border:1px solid #c5d2fb;color:var(--brand-ink);background:var(--brand-soft);border-radius:var(--r-sm);font-weight:600;font-size:13.5px;padding:0 15px;cursor:pointer}
+  .anbtn:hover{background:#e2e9fd}
+
+  /* Modal de análise */
+  .overlay{position:fixed;inset:0;background:rgba(16,24,40,.5);z-index:100;display:none;align-items:flex-start;justify-content:center;padding:28px 16px;overflow:auto}
+  .overlay.open{display:flex}
+  .modal{background:var(--surface);border-radius:16px;max-width:640px;width:100%;box-shadow:0 20px 60px rgba(16,24,40,.35)}
+  .mhead{padding:18px 20px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+  .mhead h3{margin:0 0 4px;font-size:16px;letter-spacing:-.01em;line-height:1.35}
+  .mhead .sub{font-size:12.5px;color:var(--muted)}
+  .mclose{border:none;background:var(--surface-2);width:32px;height:32px;border-radius:8px;cursor:pointer;font-size:20px;line-height:1;color:var(--muted);flex-shrink:0}
+  .mbody{padding:20px;display:flex;flex-direction:column;gap:18px}
+  .mscore{display:flex;align-items:center;gap:14px}
+  .mscore .num{font-size:36px;font-weight:800;letter-spacing:-.02em;line-height:1}
+  .mscore .num.alta{color:var(--good)} .mscore .num.media{color:var(--warnc)} .mscore .num.baixa{color:var(--muted)}
+  .msec h4{margin:0 0 9px;font-size:11.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--faint)}
+  .plist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:7px}
+  .plist li{display:flex;gap:9px;font-size:13.5px;line-height:1.45;color:var(--ink-2)}
+  .plist li .mk{flex-shrink:0;font-weight:800}
+  .plist.pos li .mk{color:var(--good)} .plist.att li .mk{color:var(--warnc)}
+  .chk{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:11px}
+  .chk li{display:flex;gap:11px;font-size:13.5px;line-height:1.45;color:var(--ink-2)}
+  .chk .box{width:18px;height:18px;border:2px solid var(--line);border-radius:5px;flex-shrink:0;margin-top:1px}
+  .chk b{color:var(--ink)}
+  .aitease{background:var(--surface-2);border:1px dashed var(--line);border-radius:10px;padding:12px 14px;font-size:12.5px;color:var(--muted)}
+  .aitease b{color:var(--ink-2)}
+  .mfoot{padding:16px 20px;border-top:1px solid var(--line)}
+  .mfoot .golink{margin:0;display:block;text-align:center}
 </style>
 </head>
 <body>
@@ -166,15 +219,47 @@
     <div class="chiprow" id="chiprow"></div>
   </div>
 
+  <div class="panel oppctrl" id="oppControls" style="display:none">
+    <div class="segrow" id="oppCatRow">
+      <button class="seg active" data-oc="todos">Todos</button>
+      <button class="seg" data-oc="veiculo">Veículos</button>
+      <button class="seg" data-oc="imovel">Imóveis</button>
+    </div>
+    <div class="oppline">
+      <div class="fld"><span class="lbl">Nível de oportunidade</span>
+        <div class="segrow" id="oppNivelRow">
+          <button class="seg2 active" data-on="todas">Todas</button>
+          <button class="seg2" data-on="alta">Alta</button>
+          <button class="seg2" data-on="media">Média</button>
+          <button class="seg2" data-on="baixa">Baixa</button>
+        </div>
+      </div>
+      <div class="fld"><span class="lbl">Objetivo (perfil)</span>
+        <select class="mini" id="oppObj">
+          <option value="">Geral</option>
+          <option value="uso">Uso próprio</option>
+          <option value="revenda">Revenda</option>
+          <option value="alavancagem">Alavancagem de capital</option>
+          <option value="locacao">Locação</option>
+        </select>
+      </div>
+      <div class="fld"><span class="lbl">Investimento (R$)</span>
+        <div class="prfrange"><input id="oppMin" type="number" placeholder="mín"><span style="color:var(--faint)">—</span><input id="oppMax" type="number" placeholder="máx"></div>
+      </div>
+    </div>
+  </div>
+
   <div class="notice" id="notice"></div>
 
   <div class="rhead">
     <div class="viewtitle" id="viewTitle">Resultados</div>
-    <div class="count"><b id="cnt">0</b> lotes</div>
+    <div class="count" id="countBox"><b id="cnt">0</b> lotes</div>
   </div>
   <div class="grid" id="grid"></div>
   <div class="empty" id="empty" style="display:none"></div>
 </div>
+
+<div class="overlay" id="overlay"><div class="modal" id="modal"></div></div>
 
 <script>
 /* ===== Ícones (SVG) ===== */
@@ -248,7 +333,7 @@ function scoreOportunidade(l){
 
 /* ===== Estado ===== */
 const FAV=new Set(),VIS=[];
-let state={view:'buscar',cat:'todos',q:'',filtros:{tipo:new Set(),marca:new Set(),uf:new Set(),fonte:new Set(),modalidade:new Set()},pmin:'',pmax:'',sort:'data'};
+let state={view:'buscar',cat:'todos',q:'',filtros:{tipo:new Set(),marca:new Set(),uf:new Set(),cidade:new Set(),fonte:new Set(),modalidade:new Set()},pmin:'',pmax:'',sort:'data'};
 const fmt=n=>'R$ '+Number(n).toLocaleString('pt-BR');
 const desc=l=>l.avaliacao?Math.round((1-l.preco/l.avaliacao)*100):0;
 const dtBR=s=>{if(!s)return '—';const[y,m,d]=s.split('-');return `${d}/${m}/${y}`;};
@@ -259,6 +344,7 @@ const FILTER_DEFS=[
   {key:'tipo',label:'Tipo',opts:()=> state.cat==='todos'?[...new Set([...TIPOS.veiculo,...TIPOS.imovel])]:TIPOS[state.cat]},
   {key:'marca',label:'Marca',opts:()=>uniq('marca'),cats:['veiculo','todos']},
   {key:'uf',label:'Estado',opts:()=>uniq('uf')},
+  {key:'cidade',label:'Cidade',opts:()=>{let b=LOTES;if(state.filtros.uf.size)b=b.filter(l=>state.filtros.uf.has(l.uf));if(state.cat!=='todos')b=b.filter(l=>l.cat===state.cat);return [...new Set(b.map(l=>l.cidade).filter(c=>c&&c!=='-'))].sort();}},
   {key:'fonte',label:'Fonte',opts:()=>uniq('fonte')},
   {key:'modalidade',label:'Modalidade',opts:()=>uniq('modalidade')},
 ];
@@ -301,17 +387,93 @@ function buildChips(){
 function closeAll(){document.querySelectorAll('.dd.open').forEach(d=>d.classList.remove('open'));}
 document.addEventListener('click',closeAll);
 
+/* ===== Análise de oportunidade (perfil + due diligence) ===== */
+const OPP={cat:'todos',nivel:'todas',obj:'',pmin:'',pmax:''};
+function breakdown(l){
+  const d=l.avaliacao?Math.max(4,Math.min(100,Math.round((1-l.preco/l.avaliacao)*100*1.7))):20;
+  const m=(l.modalidade||'').toLowerCase();
+  let seg=60; if(m.includes('venda direta')||m.includes('venda online'))seg=88; else if(m.includes('judicial')||m.includes('sfi'))seg=45; else if(m.includes('licita'))seg=62;
+  let liq=55; if(l.cat==='veiculo'&&MARCAS_LIQUIDAS.includes(l.marca))liq=82; if(l.cat==='imovel'&&l.tipo==='Apartamento')liq=76; if(l.tipo==='Terreno'||l.tipo==='Rural')liq=42; if(l.tipo==='Comercial')liq=52;
+  return {desconto:d,seguranca:seg,liquidez:liq};
+}
+function profileNota(l){
+  let n=scoreOportunidade(l).nota; const o=OPP.obj; const m=(l.modalidade||'').toLowerCase();
+  const dfrac=l.avaliacao?(1-l.preco/l.avaliacao):0;
+  if(o==='revenda'||o==='alavancagem'){ if(dfrac>=0.35)n+=7; if(l.cat==='veiculo'&&MARCAS_LIQUIDAS.includes(l.marca))n+=3; }
+  else if(o==='uso'){ if(m.includes('judicial'))n-=8; if(m.includes('venda direta')||m.includes('venda online'))n+=5; }
+  else if(o==='locacao'){ if(l.tipo==='Apartamento'||l.tipo==='Comercial')n+=5; }
+  return n;
+}
+function corBar(v){return v>=70?'var(--good)':v>=45?'#d99413':'var(--faint)';}
+function barRow(lab,v){return `<div class="brow"><span class="blab">${lab}</span><span class="btrack"><span class="bfill" style="width:${v}%;background:${corBar(v)}"></span></span><span style="width:26px;text-align:right;color:var(--ink-2);font-weight:700">${v}</span></div>`;}
+function analisarLote(l){
+  const isV=l.cat==='veiculo'; const d=l.avaliacao?Math.round((1-l.preco/l.avaliacao)*100):null;
+  const pos=[],att=[],chk=[];
+  if(d!==null){ if(d>=40)pos.push(`Preço ${d}% abaixo da avaliação — desconto forte sobre o valor de referência.`); else if(d>=20)pos.push(`Preço ${d}% abaixo da avaliação.`); else if(d>0)att.push(`Desconto pequeno (${d}%) — confirme se está mesmo abaixo do mercado real.`); else att.push('Sem desconto sobre a avaliação — só compensa se a própria avaliação já estiver abaixo do mercado.'); }
+  else att.push('Sem valor de avaliação para comparar — pesquise o preço de mercado por conta própria.');
+  const m=(l.modalidade||'').toLowerCase();
+  if(m.includes('venda direta')||m.includes('venda online'))pos.push('Venda direta/online — processo mais simples e rápido que leilão judicial.');
+  else if(m.includes('judicial')||m.includes('sfi'))att.push('Modalidade de leilão — confira prazos e condições de pagamento no edital.');
+  else if(m.includes('licita'))att.push('Licitação aberta — pode haver concorrência por propostas; leia as regras.');
+  if(isV&&MARCAS_LIQUIDAS.includes(l.marca))pos.push('Marca de fácil revenda — boa liquidez se precisar vender.');
+  if(!isV&&(l.tipo==='Terreno'||l.tipo==='Rural'))att.push('Terreno/rural costuma ter liquidez menor — pense na saída antes de comprar.');
+  if(!isV){
+    chk.push(['Ocupação','O imóvel está ocupado ou desocupado? Ocupado pode exigir ação de desocupação (custo e meses de espera).']);
+    chk.push(['Matrícula','Peça a matrícula atualizada no cartório e veja penhoras, ônus, usufruto ou outras ações.']);
+    chk.push(['Dívidas','IPTU e condomínio em atraso — descubra o valor e quem assume (em algumas modalidades é o comprador).']);
+    chk.push(['Financiamento / FGTS','Confirme no edital se aceita financiamento ou uso de FGTS — muda muito a liquidez e o caixa necessário.']);
+    chk.push(['Valor real de mercado','Compare com imóveis semelhantes anunciados no mesmo bairro — não confie só na avaliação da Caixa.']);
+    chk.push(['Conservação','Vá ver ou peça fotos recentes: o bem é vendido no estado em que se encontra.']);
+  } else {
+    chk.push(['Tabela FIPE','Compare o preço com a FIPE do modelo/ano — é a referência real de mercado do veículo.']);
+    chk.push(['Situação do veículo','Está rodando, é recuperado de sinistro ou sucata? Isso muda totalmente o custo final.']);
+    chk.push(['Débitos','IPVA, multas e licenciamento atrasados — verifique valores e quem paga.']);
+    chk.push(['Regularização','Há pendências de documentação? Quanto custa e quanto tempo para regularizar?']);
+    chk.push(['Retirada','Onde está o veículo e qual o custo/prazo de retirada do pátio.']);
+    chk.push(['Vistoria','Faça ou peça vistoria/fotos detalhadas antes de dar lance.']);
+  }
+  chk.push(['Edital','Leia o edital inteiro antes de dar qualquer lance — ele define regras, prazos e responsabilidades.']);
+  const sc=scoreOportunidade(l);
+  return {nota:sc.nota,faixa:sc.faixa,rotulo:sc.rotulo,bk:breakdown(l),pos,att,chk};
+}
+function openAnalise(l){
+  const a=analisarLote(l);
+  document.getElementById('modal').innerHTML=`
+    <div class="mhead"><div><h3>${l.titulo}</h3><div class="sub">${l.cidade}/${l.uf} · ${l.tipo} · ${l.fonte}</div></div><button class="mclose" id="mclose" aria-label="Fechar">×</button></div>
+    <div class="mbody">
+      <div class="mscore"><div class="num ${a.faixa}">${a.nota}</div><div><div style="font-weight:700">${a.rotulo}</div><div style="font-size:12.5px;color:var(--muted)">Nota geral de oportunidade (0–100)</div></div></div>
+      <div class="bk">${barRow('Desconto',a.bk.desconto)}${barRow('Segurança',a.bk.seguranca)}${barRow('Liquidez',a.bk.liquidez)}</div>
+      ${a.pos.length?`<div class="msec"><h4>Sinais positivos</h4><ul class="plist pos">${a.pos.map(t=>`<li><span class="mk">✓</span><span>${t}</span></li>`).join('')}</ul></div>`:''}
+      ${a.att.length?`<div class="msec"><h4>Pontos de atenção</h4><ul class="plist att">${a.att.map(t=>`<li><span class="mk">!</span><span>${t}</span></li>`).join('')}</ul></div>`:''}
+      <div class="msec"><h4>Verifique antes de dar lance</h4><ul class="chk">${a.chk.map(c=>`<li><span class="box"></span><span><b>${c[0]}.</b> ${c[1]}</span></li>`).join('')}</ul></div>
+      <div class="aitease"><b>Análise por IA do edital (próximo passo):</b> um agente vai ler o edital deste lote e responder sozinho ocupação, dívidas e riscos. Precisa de chave de API e roda no servidor — não dá pra fazer no site estático atual.</div>
+    </div>
+    <div class="mfoot"><a class="golink" href="${l.url}" target="_blank" rel="noopener">Ver leilão / edital na fonte</a></div>`;
+  document.getElementById('overlay').classList.add('open');
+  document.getElementById('mclose').onclick=closeAnalise;
+}
+function closeAnalise(){document.getElementById('overlay').classList.remove('open');}
+
 /* ===== Render ===== */
 function baseList(){
   if(state.view==='favoritos')return LOTES.filter(l=>FAV.has(l.id));
   if(state.view==='vistos')return VIS.map(id=>LOTES.find(l=>l.id===id)).filter(Boolean);
-  if(state.view==='oportunidades')return LOTES.slice().sort((a,b)=>scoreOportunidade(b).nota-scoreOportunidade(a).nota);
+  if(state.view==='oportunidades'){
+    let l=LOTES.slice();
+    if(OPP.cat!=='todos')l=l.filter(x=>x.cat===OPP.cat);
+    if(OPP.pmin!=='')l=l.filter(x=>x.preco>=+OPP.pmin);
+    if(OPP.pmax!=='')l=l.filter(x=>x.preco<=+OPP.pmax);
+    if(OPP.nivel!=='todas')l=l.filter(x=>scoreOportunidade(x).faixa===OPP.nivel);
+    l.sort((a,b)=>profileNota(b)-profileNota(a));
+    return l;
+  }
   let list=LOTES.slice();
   if(state.cat!=='todos')list=list.filter(l=>l.cat===state.cat);
   const f=state.filtros;
   if(f.tipo.size)list=list.filter(l=>f.tipo.has(l.tipo));
   if(f.marca.size)list=list.filter(l=>f.marca.has(l.marca));
   if(f.uf.size)list=list.filter(l=>f.uf.has(l.uf));
+  if(f.cidade.size)list=list.filter(l=>f.cidade.has(l.cidade));
   if(f.fonte.size)list=list.filter(l=>f.fonte.has(l.fonte));
   if(f.modalidade.size)list=list.filter(l=>f.modalidade.has(l.modalidade));
   if(state.pmin!=='')list=list.filter(l=>l.preco>=+state.pmin);
@@ -344,11 +506,12 @@ function render(resetLimite=true){
   document.getElementById('favCnt').textContent=FAV.size;
   document.getElementById('visCnt').textContent=VIS.length;
   document.getElementById('searchpanel').style.display=(state.view==='buscar')?'':'none';
+  document.getElementById('oppControls').style.display=(state.view==='oportunidades')?'':'none';
   document.getElementById('viewTitle').textContent=
     state.view==='favoritos'?'Favoritos':state.view==='vistos'?'Vistos recentemente':state.view==='oportunidades'?'Melhores oportunidades':'Resultados';
   setNotice();
   const list=baseList();
-  document.getElementById('cnt').textContent=list.length;
+  document.getElementById('countBox').innerHTML=`<b>${list.length.toLocaleString('pt-BR')}</b> de ${LOTES.length.toLocaleString('pt-BR')} lotes`;
   const grid=document.getElementById('grid'),empty=document.getElementById('empty');grid.innerHTML='';
   const _mw=document.getElementById('moreWrap');if(_mw)_mw.style.display='none';
   if(!list.length){empty.style.display='block';
@@ -356,12 +519,11 @@ function render(resetLimite=true){
   empty.style.display='none';
   const mostrarMotivo=(state.view==='oportunidades');
   list.slice(0,LIMITE).forEach(l=>{
-    const d=desc(l),fotos=fotosDe(l),fav=FAV.has(l.id),sc=scoreOportunidade(l);
+    const d=desc(l),fotos=fotosDe(l),fav=FAV.has(l.id),sc=scoreOportunidade(l),bk=breakdown(l);
     const card=document.createElement('div');card.className='card';
-    const mediaInner = fotos.length
-      ? `${fotos.map((u,k)=>`<div class="slide ${k===0?'on':''}" style="background-image:url('${u}')"></div>`).join('')}
-         ${fotos.length>1?`<button class="cn prev">${I.arrowL}</button><button class="cn next">${I.arrowR}</button><div class="dots">${fotos.map((_,k)=>`<i class="${k===0?'on':''}"></i>`).join('')}</div>`:''}`
-      : `<div class="ph">${phIcon(l)}</div>`;
+    const mediaInner = `<div class="ph">${phIcon(l)}</div>`
+      + fotos.map((u,k)=>`<img class="slide ${k===0?'on':''}" src="${u}" loading="lazy" onerror="this.style.display='none'">`).join('')
+      + (fotos.length>1?`<button class="cn prev" type="button">${I.arrowL}</button><button class="cn next" type="button">${I.arrowR}</button><div class="dots">${fotos.map((_,k)=>`<i class="${k===0?'on':''}"></i>`).join('')}</div>`:'');
     card.innerHTML=`
       <div class="media" data-idx="0">
         ${mediaInner}
@@ -376,10 +538,10 @@ function render(resetLimite=true){
           <div class="row">${I.pin}<span>${l.cidade}/${l.uf}</span></div>
         </div>
         <div class="tagline"><span class="tag">${l.tipo}${l.ano?' · '+l.ano:''}</span><span class="tag">${l.modalidade}</span></div>
-        ${mostrarMotivo?`<div class="motivo"><b>Por que aparece aqui:</b> ${sc.motivo}</div>`:''}
+        ${mostrarMotivo?`<div class="bk">${barRow('Desconto',bk.desconto)}${barRow('Segurança',bk.seguranca)}${barRow('Liquidez',bk.liquidez)}</div>`:''}
         <div class="price">${l.avaliacao?`<div class="aval">Avaliação ${fmt(l.avaliacao)}</div>`:''}<div class="val">${fmt(l.preco)}</div></div>
       </div>
-      <a class="golink ${l.real?'':'sample'}" href="${l.url}" target="_blank" rel="noopener">${l.real?'Ver leilão na fonte':'Ver na fonte (exemplo)'}</a>
+      <div class="btns"><a class="golink ${l.real?'':'sample'}" href="${l.url}" target="_blank" rel="noopener">${l.real?'Ver leilão na fonte':'Ver na fonte'}</a><button class="anbtn" type="button">Analisar</button></div>
       <div class="cfoot"><span class="house">${l.fonte}${l.real?'<span class="rt">Real</span>':''}</span><span class="date">${I.cal}${dtBR(l.dataLeilao)}</span></div>`;
     grid.appendChild(card);
     if(fotos.length>1){
@@ -390,6 +552,7 @@ function render(resetLimite=true){
     }
     card.querySelector('.fav').onclick=e=>{e.stopPropagation();if(FAV.has(l.id))FAV.delete(l.id);else FAV.add(l.id);render();};
     card.querySelector('.golink').addEventListener('click',()=>{const idx=VIS.indexOf(l.id);if(idx>-1)VIS.splice(idx,1);VIS.unshift(l.id);document.getElementById('visCnt').textContent=VIS.length;});
+    card.querySelector('.anbtn').onclick=e=>{e.stopPropagation();openAnalise(l);};
   });
   let mw=document.getElementById('moreWrap');
   if(!mw){mw=document.createElement('div');mw.id='moreWrap';mw.style.cssText='text-align:center;margin-top:22px';mw.innerHTML='<button id="moreBtn" class="gobtn"></button>';grid.after(mw);document.getElementById('moreBtn').onclick=()=>{LIMITE+=60;render(false);};}
@@ -399,9 +562,18 @@ function render(resetLimite=true){
 
 /* ===== Eventos ===== */
 document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));t.classList.add('active');state.view=t.dataset.view;render();});
-document.querySelectorAll('.seg').forEach(s=>s.onclick=()=>{document.querySelectorAll('.seg').forEach(x=>x.classList.remove('active'));s.classList.add('active');state.cat=s.dataset.cat;Object.values(state.filtros).forEach(set=>set.clear());buildChips();render();});
+document.querySelectorAll('#searchpanel .seg').forEach(s=>s.onclick=()=>{document.querySelectorAll('#searchpanel .seg').forEach(x=>x.classList.remove('active'));s.classList.add('active');state.cat=s.dataset.cat;Object.values(state.filtros).forEach(set=>set.clear());buildChips();render();});
 document.getElementById('q').oninput=e=>{state.q=e.target.value;if(state.view==='buscar')render();};
 document.getElementById('goBtn').onclick=()=>{state.view='buscar';document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x.dataset.view==='buscar'));render();};
+
+/* Controles da aba Oportunidades */
+document.querySelectorAll('#oppCatRow .seg').forEach(s=>s.onclick=()=>{document.querySelectorAll('#oppCatRow .seg').forEach(x=>x.classList.remove('active'));s.classList.add('active');OPP.cat=s.dataset.oc;render();});
+document.querySelectorAll('#oppNivelRow .seg2').forEach(s=>s.onclick=()=>{document.querySelectorAll('#oppNivelRow .seg2').forEach(x=>x.classList.remove('active'));s.classList.add('active');OPP.nivel=s.dataset.on;render();});
+document.getElementById('oppObj').onchange=e=>{OPP.obj=e.target.value;render();};
+document.getElementById('oppMin').oninput=e=>{OPP.pmin=e.target.value;render();};
+document.getElementById('oppMax').oninput=e=>{OPP.pmax=e.target.value;render();};
+document.getElementById('overlay').onclick=e=>{if(e.target.id==='overlay')closeAnalise();};
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeAnalise();});
 
 /* ===== Carregar dados reais (dados.json) ===== */
 function initIds(){LOTES.forEach((l,i)=>l.id=i);}

@@ -27,6 +27,7 @@ imóveis da Caixa entram sem foto (mostram um ícone) — mas com link real.
 import csv
 import io
 import json
+import re
 import sys
 import time
 from datetime import datetime
@@ -52,6 +53,30 @@ def classificar_tipo(descricao: str) -> str:
     if "loja" in d or "sala" in d or "comerc" in d or "prédio" in d or "galp" in d: return "Comercial"
     if "rural" in d or "fazenda" in d or "sítio" in d or "chácara" in d: return "Rural"
     return "Imóvel"
+
+def limpar_titulo(descricao: str, tipo: str, bairro: str) -> str:
+    """Transforma a descrição gigante da Caixa num título curto:
+    'Apartamento · 2 quartos · 46 m² — BAIRRO'."""
+    d = descricao or ""
+    partes = [tipo]
+    mq = re.search(r"(\d+)\s*(?:qto|quarto|dorm)", d, re.I)
+    if mq:
+        partes.append(f"{mq.group(1)} quartos")
+    ma = re.search(r"([\d.,]+)\s*de área privativa", d, re.I)
+    if ma:
+        try:
+            a = float(ma.group(1).replace(".", "").replace(",", ".")) if "," in ma.group(1) else float(ma.group(1))
+            if a > 0:
+                partes.append(f"{a:.0f} m²")
+        except ValueError:
+            pass
+    mv = re.search(r"(\d+)\s*vaga", d, re.I)
+    if mv and mv.group(1) != "0":
+        partes.append(f"{mv.group(1)} vaga(s)")
+    titulo = " · ".join(partes)
+    if bairro:
+        titulo += f" — {bairro}"
+    return titulo
 
 def brl_para_numero(txt: str):
     """'150.000,00' -> 150000.0  (retorna None se vazio)"""
@@ -116,14 +141,25 @@ def parse_csv(texto: str, uf: str):
         if not link or preco is None:
             continue
 
-        titulo = descricao or f"Imóvel {numero}"
-        if bairro:
-            titulo = f"{titulo} — {bairro}"
+        tipo = classificar_tipo(descricao)
+        titulo = limpar_titulo(descricao, tipo, bairro)
+
+        # Fotos: a Caixa hospeda as imagens num endereço previsível pelo código
+        # do imóvel. Tentamos 2 candidatas; no site, se não carregar, cai no ícone.
+        cod = re.sub(r"\D", "", numero or "")
+        fotos = []
+        if cod:
+            fotos = [
+                f"https://venda-imoveis.caixa.gov.br/fotos/{cod}21.jpg",
+                f"https://venda-imoveis.caixa.gov.br/fotos/{cod}22.jpg",
+            ]
 
         lotes.append({
             "cat": "imovel",
-            "tipo": classificar_tipo(descricao),
+            "tipo": tipo,
             "titulo": titulo.strip(" —"),
+            "descricao": descricao,
+            "numero": numero,
             "cidade": cidade or "-",
             "uf": uf,
             "endereco": endereco,
@@ -132,7 +168,7 @@ def parse_csv(texto: str, uf: str):
             "modalidade": modalidade,
             "fonte": "Caixa",
             "url": link,
-            "fotos": [],           # a Caixa não traz foto no arquivo
+            "fotos": fotos,
             "real": True,
             "coletadoEm": datetime.now().strftime("%Y-%m-%d"),
         })

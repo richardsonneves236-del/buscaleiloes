@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BuscaLeilões — Leilões de veículos e imóveis</title>
+<style>
+  :root{
+    --bg:#f5f6f8; --surface:#ffffff; --surface-2:#fafbfc; --line:#e6e8ec; --line-2:#eef0f3;
+    --ink:#111726; --ink-2:#3d4657; --muted:#6b7482; --faint:#98a2b3;
+    --brand:#1f47d6; --brand-ink:#173aad; --brand-soft:#edf1fe;
+    --good:#0a7c4f; --good-soft:#e6f4ec; --warnc:#a9720a; --warn-soft:#fbf1de;
+    --r:12px; --r-sm:8px; --sh:0 1px 2px rgba(16,24,40,.04),0 1px 3px rgba(16,24,40,.06);
+    --sh-md:0 8px 24px rgba(16,24,40,.10);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg);color:var(--ink);line-height:1.5;font-size:14px;-webkit-font-smoothing:antialiased}
+  a{color:inherit;text-decoration:none} button{font-family:inherit}
+  svg{display:block}
+  .lbl{font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--faint)}
+
+  /* Header */
+  header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;gap:28px;max-width:1280px;margin:0 auto;padding:0 24px;height:60px}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:17px;letter-spacing:-.02em;white-space:nowrap}
+  .brand .mark{width:30px;height:30px;border-radius:8px;background:linear-gradient(135deg,var(--brand),#3b63e8);display:flex;align-items:center;justify-content:center;color:#fff}
+  .tabs{display:flex;gap:2px;height:100%}
+  .tab{position:relative;border:none;background:none;padding:0 4px;height:100%;display:flex;align-items:center;gap:7px;font-size:14px;font-weight:600;color:var(--muted);cursor:pointer;margin:0 10px}
+  .tab:hover{color:var(--ink)}
+  .tab.active{color:var(--brand)}
+  .tab.active::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;background:var(--brand);border-radius:2px}
+  .tab .cnt{font-size:11px;font-weight:700;background:var(--line-2);color:var(--ink-2);border-radius:20px;padding:1px 7px;min-width:20px;text-align:center}
+  .tab.active .cnt{background:var(--brand-soft);color:var(--brand)}
+  .status{margin-left:auto;display:flex;align-items:center;gap:8px;font-size:12.5px;font-weight:600;color:var(--ink-2);background:var(--surface);border:1px solid var(--line);padding:6px 12px;border-radius:20px;white-space:nowrap}
+  .status .dot{width:7px;height:7px;border-radius:50%;background:var(--good)}
+
+  .wrap{max-width:1280px;margin:0 auto;padding:24px}
+
+  /* Search + filters */
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--sh)}
+  .searchpanel{padding:18px;margin-bottom:22px}
+  .segrow{display:flex;gap:8px;margin-bottom:14px}
+  .seg{border:1px solid var(--line);background:var(--surface);color:var(--muted);font-weight:600;font-size:13.5px;padding:8px 16px;border-radius:20px;cursor:pointer}
+  .seg:hover{border-color:var(--faint)}
+  .seg.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .searchbar{display:flex;gap:10px;align-items:stretch}
+  .inp{flex:1;display:flex;align-items:center;gap:10px;background:var(--surface-2);border:1px solid var(--line);border-radius:var(--r-sm);padding:0 14px}
+  .inp:focus-within{border-color:var(--brand);box-shadow:0 0 0 3px var(--brand-soft)}
+  .inp svg{color:var(--faint);flex-shrink:0}
+  .inp input{flex:1;border:none;background:none;outline:none;font-size:15px;color:var(--ink);padding:12px 0}
+  .gobtn{background:var(--brand);color:#fff;border:none;padding:0 26px;border-radius:var(--r-sm);font-weight:600;font-size:14px;cursor:pointer}
+  .gobtn:hover{background:var(--brand-ink)}
+  .chiprow{display:flex;gap:9px;flex-wrap:wrap;margin-top:16px}
+
+  .dd{position:relative}
+  .ddbtn{display:flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink-2);font-weight:600;font-size:13.5px;padding:8px 13px;border-radius:var(--r-sm);cursor:pointer}
+  .ddbtn:hover{border-color:var(--faint)}
+  .ddbtn.has{background:var(--brand-soft);border-color:#c5d2fb;color:var(--brand-ink)}
+  .ddbtn .car{color:var(--faint);transition:transform .18s}
+  .dd.open .ddbtn .car{transform:rotate(180deg)}
+  .ddbtn .pill{background:var(--brand);color:#fff;font-size:11px;border-radius:20px;padding:0 6px;font-weight:700;min-width:18px;text-align:center}
+  .ddpanel{position:absolute;top:calc(100% + 8px);left:0;z-index:40;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--sh-md);padding:12px;min-width:240px;display:none}
+  .dd.open .ddpanel{display:block}
+  .ddpanel .search{width:100%;border:1px solid var(--line);border-radius:var(--r-sm);padding:9px 11px;font-size:13px;outline:none;margin-bottom:10px}
+  .ddpanel .search:focus{border-color:var(--brand)}
+  .optlist{max-height:240px;overflow:auto;display:flex;flex-direction:column;gap:1px}
+  .opt{display:flex;align-items:center;gap:10px;padding:8px;border-radius:var(--r-sm);cursor:pointer;font-size:14px;color:var(--ink-2)}
+  .opt:hover{background:var(--surface-2)}
+  .opt input{width:16px;height:16px;accent-color:var(--brand);cursor:pointer}
+  .ddfoot{display:flex;justify-content:space-between;margin-top:10px;padding-top:10px;border-top:1px solid var(--line-2)}
+  .ddfoot button{border:none;background:none;font-weight:600;font-size:13px;cursor:pointer;color:var(--muted);padding:4px 2px}
+  .ddfoot .apply{color:var(--brand)}
+  .rangeinputs{display:flex;gap:8px;align-items:center}
+  .rangeinputs input{width:100%;border:1px solid var(--line);border-radius:var(--r-sm);padding:9px 11px;font-size:14px;outline:none}
+  .rangeinputs input:focus{border-color:var(--brand)}
+
+  /* Notices */
+  .notice{display:flex;gap:12px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;margin-bottom:20px;box-shadow:var(--sh);font-size:13px;color:var(--ink-2)}
+  .notice .ic{color:var(--brand);flex-shrink:0;margin-top:1px}
+  .notice.warn .ic{color:var(--warnc)}
+  .notice b{color:var(--ink);font-weight:600}
+
+  .rhead{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:16px;gap:12px;flex-wrap:wrap}
+  .viewtitle{font-size:19px;font-weight:700;letter-spacing:-.01em}
+  .count{font-size:13.5px;color:var(--muted)} .count b{color:var(--ink);font-weight:600}
+
+  /* Grid + cards */
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(276px,1fr));gap:20px}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--sh);transition:box-shadow .18s,transform .18s;position:relative}
+  .card:hover{box-shadow:var(--sh-md);transform:translateY(-2px)}
+  .media{position:relative;aspect-ratio:16/10;background:var(--surface-2);overflow:hidden}
+  .media .slide{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transition:opacity .25s} .media .slide.on{opacity:1}
+  .ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#f0f2f6,#e7eaf0)}
+  .ph svg{width:52px;height:52px;color:#c2c9d6}
+  .badge{position:absolute;top:12px;left:12px;font-size:10.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:4px 9px;border-radius:6px;background:rgba(255,255,255,.95);box-shadow:0 1px 3px rgba(16,24,40,.14);z-index:2}
+  .badge.veic{color:var(--brand-ink)} .badge.imov{color:var(--warnc)}
+  .disc{position:absolute;bottom:12px;left:12px;font-size:12px;font-weight:700;padding:3px 9px;border-radius:6px;background:var(--good);color:#fff;z-index:2}
+  .fav{position:absolute;top:10px;right:10px;width:34px;height:34px;border-radius:50%;border:none;background:rgba(255,255,255,.95);cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:3;box-shadow:0 1px 3px rgba(16,24,40,.16);color:var(--muted)}
+  .fav:hover{color:var(--ink)} .fav.on{color:#e11d48}
+  .cn{position:absolute;top:50%;transform:translateY(-50%);width:30px;height:30px;border-radius:50%;border:none;background:rgba(255,255,255,.95);cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 4px rgba(16,24,40,.2);z-index:2;color:var(--ink-2)}
+  .cn.prev{left:10px}.cn.next{right:10px}
+  .dots{position:absolute;bottom:10px;right:12px;display:flex;gap:4px;z-index:2}
+  .dots i{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.65)} .dots i.on{background:#fff;width:14px;border-radius:6px}
+  .cbody{padding:14px 15px;display:flex;flex-direction:column;gap:9px;flex:1}
+  .score{display:inline-flex;align-items:center;gap:7px;align-self:flex-start;font-size:12px;font-weight:700;padding:4px 10px;border-radius:6px}
+  .score .sd{width:7px;height:7px;border-radius:50%}
+  .score.alta{background:var(--good-soft);color:var(--good)} .score.alta .sd{background:var(--good)}
+  .score.media{background:var(--warn-soft);color:var(--warnc)} .score.media .sd{background:#d99413}
+  .score.baixa{background:var(--line-2);color:var(--muted)} .score.baixa .sd{background:var(--faint)}
+  .ctitle{font-weight:600;font-size:15px;line-height:1.35;color:var(--ink);letter-spacing:-.01em}
+  .meta{display:flex;flex-direction:column;gap:5px;font-size:13px;color:var(--muted)}
+  .meta .row{display:flex;align-items:center;gap:7px}
+  .meta svg{width:15px;height:15px;color:var(--faint);flex-shrink:0}
+  .tagline{display:flex;gap:8px;flex-wrap:wrap;margin-top:1px}
+  .tag{font-size:11.5px;color:var(--ink-2);background:var(--surface-2);border:1px solid var(--line);border-radius:6px;padding:2px 8px}
+  .motivo{font-size:12.5px;color:var(--ink-2);background:var(--surface-2);border:1px solid var(--line-2);border-radius:var(--r-sm);padding:9px 11px;line-height:1.45}
+  .motivo b{color:var(--ink);font-weight:600}
+  .price{margin-top:auto;padding-top:4px}
+  .price .aval{font-size:12px;color:var(--faint);text-decoration:line-through}
+  .price .val{font-size:21px;font-weight:700;color:var(--ink);letter-spacing:-.02em}
+  .cfoot{display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--line-2);padding:11px 15px;font-size:12.5px}
+  .cfoot .house{font-weight:600;color:var(--ink-2)}
+  .cfoot .rt{font-size:10px;font-weight:700;letter-spacing:.04em;color:var(--good);border:1px solid #bfe3d0;background:var(--good-soft);padding:1px 6px;border-radius:5px;margin-left:6px;text-transform:uppercase}
+  .cfoot .date{display:flex;align-items:center;gap:6px;color:var(--muted)} .cfoot .date svg{width:14px;height:14px;color:var(--faint)}
+  .golink{display:block;margin:0 15px 15px;text-align:center;background:var(--brand);color:#fff;padding:10px;border-radius:var(--r-sm);font-weight:600;font-size:13.5px}
+  .golink:hover{background:var(--brand-ink)}
+  .golink.sample{background:var(--surface);color:var(--ink-2);border:1px solid var(--line)}
+  .golink.sample:hover{border-color:var(--faint);background:var(--surface-2)}
+  .empty{text-align:center;padding:72px 20px;color:var(--muted);font-size:15px}
+  @media(max-width:640px){.nav{gap:14px;padding:0 16px}.tab span.txt{display:none}.wrap{padding:16px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <div class="brand">
+      <span class="mark"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></span>
+      BuscaLeilões
+    </div>
+    <div class="tabs" id="tabs">
+      <button class="tab active" data-view="buscar"><span class="txt">Buscar</span></button>
+      <button class="tab" data-view="oportunidades"><span class="txt">Oportunidades</span></button>
+      <button class="tab" data-view="favoritos"><span class="txt">Favoritos</span> <span class="cnt" id="favCnt">0</span></button>
+      <button class="tab" data-view="vistos"><span class="txt">Vistos</span> <span class="cnt" id="visCnt">0</span></button>
+    </div>
+    <div class="status"><span class="dot"></span><span id="statusTxt">Acesso livre · links diretos</span></div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="panel searchpanel" id="searchpanel">
+    <div class="segrow">
+      <button class="seg active" data-cat="todos">Todos</button>
+      <button class="seg" data-cat="veiculo">Veículos</button>
+      <button class="seg" data-cat="imovel">Imóveis</button>
+    </div>
+    <div class="searchbar">
+      <div class="inp">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        <input id="q" type="text" placeholder="Buscar por modelo, marca ou cidade — ex.: Compass, apartamento São Paulo">
+      </div>
+      <button class="gobtn" id="goBtn">Buscar</button>
+    </div>
+    <div class="chiprow" id="chiprow"></div>
+  </div>
+
+  <div class="notice" id="notice"></div>
+
+  <div class="rhead">
+    <div class="viewtitle" id="viewTitle">Resultados</div>
+    <div class="count"><b id="cnt">0</b> lotes</div>
+  </div>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" style="display:none"></div>
+</div>
+
+<script>
+/* ===== Ícones (SVG) ===== */
+const I={
+  chevron:'<svg class="car" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>',
+  heart:'<svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>',
+  heartFill:'<svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 21 3.2 12.4a5.5 5.5 0 0 1 7.8-7.8l1 1 1-1a5.5 5.5 0 1 1 7.8 7.8z"/></svg>',
+  pin:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>',
+  cal:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="17" rx="2"/><path d="M3 9h18M8 3v3M16 3v3"/></svg>',
+  car:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 13.5 4.8 8a2.4 2.4 0 0 1 2.3-1.6h9.8A2.4 2.4 0 0 1 19.2 8L21 13.5"/><path d="M3 13.5h18V18a1 1 0 0 1-1 1h-1.5a2 2 0 0 1-4 0h-3a2 2 0 0 1-4 0H4a1 1 0 0 1-1-1z"/><path d="M6.5 16h.01M17.5 16h.01"/></svg>',
+  home:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3.5l9 7"/><path d="M5 9.5V20a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5"/><path d="M9.5 21v-6h5v6"/></svg>',
+  arrowL:'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>',
+  arrowR:'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>',
+  info:'<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>',
+};
+
+/* ===== Dados de amostra (fallback) ===== */
+const SAMPLE=[
+  {cat:'veiculo',tipo:'Carro',titulo:'Volkswagen T-Cross TSI 1.0 2023/2024 — Lote 28 (Ref. 117378)',marca:'Volkswagen',ano:2024,cidade:'Quirinópolis',uf:'GO',preco:52000,dataLeilao:'2026-07-30',modalidade:'Venda Direta',fonte:'Superbid',url:'https://www.superbid.net/oferta/4790302',real:true},
+  {cat:'veiculo',tipo:'Carro',titulo:'Jeep Compass Longitude 2.0 2019',marca:'Jeep',ano:2019,cidade:'São Paulo',uf:'SP',preco:58900,avaliacao:92000,dataLeilao:'2026-07-30',modalidade:'Extrajudicial',fonte:'Copart Brasil',url:'https://www.copart.com.br/'},
+  {cat:'veiculo',tipo:'Carro',titulo:'Honda Civic EXL 2.0 2020',marca:'Honda',ano:2020,cidade:'Campinas',uf:'SP',preco:64500,avaliacao:98000,dataLeilao:'2026-07-28',modalidade:'Extrajudicial',fonte:'Sodré Santoro',url:'https://www.sodresantoro.com.br/'},
+  {cat:'veiculo',tipo:'Carro',titulo:'Toyota Corolla XEI 2018',marca:'Toyota',ano:2018,cidade:'Rio de Janeiro',uf:'RJ',preco:51200,avaliacao:79000,dataLeilao:'2026-08-05',modalidade:'Judicial',fonte:'Freitas Leiloeiro',url:'https://www.freitasleiloeiro.com.br/'},
+  {cat:'veiculo',tipo:'Moto',titulo:'Yamaha MT-07 2021',marca:'Yamaha',ano:2021,cidade:'Belo Horizonte',uf:'MG',preco:28900,avaliacao:41000,dataLeilao:'2026-07-25',modalidade:'Extrajudicial',fonte:'Leilões Brasil',url:'https://www.leiloesbrasil.com.br/'},
+  {cat:'veiculo',tipo:'Caminhão',titulo:'Mercedes-Benz Actros 2546 2017',marca:'Mercedes-Benz',ano:2017,cidade:'Curitiba',uf:'PR',preco:189000,avaliacao:260000,dataLeilao:'2026-08-10',modalidade:'Extrajudicial',fonte:'Superbid',url:'https://www.superbid.net/'},
+  {cat:'veiculo',tipo:'Carro',titulo:'Volkswagen T-Cross Comfortline 2022',marca:'Volkswagen',ano:2022,cidade:'Porto Alegre',uf:'RS',preco:79900,avaliacao:112000,dataLeilao:'2026-08-02',modalidade:'Extrajudicial',fonte:'Copart Brasil',url:'https://www.copart.com.br/'},
+  {cat:'veiculo',tipo:'Carro',titulo:'Fiat Toro Freedom 2020',marca:'Fiat',ano:2020,cidade:'Goiânia',uf:'GO',preco:69500,avaliacao:95000,dataLeilao:'2026-07-27',modalidade:'Judicial',fonte:'Sodré Santoro',url:'https://www.sodresantoro.com.br/'},
+  {cat:'veiculo',tipo:'Moto',titulo:'Honda CB 500F 2019',marca:'Honda',ano:2019,cidade:'Salvador',uf:'BA',preco:19800,avaliacao:29000,dataLeilao:'2026-08-08',modalidade:'Extrajudicial',fonte:'Leilões Brasil',url:'https://www.leiloesbrasil.com.br/'},
+  {cat:'veiculo',tipo:'Carro',titulo:'Chevrolet Onix LTZ 2021',marca:'Chevrolet',ano:2021,cidade:'Fortaleza',uf:'CE',preco:47800,avaliacao:68000,dataLeilao:'2026-08-01',modalidade:'Extrajudicial',fonte:'Freitas Leiloeiro',url:'https://www.freitasleiloeiro.com.br/'},
+  {cat:'veiculo',tipo:'Carro',titulo:'Hyundai Creta Prestige 2019',marca:'Hyundai',ano:2019,cidade:'Recife',uf:'PE',preco:54300,avaliacao:81000,dataLeilao:'2026-07-29',modalidade:'Judicial',fonte:'Superbid',url:'https://www.superbid.net/'},
+  {cat:'veiculo',tipo:'Van',titulo:'Renault Master Furgão 2020',marca:'Renault',ano:2020,cidade:'São Paulo',uf:'SP',preco:78000,avaliacao:105000,dataLeilao:'2026-08-12',modalidade:'Extrajudicial',fonte:'Copart Brasil',url:'https://www.copart.com.br/'},
+  {cat:'veiculo',tipo:'Carro',titulo:'BMW 320i 2018',marca:'BMW',ano:2018,cidade:'São Paulo',uf:'SP',preco:92000,avaliacao:145000,dataLeilao:'2026-08-06',modalidade:'Extrajudicial',fonte:'Sodré Santoro',url:'https://www.sodresantoro.com.br/'},
+  {cat:'imovel',tipo:'Apartamento',titulo:'Apartamento 2 quartos, 58m² — Vila Mariana',cidade:'São Paulo',uf:'SP',preco:245000,avaliacao:420000,dataLeilao:'2026-08-04',modalidade:'Judicial',fonte:'Caixa',url:'https://venda-imoveis.caixa.gov.br/'},
+  {cat:'imovel',tipo:'Casa',titulo:'Casa 3 quartos com quintal — Taboão',cidade:'Taboão da Serra',uf:'SP',preco:318000,avaliacao:480000,dataLeilao:'2026-08-09',modalidade:'Extrajudicial',fonte:'Portal Zuk',url:'https://www.portalzuk.com.br/'},
+  {cat:'imovel',tipo:'Apartamento',titulo:'Apartamento 3 quartos, 90m² — Barra da Tijuca',cidade:'Rio de Janeiro',uf:'RJ',preco:520000,avaliacao:790000,dataLeilao:'2026-08-11',modalidade:'Judicial',fonte:'Mega Leilões',url:'https://www.megaleiloes.com.br/'},
+  {cat:'imovel',tipo:'Terreno',titulo:'Terreno 360m² — Loteamento residencial',cidade:'Curitiba',uf:'PR',preco:98000,avaliacao:160000,dataLeilao:'2026-07-31',modalidade:'Extrajudicial',fonte:'Freitas Leiloeiro',url:'https://www.freitasleiloeiro.com.br/'},
+  {cat:'imovel',tipo:'Comercial',titulo:'Sala comercial 45m² — Centro',cidade:'Belo Horizonte',uf:'MG',preco:132000,avaliacao:210000,dataLeilao:'2026-08-07',modalidade:'Judicial',fonte:'Mega Leilões',url:'https://www.megaleiloes.com.br/'},
+  {cat:'imovel',tipo:'Apartamento',titulo:'Apartamento 1 quarto, 42m² — Centro',cidade:'Porto Alegre',uf:'RS',preco:118000,avaliacao:195000,dataLeilao:'2026-08-03',modalidade:'Judicial',fonte:'Caixa',url:'https://venda-imoveis.caixa.gov.br/'},
+  {cat:'imovel',tipo:'Casa',titulo:'Casa 2 quartos — Bairro Jardim',cidade:'Goiânia',uf:'GO',preco:174000,avaliacao:270000,dataLeilao:'2026-08-13',modalidade:'Extrajudicial',fonte:'Portal Zuk',url:'https://www.portalzuk.com.br/'},
+  {cat:'imovel',tipo:'Apartamento',titulo:'Apartamento 2 quartos, 65m² — Boa Viagem',cidade:'Recife',uf:'PE',preco:198000,avaliacao:340000,dataLeilao:'2026-08-15',modalidade:'Judicial',fonte:'Caixa',url:'https://venda-imoveis.caixa.gov.br/'},
+  {cat:'imovel',tipo:'Rural',titulo:'Chácara 2.000m² com benfeitorias',cidade:'Sorocaba',uf:'SP',preco:285000,avaliacao:450000,dataLeilao:'2026-08-14',modalidade:'Extrajudicial',fonte:'Sodré Santoro',url:'https://www.sodresantoro.com.br/'},
+  {cat:'imovel',tipo:'Casa',titulo:'Sobrado 4 quartos, 180m² — Alphaville',cidade:'Barueri',uf:'SP',preco:690000,avaliacao:1050000,dataLeilao:'2026-08-16',modalidade:'Judicial',fonte:'Mega Leilões',url:'https://www.megaleiloes.com.br/'},
+  {cat:'imovel',tipo:'Apartamento',titulo:'Apartamento 3 quartos, 78m² — Meireles',cidade:'Fortaleza',uf:'CE',preco:265000,avaliacao:395000,dataLeilao:'2026-08-06',modalidade:'Extrajudicial',fonte:'Portal Zuk',url:'https://www.portalzuk.com.br/'},
+  {cat:'imovel',tipo:'Comercial',titulo:'Loja térrea 80m² — Avenida principal',cidade:'Salvador',uf:'BA',preco:156000,avaliacao:260000,dataLeilao:'2026-08-18',modalidade:'Judicial',fonte:'Caixa',url:'https://venda-imoveis.caixa.gov.br/'},
+];
+let LOTES=SAMPLE.slice(); let FONTE_DADOS='amostra';
+
+const TIPOS={veiculo:['Carro','Moto','Caminhão','Van'],imovel:['Apartamento','Casa','Terreno','Comercial','Rural','Imóvel']};
+function phIcon(l){return (l.cat==='veiculo')?I.car:I.home;}
+function fotosDe(l){return (l.fotos&&l.fotos.length)?l.fotos:[];}
+
+/* ===== Índice de oportunidade (regras transparentes) ===== */
+const MARCAS_LIQUIDAS=['Toyota','Honda','Volkswagen','Chevrolet','Hyundai','Jeep','Fiat','Yamaha'];
+function scoreOportunidade(l){
+  let nota=48; const motivos=[];
+  const d=l.avaliacao?Math.round((1-l.preco/l.avaliacao)*100):null;
+  if(d!==null){
+    if(d>=45){nota+=30;motivos.push(`desconto muito alto (${d}% abaixo da avaliação)`);}
+    else if(d>=30){nota+=20;motivos.push(`ótimo desconto (${d}%)`);}
+    else if(d>=15){nota+=11;motivos.push(`bom desconto (${d}%)`);}
+    else if(d>0){nota+=4;motivos.push(`desconto de ${d}%`);}
+    else{motivos.push('sem desconto relevante');}
+  } else {motivos.push('sem avaliação para comparar (checar FIPE/mercado)');}
+  if(l.cat==='veiculo'&&MARCAS_LIQUIDAS.includes(l.marca)){nota+=8;motivos.push('marca de fácil revenda');}
+  if(l.modalidade==='Judicial'){nota-=7;motivos.push('leilão judicial — ler o edital com atenção (ocupação/ônus)');}
+  else if(l.modalidade==='Venda Direta'){nota+=5;motivos.push('venda direta — processo mais simples');}
+  nota=Math.max(3,Math.min(99,Math.round(nota)));
+  const faixa=nota>=72?'alta':nota>=55?'media':'baixa';
+  const rotulo=nota>=72?'Oportunidade alta':nota>=55?'Oportunidade média':'Avaliar com cautela';
+  return {nota,faixa,rotulo,motivo:motivos.join(' · ')};
+}
+
+/* ===== Estado ===== */
+const FAV=new Set(),VIS=[];
+let state={view:'buscar',cat:'todos',q:'',filtros:{tipo:new Set(),marca:new Set(),uf:new Set(),fonte:new Set(),modalidade:new Set()},pmin:'',pmax:'',sort:'data'};
+const fmt=n=>'R$ '+Number(n).toLocaleString('pt-BR');
+const desc=l=>l.avaliacao?Math.round((1-l.preco/l.avaliacao)*100):0;
+const dtBR=s=>{if(!s)return '—';const[y,m,d]=s.split('-');return `${d}/${m}/${y}`;};
+const uniq=k=>[...new Set(LOTES.map(l=>l[k]).filter(Boolean))].sort();
+
+/* ===== Filtros ===== */
+const FILTER_DEFS=[
+  {key:'tipo',label:'Tipo',opts:()=> state.cat==='todos'?[...new Set([...TIPOS.veiculo,...TIPOS.imovel])]:TIPOS[state.cat]},
+  {key:'marca',label:'Marca',opts:()=>uniq('marca'),cats:['veiculo','todos']},
+  {key:'uf',label:'Estado',opts:()=>uniq('uf')},
+  {key:'fonte',label:'Fonte',opts:()=>uniq('fonte')},
+  {key:'modalidade',label:'Modalidade',opts:()=>uniq('modalidade')},
+];
+function buildChips(){
+  const row=document.getElementById('chiprow');row.innerHTML='';
+  FILTER_DEFS.forEach(def=>{
+    if(def.cats&&!def.cats.includes(state.cat))return;
+    const sel=state.filtros[def.key];const dd=document.createElement('div');dd.className='dd';
+    dd.innerHTML=`<button class="ddbtn ${sel.size?'has':''}">${def.label}${sel.size?`<span class="pill">${sel.size}</span>`:''}${I.chevron}</button>
+      <div class="ddpanel"><input class="search" placeholder="Buscar ${def.label.toLowerCase()}..."><div class="optlist"></div>
+      <div class="ddfoot"><button class="clr">Limpar</button><button class="apply">Aplicar</button></div></div>`;
+    row.appendChild(dd);
+    const list=dd.querySelector('.optlist'),srch=dd.querySelector('.search');const temp=new Set(sel);
+    function draw(f=''){list.innerHTML='';def.opts().filter(o=>o.toLowerCase().includes(f.toLowerCase())).forEach(o=>{
+      const el=document.createElement('label');el.className='opt';el.innerHTML=`<input type="checkbox" ${temp.has(o)?'checked':''}><span>${o}</span>`;
+      el.querySelector('input').onchange=e=>{e.target.checked?temp.add(o):temp.delete(o);};list.appendChild(el);});}
+    dd.querySelector('.ddbtn').onclick=e=>{e.stopPropagation();const w=dd.classList.contains('open');closeAll();if(!w){dd.classList.add('open');temp.clear();sel.forEach(x=>temp.add(x));draw();srch.value='';srch.focus();}};
+    srch.oninput=()=>draw(srch.value);srch.onclick=e=>e.stopPropagation();dd.querySelector('.ddpanel').onclick=e=>e.stopPropagation();
+    dd.querySelector('.clr').onclick=()=>{temp.clear();draw(srch.value);};
+    dd.querySelector('.apply').onclick=()=>{state.filtros[def.key]=new Set(temp);closeAll();buildChips();render();};
+  });
+  const row2=document.getElementById('chiprow');
+  const priceDD=document.createElement('div');priceDD.className='dd';const hasP=state.pmin!==''||state.pmax!=='';
+  priceDD.innerHTML=`<button class="ddbtn ${hasP?'has':''}">Preço${hasP?'<span class="pill">•</span>':''}${I.chevron}</button>
+    <div class="ddpanel"><div class="rangeinputs"><input id="pmin" type="number" placeholder="mín" value="${state.pmin}"><span style="color:var(--faint)">—</span><input id="pmax" type="number" placeholder="máx" value="${state.pmax}"></div>
+    <div class="ddfoot"><button class="clr">Limpar</button><button class="apply">Aplicar</button></div></div>`;
+  row2.appendChild(priceDD);
+  priceDD.querySelector('.ddbtn').onclick=e=>{e.stopPropagation();const w=priceDD.classList.contains('open');closeAll();if(!w)priceDD.classList.add('open');};
+  priceDD.querySelector('.ddpanel').onclick=e=>e.stopPropagation();
+  priceDD.querySelector('.clr').onclick=()=>{state.pmin='';state.pmax='';closeAll();buildChips();render();};
+  priceDD.querySelector('.apply').onclick=()=>{state.pmin=priceDD.querySelector('#pmin').value;state.pmax=priceDD.querySelector('#pmax').value;closeAll();buildChips();render();};
+  const sortDD=document.createElement('div');sortDD.className='dd';
+  const sorts={data:'Data mais próxima','preco-asc':'Menor preço','preco-desc':'Maior preço',desconto:'Maior desconto',score:'Maior oportunidade'};
+  sortDD.innerHTML=`<button class="ddbtn">${sorts[state.sort]}${I.chevron}</button><div class="ddpanel"><div class="optlist">${Object.entries(sorts).map(([k,v])=>`<div class="opt" data-s="${k}"><span>${v}</span></div>`).join('')}</div></div>`;
+  row2.appendChild(sortDD);
+  sortDD.querySelector('.ddbtn').onclick=e=>{e.stopPropagation();const w=sortDD.classList.contains('open');closeAll();if(!w)sortDD.classList.add('open');};
+  sortDD.querySelector('.ddpanel').onclick=e=>e.stopPropagation();
+  sortDD.querySelectorAll('[data-s]').forEach(o=>o.onclick=()=>{state.sort=o.dataset.s;closeAll();buildChips();render();});
+}
+function closeAll(){document.querySelectorAll('.dd.open').forEach(d=>d.classList.remove('open'));}
+document.addEventListener('click',closeAll);
+
+/* ===== Render ===== */
+function baseList(){
+  if(state.view==='favoritos')return LOTES.filter(l=>FAV.has(l.id));
+  if(state.view==='vistos')return VIS.map(id=>LOTES.find(l=>l.id===id)).filter(Boolean);
+  if(state.view==='oportunidades')return LOTES.slice().sort((a,b)=>scoreOportunidade(b).nota-scoreOportunidade(a).nota);
+  let list=LOTES.slice();
+  if(state.cat!=='todos')list=list.filter(l=>l.cat===state.cat);
+  const f=state.filtros;
+  if(f.tipo.size)list=list.filter(l=>f.tipo.has(l.tipo));
+  if(f.marca.size)list=list.filter(l=>f.marca.has(l.marca));
+  if(f.uf.size)list=list.filter(l=>f.uf.has(l.uf));
+  if(f.fonte.size)list=list.filter(l=>f.fonte.has(l.fonte));
+  if(f.modalidade.size)list=list.filter(l=>f.modalidade.has(l.modalidade));
+  if(state.pmin!=='')list=list.filter(l=>l.preco>=+state.pmin);
+  if(state.pmax!=='')list=list.filter(l=>l.preco<=+state.pmax);
+  if(state.q){const q=state.q.toLowerCase();list=list.filter(l=>(l.titulo+' '+(l.marca||'')+' '+l.cidade+' '+l.uf+' '+l.tipo+' '+l.fonte).toLowerCase().includes(q));}
+  if(state.sort==='data')list.sort((a,b)=>(a.dataLeilao||'').localeCompare(b.dataLeilao||''));
+  if(state.sort==='preco-asc')list.sort((a,b)=>a.preco-b.preco);
+  if(state.sort==='preco-desc')list.sort((a,b)=>b.preco-a.preco);
+  if(state.sort==='desconto')list.sort((a,b)=>desc(b)-desc(a));
+  if(state.sort==='score')list.sort((a,b)=>scoreOportunidade(b).nota-scoreOportunidade(a).nota);
+  return list;
+}
+function setNotice(){
+  const n=document.getElementById('notice');
+  if(state.view==='oportunidades'){
+    n.className='notice warn';n.style.display='flex';
+    n.innerHTML=`<span class="ic">${I.info}</span><div><b>Ranking por índice de oportunidade.</b> A nota (0–100) é calculada por regras transparentes: desconto sobre a avaliação, liquidez da marca e risco da modalidade. É apoio à decisão, não recomendação de investimento — leia sempre o edital antes de dar lance. Análise de IA do edital nos melhores lotes está no roadmap.</div>`;
+  } else if(state.view==='buscar'){
+    n.className='notice';n.style.display='flex';
+    if(FONTE_DADOS==='amostra'){
+      n.innerHTML=`<span class="ic">${I.info}</span><div><b>Pré-visualização com dados de amostra.</b> As imagens são ilustrativas e alguns links apontam para a página inicial da fonte. Ao conectar a base da Caixa, os imóveis reais entram automaticamente aqui, cada um com link direto.</div>`;
+    } else {
+      n.innerHTML=`<span class="ic">${I.info}</span><div><b>Dados reais carregados.</b> ${LOTES.length} lotes de: ${[...new Set(LOTES.map(l=>l.fonte))].join(', ')}.</div>`;
+    }
+  } else {n.style.display='none';}
+}
+function render(){
+  document.getElementById('favCnt').textContent=FAV.size;
+  document.getElementById('visCnt').textContent=VIS.length;
+  document.getElementById('searchpanel').style.display=(state.view==='buscar')?'':'none';
+  document.getElementById('viewTitle').textContent=
+    state.view==='favoritos'?'Favoritos':state.view==='vistos'?'Vistos recentemente':state.view==='oportunidades'?'Melhores oportunidades':'Resultados';
+  setNotice();
+  const list=baseList();
+  document.getElementById('cnt').textContent=list.length;
+  const grid=document.getElementById('grid'),empty=document.getElementById('empty');grid.innerHTML='';
+  if(!list.length){empty.style.display='block';
+    empty.textContent=state.view==='favoritos'?'Você ainda não salvou nenhum lote. Use o ícone de coração nos cards.':state.view==='vistos'?'Você ainda não abriu nenhum lote.':'Nenhum lote encontrado com esses filtros.';return;}
+  empty.style.display='none';
+  const mostrarMotivo=(state.view==='oportunidades');
+  list.forEach(l=>{
+    const d=desc(l),fotos=fotosDe(l),fav=FAV.has(l.id),sc=scoreOportunidade(l);
+    const card=document.createElement('div');card.className='card';
+    const mediaInner = fotos.length
+      ? `${fotos.map((u,k)=>`<div class="slide ${k===0?'on':''}" style="background-image:url('${u}')"></div>`).join('')}
+         ${fotos.length>1?`<button class="cn prev">${I.arrowL}</button><button class="cn next">${I.arrowR}</button><div class="dots">${fotos.map((_,k)=>`<i class="${k===0?'on':''}"></i>`).join('')}</div>`:''}`
+      : `<div class="ph">${phIcon(l)}</div>`;
+    card.innerHTML=`
+      <div class="media" data-idx="0">
+        ${mediaInner}
+        <button class="fav ${fav?'on':''}" aria-label="Favoritar">${fav?I.heartFill:I.heart}</button>
+        <span class="badge ${l.cat==='veiculo'?'veic':'imov'}">${l.cat==='veiculo'?'Veículo':'Imóvel'}</span>
+        ${d>0?`<span class="disc">-${d}%</span>`:''}
+      </div>
+      <div class="cbody">
+        <span class="score ${sc.faixa}"><span class="sd"></span>${sc.nota} · ${sc.rotulo}</span>
+        <div class="ctitle">${l.titulo}</div>
+        <div class="meta">
+          <div class="row">${I.pin}<span>${l.cidade}/${l.uf}</span></div>
+        </div>
+        <div class="tagline"><span class="tag">${l.tipo}${l.ano?' · '+l.ano:''}</span><span class="tag">${l.modalidade}</span></div>
+        ${mostrarMotivo?`<div class="motivo"><b>Por que aparece aqui:</b> ${sc.motivo}</div>`:''}
+        <div class="price">${l.avaliacao?`<div class="aval">Avaliação ${fmt(l.avaliacao)}</div>`:''}<div class="val">${fmt(l.preco)}</div></div>
+      </div>
+      <a class="golink ${l.real?'':'sample'}" href="${l.url}" target="_blank" rel="noopener">${l.real?'Ver leilão na fonte':'Ver na fonte (exemplo)'}</a>
+      <div class="cfoot"><span class="house">${l.fonte}${l.real?'<span class="rt">Real</span>':''}</span><span class="date">${I.cal}${dtBR(l.dataLeilao)}</span></div>`;
+    grid.appendChild(card);
+    if(fotos.length>1){
+      const media=card.querySelector('.media');const slides=[...media.querySelectorAll('.slide')],dots=[...media.querySelectorAll('.dots i')];
+      const go=n=>{let i=(n+slides.length)%slides.length;media.dataset.idx=i;slides.forEach((s,k)=>s.classList.toggle('on',k===i));dots.forEach((dd,k)=>dd.classList.toggle('on',k===i));};
+      media.querySelector('.prev').onclick=e=>{e.stopPropagation();go(+media.dataset.idx-1);};
+      media.querySelector('.next').onclick=e=>{e.stopPropagation();go(+media.dataset.idx+1);};
+    }
+    card.querySelector('.fav').onclick=e=>{e.stopPropagation();if(FAV.has(l.id))FAV.delete(l.id);else FAV.add(l.id);render();};
+    card.querySelector('.golink').addEventListener('click',()=>{const idx=VIS.indexOf(l.id);if(idx>-1)VIS.splice(idx,1);VIS.unshift(l.id);document.getElementById('visCnt').textContent=VIS.length;});
+  });
+}
+
+/* ===== Eventos ===== */
+document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));t.classList.add('active');state.view=t.dataset.view;render();});
+document.querySelectorAll('.seg').forEach(s=>s.onclick=()=>{document.querySelectorAll('.seg').forEach(x=>x.classList.remove('active'));s.classList.add('active');state.cat=s.dataset.cat;Object.values(state.filtros).forEach(set=>set.clear());buildChips();render();});
+document.getElementById('q').oninput=e=>{state.q=e.target.value;if(state.view==='buscar')render();};
+document.getElementById('goBtn').onclick=()=>{state.view='buscar';document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x.dataset.view==='buscar'));render();};
+
+/* ===== Carregar dados reais (dados.json) ===== */
+function initIds(){LOTES.forEach((l,i)=>l.id=i);}
+async function carregarDados(){
+  try{
+    const r=await fetch('dados.json',{cache:'no-store'});
+    if(r.ok){const data=await r.json();
+      if(data&&Array.isArray(data.lotes)&&data.lotes.length){
+        LOTES=data.lotes;FONTE_DADOS='real';
+        document.getElementById('statusTxt').textContent=`${LOTES.length} lotes reais · ${data.atualizadoEm||''}`;
+      }}
+  }catch(e){}
+  initIds();buildChips();render();
+}
+initIds();buildChips();render();
+carregarDados();
+</script>
+</body>
+</html>

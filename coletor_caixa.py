@@ -177,13 +177,14 @@ def parse_csv(texto: str, uf: str):
 SESSAO = requests.Session()
 SESSAO.headers.update(HEADERS)
 
-def coletar_uf(uf: str, tentativas: int = 6):
+def coletar_uf(uf: str, tentativas: int = 3):
     """Baixa o CSV da Caixa para uma UF e devolve os lotes.
     A Caixa costuma 'segurar' requisições rápidas em sequência, então
-    tentamos várias vezes com pausa crescente e diagnóstico se vier vazio."""
+    tentamos algumas vezes com pausa. Se o estado falhar, o main mantém
+    os dados anteriores dele (sem zerar)."""
     url = URL.format(uf=uf)
     for t in range(tentativas):
-        espera = 3 * (t + 1)  # backoff crescente: 3, 6, 9, 12, 15s...
+        espera = 4  # pausa curta entre tentativas
         try:
             r = SESSAO.get(url, timeout=90)
             r.raise_for_status()

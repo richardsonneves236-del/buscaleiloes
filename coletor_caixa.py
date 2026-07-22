@@ -177,16 +177,15 @@ def parse_csv(texto: str, uf: str):
 SESSAO = requests.Session()
 SESSAO.headers.update(HEADERS)
 
-def coletar_uf(uf: str, tentativas: int = 3):
+def coletar_uf(uf: str, tentativas: int = 2):
     """Baixa o CSV da Caixa para uma UF e devolve os lotes.
-    A Caixa costuma 'segurar' requisições rápidas em sequência, então
-    tentamos algumas vezes com pausa. Se o estado falhar, o main mantém
-    os dados anteriores dele (sem zerar)."""
+    Timeout curto para não ficar 'pendurado' quando a Caixa não responde.
+    Se o estado falhar, o main mantém os dados anteriores dele (sem zerar)."""
     url = URL.format(uf=uf)
     for t in range(tentativas):
         espera = 4  # pausa curta entre tentativas
         try:
-            r = SESSAO.get(url, timeout=90)
+            r = SESSAO.get(url, timeout=25)
             r.raise_for_status()
         except Exception as e:
             print(f"  [{uf}] erro ao baixar (tentativa {t+1}): {e}")
@@ -221,13 +220,29 @@ def main():
     print("Coletando imóveis da Caixa (todas as UFs)...")
     prev = carregar_previo()
     todos = []
+    bloqueado = False       # se a Caixa estiver bloqueando geral, desiste rápido
+    falhas_seguidas = 0
     for uf in UFS:
+        if bloqueado:
+            lotes = prev.get(uf, [])
+            if lotes:
+                print(f"  [{uf}] bloqueio geral — mantendo {len(lotes)} da coleta anterior")
+            todos.extend(lotes)
+            continue
+
         lotes = coletar_uf(uf)
-        if not lotes and prev.get(uf):
-            lotes = prev[uf]
-            print(f"  [{uf}] 0 agora — mantendo {len(lotes)} da coleta anterior")
+        if lotes:
+            falhas_seguidas = 0
+        else:
+            falhas_seguidas += 1
+            if prev.get(uf):
+                lotes = prev[uf]
+                print(f"  [{uf}] 0 agora — mantendo {len(lotes)} da coleta anterior")
+            if falhas_seguidas >= 5:
+                bloqueado = True
+                print("  >>> Bloqueio geral da Caixa detectado — usando dados anteriores nos demais estados.")
         todos.extend(lotes)
-        time.sleep(1.5)  # pausa educada entre estados
+        time.sleep(1.2)  # pausa educada entre estados
 
     saida = {
         "atualizadoEm": datetime.now().strftime("%Y-%m-%d %H:%M"),

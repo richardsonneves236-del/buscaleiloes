@@ -338,7 +338,9 @@ function setNotice(){
     }
   } else {n.style.display='none';}
 }
-function render(){
+let LIMITE=60;
+function render(resetLimite=true){
+  if(resetLimite)LIMITE=60;
   document.getElementById('favCnt').textContent=FAV.size;
   document.getElementById('visCnt').textContent=VIS.length;
   document.getElementById('searchpanel').style.display=(state.view==='buscar')?'':'none';
@@ -348,11 +350,12 @@ function render(){
   const list=baseList();
   document.getElementById('cnt').textContent=list.length;
   const grid=document.getElementById('grid'),empty=document.getElementById('empty');grid.innerHTML='';
+  const _mw=document.getElementById('moreWrap');if(_mw)_mw.style.display='none';
   if(!list.length){empty.style.display='block';
     empty.textContent=state.view==='favoritos'?'Você ainda não salvou nenhum lote. Use o ícone de coração nos cards.':state.view==='vistos'?'Você ainda não abriu nenhum lote.':'Nenhum lote encontrado com esses filtros.';return;}
   empty.style.display='none';
   const mostrarMotivo=(state.view==='oportunidades');
-  list.forEach(l=>{
+  list.slice(0,LIMITE).forEach(l=>{
     const d=desc(l),fotos=fotosDe(l),fav=FAV.has(l.id),sc=scoreOportunidade(l);
     const card=document.createElement('div');card.className='card';
     const mediaInner = fotos.length
@@ -388,6 +391,10 @@ function render(){
     card.querySelector('.fav').onclick=e=>{e.stopPropagation();if(FAV.has(l.id))FAV.delete(l.id);else FAV.add(l.id);render();};
     card.querySelector('.golink').addEventListener('click',()=>{const idx=VIS.indexOf(l.id);if(idx>-1)VIS.splice(idx,1);VIS.unshift(l.id);document.getElementById('visCnt').textContent=VIS.length;});
   });
+  let mw=document.getElementById('moreWrap');
+  if(!mw){mw=document.createElement('div');mw.id='moreWrap';mw.style.cssText='text-align:center;margin-top:22px';mw.innerHTML='<button id="moreBtn" class="gobtn"></button>';grid.after(mw);document.getElementById('moreBtn').onclick=()=>{LIMITE+=60;render(false);};}
+  if(list.length>LIMITE){mw.style.display='block';document.getElementById('moreBtn').textContent=`Carregar mais — mostrando ${Math.min(LIMITE,list.length)} de ${list.length.toLocaleString('pt-BR')}`;}
+  else mw.style.display='none';
 }
 
 /* ===== Eventos ===== */

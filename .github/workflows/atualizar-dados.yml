@@ -26,6 +26,11 @@ jobs:
       - name: Rodar o coletor da Caixa
         run: python coletor_caixa.py
 
+      - name: Analisar melhores lotes com IA (Gemini)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python analise_ia.py
+
       - name: Publicar o dados.json atualizado
         run: |
           git config user.name "bot-leiloes"

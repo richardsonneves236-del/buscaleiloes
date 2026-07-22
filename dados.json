@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-07-22 11:21",
+ "atualizadoEm": "2026-07-22 16:14",
  "totalLotes": 23,
  "fontes": [
   "Caixa"
@@ -20,8 +20,9 @@
    "fonte": "Caixa",
    "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10005120",
    "fotos": [
-    "https://venda-imoveis.caixa.gov.br/fotos/1000512021.jpg",
-    "https://venda-imoveis.caixa.gov.br/fotos/1000512022.jpg"
+    "https://venda-imoveis.caixa.gov.br/fotos/F000001000512021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F000001000512022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F000001000512023.jpg"
    ],
    "real": true,
    "coletadoEm": "2026-07-22"
@@ -41,8 +42,9 @@
    "fonte": "Caixa",
    "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10005121",
    "fotos": [
-    "https://venda-imoveis.caixa.gov.br/fotos/1000512121.jpg",
-    "https://venda-imoveis.caixa.gov.br/fotos/1000512122.jpg"
+    "https://venda-imoveis.caixa.gov.br/fotos/F000001000512121.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F000001000512122.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F000001000512123.jpg"
    ],
    "real": true,
    "coletadoEm": "2026-07-22"
@@ -62,8 +64,9 @@
    "fonte": "Caixa",
    "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10005122",
    "fotos": [
-    "https://venda-imoveis.caixa.gov.br/fotos/1000512221.jpg",
-    "https://venda-imoveis.caixa.gov.br/fotos/1000512222.jpg"
+    "https://venda-imoveis.caixa.gov.br/fotos/F000001000512221.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F000001000512222.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F000001000512223.jpg"
    ],
    "real": true,
    "coletadoEm": "2026-07-22"
@@ -83,8 +86,9 @@
    "fonte": "Caixa",
    "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444420699441",
    "fotos": [
-    "https://venda-imoveis.caixa.gov.br/fotos/144442069944121.jpg",
-    "https://venda-imoveis.caixa.gov.br/fotos/144442069944122.jpg"
+    "https://venda-imoveis.caixa.gov.br/fotos/F144442069944121.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144442069944122.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144442069944123.jpg"
    ],
    "real": true,
    "coletadoEm": "2026-07-22"
@@ -104,8 +108,9 @@
    "fonte": "Caixa",
    "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444411200837",
    "fotos": [
-    "https://venda-imoveis.caixa.gov.br/fotos/844441120083721.jpg",
-    "https://venda-imoveis.caixa.gov.br/fotos/844441120083722.jpg"
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441120083721.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441120083722.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441120083723.jpg"
    ],
    "real": true,
    "coletadoEm": "2026-07-22"
@@ -125,8 +130,9 @@
    "fonte": "Caixa",
    "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555509099755",
    "fotos": [
-    "https://venda-imoveis.caixa.gov.br/fotos/155550909975521.jpg",
-    "https://venda-imoveis.caixa.gov.br/fotos/155550909975522.jpg"
+    "https://venda-imoveis.caixa.gov.br/fotos/F155550909975521.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F155550909975522.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F155550909975523.jpg"
    ],
    "real": true,
    "coletadoEm": "2026-07-22"
@@ -146,8 +152,9 @@
    "fonte": "Caixa",
    "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444400380830",
    "fotos": [
-    "https://venda-imoveis.caixa.gov.br/fotos/144440038083021.jpg",
-    "https://venda-imoveis.caixa.gov.br/fotos/144440038083022.jpg"
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440038083021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440038083022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440038083023.jpg"
    ],
    "real": true,
    "coletadoEm": "2026-07-22"
@@ -167,8 +174,9 @@
    "fonte": "Caixa",
    "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10151420",
    "fotos": [
-    "https://venda-imoveis.caixa.gov.br/fotos/1015142021.jpg",
-    "https://venda-imoveis.caixa.gov.br/fotos/1015142022.jpg"
+    "https://venda-imoveis.caixa.gov.br/fotos/F000001015142021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F000001015142022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F000001015142023.jpg"
    ],
    "real": true,
    "coletadoEm": "2026-07-22"
@@ -188,8 +196,9 @@
    "fonte": "Caixa",
    "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555528608775",
    "fotos": [
-    "https://venda-imoveis.caixa.gov.br/fotos/155552860877521.jpg",
-    "https://venda-imoveis.caixa.gov.br/fotos/155552860877522.jpg"
+    "https://venda-imoveis.caixa.gov.br/fotos/F155552860877521.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F155552860877522.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F155552860877523.jpg"
    ],
    "real": true,
    "coletadoEm": "2026-07-22"
@@ -209,8 +218,9 @@
    "fonte": "Caixa",
    "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444409580107",
    "fotos": [
-    "https://venda-imoveis.caixa.gov.br/fotos/144440958010721.jpg",
-    "https://venda-imoveis.caixa.gov.br/fotos/144440958010722.jpg"
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440958010721.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440958010722.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440958010723.jpg"
    ],
    "real": true,
    "coletadoEm": "2026-07-22"
@@ -230,8 +240,9 @@
    "fonte": "Caixa",
    "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444409370650",
    "fotos": [
-    "https://venda-imoveis.caixa.gov.br/fotos/144440937065021.jpg",
-    "https://venda-imoveis.caixa.gov.br/fotos/144440937065022.jpg"
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440937065021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440937065022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440937065023.jpg"
    ],
    "real": true,
    "coletadoEm": "2026-07-22"
@@ -251,8 +262,9 @@
    "fonte": "Caixa",
    "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444403168387",
    "fotos": [
-    "https://venda-imoveis.caixa.gov.br/fotos/144440316838721.jpg",
-    "https://venda-imoveis.caixa.gov.br/fotos/144440316838722.jpg"
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440316838721.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440316838722.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440316838723.jpg"
    ],
    "real": true,
    "coletadoEm": "2026-07-22"
@@ -272,8 +284,9 @@
    "fonte": "Caixa",
    "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444405651913",
    "fotos": [
-    "https://venda-imoveis.caixa.gov.br/fotos/144440565191321.jpg",
-    "https://venda-imoveis.caixa.gov.br/fotos/144440565191322.jpg"
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440565191321.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440565191322.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440565191323.jpg"
    ],
    "real": true,
    "coletadoEm": "2026-07-22"
@@ -293,8 +306,9 @@
    "fonte": "Caixa",
    "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444411609940",
    "fotos": [
-    "https://venda-imoveis.caixa.gov.br/fotos/144441160994021.jpg",
-    "https://venda-imoveis.caixa.gov.br/fotos/144441160994022.jpg"
+    "https://venda-imoveis.caixa.gov.br/fotos/F144441160994021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144441160994022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144441160994023.jpg"
    ],
    "real": true,
    "coletadoEm": "2026-07-22"
@@ -314,8 +328,9 @@
    "fonte": "Caixa",
    "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444406697321",
    "fotos": [
-    "https://venda-imoveis.caixa.gov.br/fotos/144440669732121.jpg",
-    "https://venda-imoveis.caixa.gov.br/fotos/144440669732122.jpg"
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440669732121.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440669732122.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440669732123.jpg"
    ],
    "real": true,
    "coletadoEm": "2026-07-22"
@@ -335,8 +350,9 @@
    "fonte": "Caixa",
    "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1600000161288",
    "fotos": [
-    "https://venda-imoveis.caixa.gov.br/fotos/160000016128821.jpg",
-    "https://venda-imoveis.caixa.gov.br/fotos/160000016128822.jpg"
+    "https://venda-imoveis.caixa.gov.br/fotos/F160000016128821.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F160000016128822.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F160000016128823.jpg"
    ],
    "real": true,
    "coletadoEm": "2026-07-22"
@@ -356,8 +372,9 @@
    "fonte": "Caixa",
    "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444405129400",
    "fotos": [
-    "https://venda-imoveis.caixa.gov.br/fotos/144440512940021.jpg",
-    "https://venda-imoveis.caixa.gov.br/fotos/144440512940022.jpg"
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440512940021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440512940022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440512940023.jpg"
    ],
    "real": true,
    "coletadoEm": "2026-07-22"
@@ -377,8 +394,9 @@
    "fonte": "Caixa",
    "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444400373710",
    "fotos": [
-    "https://venda-imoveis.caixa.gov.br/fotos/144440037371021.jpg",
-    "https://venda-imoveis.caixa.gov.br/fotos/144440037371022.jpg"
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440037371021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440037371022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440037371023.jpg"
    ],
    "real": true,
    "coletadoEm": "2026-07-22"
@@ -398,8 +416,9 @@
    "fonte": "Caixa",
    "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410362442",
    "fotos": [
-    "https://venda-imoveis.caixa.gov.br/fotos/844441036244221.jpg",
-    "https://venda-imoveis.caixa.gov.br/fotos/844441036244222.jpg"
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441036244221.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441036244222.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441036244223.jpg"
    ],
    "real": true,
    "coletadoEm": "2026-07-22"
@@ -419,8 +438,9 @@
    "fonte": "Caixa",
    "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555526656330",
    "fotos": [
-    "https://venda-imoveis.caixa.gov.br/fotos/155552665633021.jpg",
-    "https://venda-imoveis.caixa.gov.br/fotos/155552665633022.jpg"
+    "https://venda-imoveis.caixa.gov.br/fotos/F155552665633021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F155552665633022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F155552665633023.jpg"
    ],
    "real": true,
    "coletadoEm": "2026-07-22"
@@ -440,8 +460,9 @@
    "fonte": "Caixa",
    "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444414532360",
    "fotos": [
-    "https://venda-imoveis.caixa.gov.br/fotos/144441453236021.jpg",
-    "https://venda-imoveis.caixa.gov.br/fotos/144441453236022.jpg"
+    "https://venda-imoveis.caixa.gov.br/fotos/F144441453236021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144441453236022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144441453236023.jpg"
    ],
    "real": true,
    "coletadoEm": "2026-07-22"
@@ -461,8 +482,9 @@
    "fonte": "Caixa",
    "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1334000000077",
    "fotos": [
-    "https://venda-imoveis.caixa.gov.br/fotos/133400000007721.jpg",
-    "https://venda-imoveis.caixa.gov.br/fotos/133400000007722.jpg"
+    "https://venda-imoveis.caixa.gov.br/fotos/F133400000007721.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F133400000007722.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F133400000007723.jpg"
    ],
    "real": true,
    "coletadoEm": "2026-07-22"
@@ -482,11 +504,13 @@
    "fonte": "Caixa",
    "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555527098250",
    "fotos": [
-    "https://venda-imoveis.caixa.gov.br/fotos/155552709825021.jpg",
-    "https://venda-imoveis.caixa.gov.br/fotos/155552709825022.jpg"
+    "https://venda-imoveis.caixa.gov.br/fotos/F155552709825021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F155552709825022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F155552709825023.jpg"
    ],
    "real": true,
    "coletadoEm": "2026-07-22"
   }
- ]
+ ],
+ "iaAtualizadoEm": "2026-07-22 16:14"
 }

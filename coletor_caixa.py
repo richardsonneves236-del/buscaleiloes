@@ -28,6 +28,7 @@ import csv
 import io
 import json
 import sys
+import time
 from datetime import datetime
 
 try:
@@ -137,26 +138,41 @@ def parse_csv(texto: str, uf: str):
         })
     return lotes
 
-def coletar_uf(uf: str):
-    """Baixa o CSV da Caixa para uma UF e devolve os lotes."""
+# Uma sessão só (reaproveita cookies/conexão — ajuda com o servidor da Caixa)
+SESSAO = requests.Session()
+SESSAO.headers.update(HEADERS)
+
+def coletar_uf(uf: str, tentativas: int = 4):
+    """Baixa o CSV da Caixa para uma UF e devolve os lotes.
+    A Caixa costuma 'segurar' requisições rápidas em sequência, então
+    tentamos algumas vezes com pausa e mostramos diagnóstico se vier vazio."""
     url = URL.format(uf=uf)
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=60)
-        r.raise_for_status()
-    except Exception as e:
-        print(f"  [{uf}] erro ao baixar: {e}")
-        return []
-    # A Caixa usa encoding latin-1 (ISO-8859-1) e separador ';'
-    texto = r.content.decode("latin-1", errors="replace")
-    lotes = parse_csv(texto, uf)
-    print(f"  [{uf}] {len(lotes)} imóveis")
-    return lotes
+    for t in range(tentativas):
+        try:
+            r = SESSAO.get(url, timeout=90)
+            r.raise_for_status()
+        except Exception as e:
+            print(f"  [{uf}] erro ao baixar (tentativa {t+1}): {e}")
+            time.sleep(4)
+            continue
+        # A Caixa usa encoding latin-1 (ISO-8859-1) e separador ';'
+        texto = r.content.decode("latin-1", errors="replace")
+        lotes = parse_csv(texto, uf)
+        if lotes:
+            print(f"  [{uf}] {len(lotes)} imóveis")
+            return lotes
+        # Veio 0: mostra o que chegou para diagnosticar, e tenta de novo
+        amostra = texto[:120].replace("\n", " ").replace("\r", " ")
+        print(f"  [{uf}] 0 (tentativa {t+1}, status={r.status_code}, bytes={len(r.content)}, inicio={amostra!r})")
+        time.sleep(4)
+    return []
 
 def main():
     print("Coletando imóveis da Caixa (todas as UFs)...")
     todos = []
     for uf in UFS:
         todos.extend(coletar_uf(uf))
+        time.sleep(1.5)  # pausa educada entre estados
 
     saida = {
         "atualizadoEm": datetime.now().strftime("%Y-%m-%d %H:%M"),

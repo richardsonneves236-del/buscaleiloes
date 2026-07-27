@@ -1,6 +1,6 @@
 {
- "atualizadoEm": "2026-07-26 10:48",
- "totalLotes": 22,
+ "atualizadoEm": "2026-07-27 12:31",
+ "totalLotes": 135,
  "fontes": [
   "Caixa"
  ],
@@ -25,16 +25,16 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F000001000512023.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-07-26",
+   "coletadoEm": "2026-07-27",
    "ia": {
-    "resumo": "Não informado. O texto fornecido é uma página de CAPTCHA e não contém detalhes sobre o imóvel ou a oportunidade de leilão.",
+    "resumo": "A página oficial do imóvel não pôde ser acessada, exibindo apenas uma verificação de segurança. Portanto, não há informações disponíveis sobre o terreno, sua localização ou preço. A oportunidade não pode ser avaliada sem esses dados.",
     "ocupacao": "Não informado",
     "dividas": "Não informado",
     "financiamento": "Não informado (aceita financiamento/FGTS?)",
     "riscos": [
-     "Não informado. O texto fornecido não contém informações sobre riscos do imóvel."
+     "A página oficial do imóvel não pôde ser acessada, impedindo a obtenção de detalhes cruciais sobre o bem."
     ],
-    "veredito": "Não informado. O texto não oferece dados suficientes para avaliar a oportunidade."
+    "veredito": "Sem acesso às informações detalhadas do imóvel, não é possível fazer uma análise completa da oportunidade."
    }
   },
   {
@@ -57,17 +57,17 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F000001000512123.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-07-26",
+   "coletadoEm": "2026-07-27",
    "ia": {
-    "resumo": "A página fornecida é um CAPTCHA e não contém informações sobre o imóvel. Não é possível analisar a oportunidade ou o terreno em questão com base neste texto.",
+    "resumo": "O texto fornecido é uma página de verificação de segurança (CAPTCHA) da Caixa Econômica Federal. Não há nenhuma informação disponível sobre o imóvel ou a oportunidade de leilão neste conteúdo.",
     "ocupacao": "Não informado",
     "dividas": "Não informado",
     "financiamento": "Não informado (aceita financiamento/FGTS?)",
     "riscos": [
-     "A página oficial do imóvel não pôde ser acessada, exibindo um CAPTCHA.",
-     "Não há informações disponíveis sobre o imóvel, seu estado ou condições de venda."
+     "Acesso bloqueado por CAPTCHA, impedindo a obtenção de detalhes do imóvel.",
+     "Ausência total de informações sobre o estado físico, legal e financeiro do bem."
     ],
-    "veredito": "Não é possível fazer uma análise ou recomendar esta oportunidade, pois o texto fornecido não contém detalhes do imóvel."
+    "veredito": "Não é possível emitir um veredito ou identificar para quem esta oportunidade faria sentido, pois o texto não oferece dados sobre o imóvel."
    }
   },
   {
@@ -90,14 +90,17 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F000001000512223.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-07-26",
+   "coletadoEm": "2026-07-27",
    "ia": {
-    "resumo": "O texto fornecido é uma página de verificação de segurança (CAPTCHA) da Caixa Econômica Federal. Não há informações sobre o imóvel ou a oportunidade de leilão disponíveis neste conteúdo.",
+    "resumo": "Não informado",
     "ocupacao": "Não informado",
     "dividas": "Não informado",
     "financiamento": "Não informado (aceita financiamento/FGTS?)",
-    "riscos": [],
-    "veredito": "Não informado, pois o texto não contém detalhes sobre o imóvel ou a oportunidade de leilão para uma análise."
+    "riscos": [
+     "A página oficial do imóvel não pôde ser acessada, exibindo apenas uma verificação de segurança (CAPTCHA).",
+     "Não há informações detalhadas sobre o imóvel, sua situação legal ou física, impedindo qualquer análise."
+    ],
+    "veredito": "Não é possível emitir um veredito sobre esta oportunidade, pois a página oficial do imóvel não forneceu informações sobre o bem, apenas uma verificação de segurança."
    }
   },
   {
@@ -120,16 +123,16 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F144442069944123.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-07-26",
+   "coletadoEm": "2026-07-27",
    "ia": {
-    "resumo": "A página fornecida é um CAPTCHA da Caixa Econômica Federal e não contém nenhuma informação sobre o imóvel, suas características ou a oportunidade de leilão. Não é possível analisar o imóvel com base neste texto.",
+    "resumo": "Não foi possível obter informações sobre o imóvel ou a oportunidade, pois o texto fornecido é uma página de verificação de segurança (CAPTCHA) da Caixa Econômica Federal. Não há detalhes do imóvel disponíveis para análise.",
     "ocupacao": "Não informado",
     "dividas": "Não informado",
     "financiamento": "Não informado (aceita financiamento/FGTS?)",
     "riscos": [
-     "A página do imóvel não pôde ser acessada devido a um CAPTCHA, impedindo a obtenção de qualquer informação relevante sobre o bem."
+     "Acesso às informações detalhadas do imóvel bloqueado por CAPTCHA."
     ],
-    "veredito": "Não é possível formar um veredito, pois o texto fornecido é apenas uma página de segurança (CAPTCHA) e não contém dados do imóvel."
+    "veredito": "Não é possível formular um veredito, pois as informações essenciais sobre o imóvel e a oportunidade não estão disponíveis no texto fornecido."
    }
   },
   {
@@ -152,16 +155,16 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F844441120083723.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-07-26",
+   "coletadoEm": "2026-07-27",
    "ia": {
-    "resumo": "Não informado. O texto da página é uma verificação de segurança (CAPTCHA) e não contém detalhes sobre o imóvel ou a oportunidade de leilão.",
+    "resumo": "Não informado",
     "ocupacao": "Não informado",
     "dividas": "Não informado",
     "financiamento": "Não informado (aceita financiamento/FGTS?)",
     "riscos": [
-     "Não informado. O texto fornecido é uma página CAPTCHA e não contém detalhes do imóvel para identificar riscos."
+     "A página oficial do imóvel não pôde ser acessada, exibindo apenas um CAPTCHA."
     ],
-    "veredito": "Não informado. O texto da página é um CAPTCHA e não contém informações suficientes para um veredito."
+    "veredito": "Não é possível avaliar esta oportunidade devido à total ausência de informações sobre o imóvel no texto fornecido."
    }
   },
   {
@@ -184,17 +187,17 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F155550909975523.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-07-26",
+   "coletadoEm": "2026-07-27",
    "ia": {
-    "resumo": "É um terreno localizado no Centro de Plácido de Castro/AC, com preço de R$ 564.023,16 e avaliação de R$ 885.000,00. A página oficial do imóvel, no entanto, não pôde ser acessada, exibindo apenas uma verificação de segurança.",
+    "resumo": "Trata-se de um terreno localizado no Centro de Plácido de Castro/AC, com preço de venda de R$ 564.023,16 e avaliação de R$ 885.000,00. As informações detalhadas do imóvel não puderam ser acessadas devido a uma página de verificação de segurança (CAPTCHA).",
     "ocupacao": "Não informado",
     "dividas": "Não informado",
     "financiamento": "Não informado (aceita financiamento/FGTS?)",
     "riscos": [
-     "A página oficial do imóvel não pôde ser acessada, exibindo apenas uma verificação de segurança (CAPTCHA).",
-     "Não há informações detalhadas sobre o imóvel, como sua situação legal, física ou ocupação, impossibilitando uma análise completa."
+     "A página oficial do imóvel não pôde ser acessada, impedindo a obtenção de detalhes cruciais.",
+     "Ausência total de informações sobre a situação do imóvel, como ocupação, dívidas e condições de financiamento."
     ],
-    "veredito": "Esta oportunidade pode interessar a investidores que buscam um terreno com desconto, mas é fundamental que se consiga acessar a página completa do imóvel para obter as informações necessárias e avaliar os riscos antes de qualquer decisão."
+    "veredito": "Esta oportunidade não faz sentido para nenhum investidor no momento, pois não há informações suficientes para uma análise mínima de viabilidade ou riscos."
    }
   },
   {
@@ -217,16 +220,16 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F144440038083023.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-07-26",
+   "coletadoEm": "2026-07-27",
    "ia": {
-    "resumo": "O texto fornecido é uma página de verificação de segurança (CAPTCHA) da Caixa Econômica Federal. Não há informações detalhadas sobre o imóvel, suas características ou a oportunidade de leilão. Portanto, não é possível realizar uma análise do bem.",
+    "resumo": "O texto fornecido é uma página de verificação de segurança (CAPTCHA) da Caixa Econômica Federal. Ele não contém detalhes sobre o imóvel, suas características, estado de conservação ou qualquer informação relevante sobre a oportunidade de aquisição. Não é possível analisar o imóvel com base neste conteúdo.",
     "ocupacao": "Não informado",
     "dividas": "Não informado",
     "financiamento": "Não informado (aceita financiamento/FGTS?)",
     "riscos": [
-     "As informações detalhadas do imóvel não estão disponíveis, pois o texto é uma página de CAPTCHA."
+     "Não há informações sobre riscos específicos do imóvel no texto fornecido, que é uma página de CAPTCHA."
     ],
-    "veredito": "Esta oportunidade não pode ser avaliada, pois as informações essenciais do imóvel não foram fornecidas no texto."
+    "veredito": "Não é possível emitir um veredito sobre a oportunidade, pois o texto fornecido não contém nenhuma informação sobre o imóvel ou as condições do leilão."
    }
   },
   {
@@ -249,17 +252,16 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F000001015142023.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-07-26",
+   "coletadoEm": "2026-07-27",
    "ia": {
-    "resumo": "Não informado, pois o texto da página é um CAPTCHA de segurança e não contém detalhes sobre o imóvel ou a oportunidade de leilão.",
+    "resumo": "Não informado",
     "ocupacao": "Não informado",
     "dividas": "Não informado",
     "financiamento": "Não informado (aceita financiamento/FGTS?)",
     "riscos": [
-     "A página oficial do imóvel não pôde ser acessada, exibindo um CAPTCHA de segurança.",
-     "Não há informações disponíveis sobre o imóvel, pois a página não carregou o conteúdo esperado."
+     "Não foi possível acessar os detalhes do imóvel devido a um bloqueio de segurança (CAPTCHA)."
     ],
-    "veredito": "Não é possível emitir um veredito, pois não há dados do imóvel para análise devido à falha no carregamento da página."
+    "veredito": "Não informado"
    }
   },
   {
@@ -282,18 +284,17 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F155552860877523.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-07-26",
+   "coletadoEm": "2026-07-27",
    "ia": {
-    "resumo": "A página fornecida é uma verificação de segurança (CAPTCHA) e não contém nenhuma informação sobre o imóvel 'Terreno — ABRAAO ALAB — RIO BRANCO/AC'. Não é possível avaliar a oportunidade com base neste texto.",
+    "resumo": "Não informado",
     "ocupacao": "Não informado",
     "dividas": "Não informado",
     "financiamento": "Não informado (aceita financiamento/FGTS?)",
     "riscos": [
-     "A página apresentada é um CAPTCHA e não contém informações sobre o imóvel.",
-     "Não há detalhes sobre o estado, localização exata ou características do terreno.",
-     "Não é possível avaliar a viabilidade da compra sem acesso à página real do imóvel."
+     "A página oficial do imóvel não pôde ser acessada, exibindo apenas um CAPTCHA de segurança.",
+     "Não há informações disponíveis sobre o imóvel, suas características ou condições de venda no texto fornecido."
     ],
-    "veredito": "Esta 'oportunidade' não faz sentido para ninguém neste momento, pois a página oficial do imóvel não foi acessada e nenhuma informação relevante está disponível para análise."
+    "veredito": "Não informado"
    }
   },
   {
@@ -316,17 +317,16 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F144440958010723.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-07-26",
+   "coletadoEm": "2026-07-27",
    "ia": {
-    "resumo": "As informações detalhadas do imóvel não estão disponíveis, pois a página exibiu um CAPTCHA de segurança da Caixa Econômica Federal. Não é possível analisar a oportunidade com base no texto fornecido.",
+    "resumo": "A página oficial do imóvel da Caixa Econômica Federal apresenta um CAPTCHA, impedindo o acesso às informações detalhadas. Não há dados disponíveis sobre o imóvel ou a oportunidade de leilão.",
     "ocupacao": "Não informado",
     "dividas": "Não informado",
     "financiamento": "Não informado (aceita financiamento/FGTS?)",
     "riscos": [
-     "As informações do imóvel não puderam ser acessadas devido a um bloqueio de segurança (CAPTCHA).",
-     "Não há dados disponíveis no texto fornecido para avaliar o imóvel ou a oportunidade de leilão."
+     "Acesso aos detalhes do imóvel bloqueado por CAPTCHA."
     ],
-    "veredito": "Não é possível fornecer um veredito, pois as informações essenciais sobre o imóvel e a oportunidade não foram disponibilizadas no texto da página."
+    "veredito": "Não é possível analisar a oportunidade, pois o acesso às informações do imóvel está bloqueado por uma verificação de segurança."
    }
   },
   {
@@ -349,17 +349,7 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F144440937065023.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-07-26",
-   "ia": {
-    "resumo": "Não informado",
-    "ocupacao": "Não informado",
-    "dividas": "Não informado",
-    "financiamento": "Não informado (aceita financiamento/FGTS?)",
-    "riscos": [
-     "As informações detalhadas do imóvel não estão disponíveis, pois a página fornecida é um CAPTCHA e não contém dados sobre a propriedade."
-    ],
-    "veredito": "Não informado"
-   }
+   "coletadoEm": "2026-07-27"
   },
   {
    "cat": "imovel",
@@ -381,17 +371,7 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F144440316838723.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-07-26",
-   "ia": {
-    "resumo": "A página fornecida é um CAPTCHA e não contém informações detalhadas sobre o imóvel ou a oportunidade de leilão. Não é possível gerar um resumo com base neste texto.",
-    "ocupacao": "Não informado",
-    "dividas": "Não informado",
-    "financiamento": "Não informado (aceita financiamento/FGTS?)",
-    "riscos": [
-     "Não informado"
-    ],
-    "veredito": "Não é possível emitir um veredito, pois a página é um CAPTCHA e não contém informações sobre a oportunidade."
-   }
+   "coletadoEm": "2026-07-27"
   },
   {
    "cat": "imovel",
@@ -413,15 +393,7 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F144440565191323.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-07-26",
-   "ia": {
-    "resumo": "Não informado",
-    "ocupacao": "Não informado",
-    "dividas": "Não informado",
-    "financiamento": "Não informado (aceita financiamento/FGTS?)",
-    "riscos": [],
-    "veredito": "Não informado"
-   }
+   "coletadoEm": "2026-07-27"
   },
   {
    "cat": "imovel",
@@ -443,17 +415,7 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F144441160994023.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-07-26",
-   "ia": {
-    "resumo": "Não informado, pois o texto da página é um CAPTCHA e não contém detalhes do imóvel ou da oportunidade.",
-    "ocupacao": "Não informado",
-    "dividas": "Não informado",
-    "financiamento": "Não informado (aceita financiamento/FGTS?)",
-    "riscos": [
-     "A página oficial do imóvel não pôde ser acessada devido a um CAPTCHA, impedindo a obtenção de qualquer informação sobre o bem."
-    ],
-    "veredito": "Não informado, pois não há dados do imóvel para avaliar a oportunidade e para quem ela faria sentido."
-   }
+   "coletadoEm": "2026-07-27"
   },
   {
    "cat": "imovel",
@@ -475,18 +437,7 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F144440669732123.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-07-26",
-   "ia": {
-    "resumo": "Não informado",
-    "ocupacao": "Não informado",
-    "dividas": "Não informado",
-    "financiamento": "Não informado (aceita financiamento/FGTS?)",
-    "riscos": [
-     "Acesso bloqueado à página de detalhes do imóvel por CAPTCHA.",
-     "Ausência total de informações sobre o imóvel para avaliação."
-    ],
-    "veredito": "Não informado"
-   }
+   "coletadoEm": "2026-07-27"
   },
   {
    "cat": "imovel",
@@ -508,15 +459,7 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F160000016128823.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-07-26",
-   "ia": {
-    "resumo": "Não informado",
-    "ocupacao": "Não informado",
-    "dividas": "Não informado",
-    "financiamento": "Não informado (aceita financiamento/FGTS?)",
-    "riscos": [],
-    "veredito": "Não informado"
-   }
+   "coletadoEm": "2026-07-27"
   },
   {
    "cat": "imovel",
@@ -538,17 +481,7 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F144440512940023.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-07-26",
-   "ia": {
-    "resumo": "Não informado",
-    "ocupacao": "Não informado",
-    "dividas": "Não informado",
-    "financiamento": "Não informado (aceita financiamento/FGTS?)",
-    "riscos": [
-     "Não informado"
-    ],
-    "veredito": "Não informado"
-   }
+   "coletadoEm": "2026-07-27"
   },
   {
    "cat": "imovel",
@@ -570,17 +503,7 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F144440037371023.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-07-26",
-   "ia": {
-    "resumo": "Não informado. O texto fornecido é uma página de CAPTCHA e não contém detalhes sobre o imóvel ou a oportunidade de leilão.",
-    "ocupacao": "Não informado",
-    "dividas": "Não informado",
-    "financiamento": "Não informado",
-    "riscos": [
-     "O acesso à página de detalhes do imóvel está bloqueado por um CAPTCHA, impedindo a visualização de informações relevantes."
-    ],
-    "veredito": "Não é possível emitir um veredito, pois o texto fornecido é uma página de CAPTCHA e não contém informações sobre o imóvel ou a oportunidade de leilão."
-   }
+   "coletadoEm": "2026-07-27"
   },
   {
    "cat": "imovel",
@@ -602,17 +525,7 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F844441036244223.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-07-26",
-   "ia": {
-    "resumo": "Não informado",
-    "ocupacao": "Não informado",
-    "dividas": "Não informado",
-    "financiamento": "Não informado (aceita financiamento/FGTS?)",
-    "riscos": [
-     "Impossibilidade de acessar os detalhes do imóvel devido a um bloqueio de segurança (CAPTCHA)."
-    ],
-    "veredito": "Não informado"
-   }
+   "coletadoEm": "2026-07-27"
   },
   {
    "cat": "imovel",
@@ -634,18 +547,7 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F155552665633023.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-07-26",
-   "ia": {
-    "resumo": "Não informado",
-    "ocupacao": "Não informado",
-    "dividas": "Não informado",
-    "financiamento": "Não informado (aceita financiamento/FGTS?)",
-    "riscos": [
-     "A página oficial do imóvel não pôde ser acessada, exibindo apenas uma verificação de segurança (CAPTCHA).",
-     "Não há informações detalhadas sobre o imóvel disponíveis no texto fornecido para análise."
-    ],
-    "veredito": "Não informado"
-   }
+   "coletadoEm": "2026-07-27"
   },
   {
    "cat": "imovel",
@@ -667,19 +569,7 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F133400000007723.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-07-26",
-   "ia": {
-    "resumo": "Trata-se de uma casa com 4 quartos, 341 m² e 1 vaga de garagem, localizada em Vila Ivonete, Rio Branco/AC. O preço de venda é de R$ 613.733,67, representando um desconto significativo sobre a avaliação de R$ 963.000,00.",
-    "ocupacao": "Não informado",
-    "dividas": "Não informado",
-    "financiamento": "Não informado (aceita financiamento/FGTS?)",
-    "riscos": [
-     "Ausência total de informações sobre o imóvel e suas condições de venda no texto da página.",
-     "Impossibilidade de verificar a situação de ocupação do imóvel.",
-     "Não há dados sobre dívidas (IPTU, condomínio) ou a possibilidade de financiamento/FGTS."
-    ],
-    "veredito": "Não é possível fazer uma análise ou recomendação para esta oportunidade, pois o texto da página oficial não contém nenhuma informação relevante sobre o imóvel ou as condições do leilão."
-   }
+   "coletadoEm": "2026-07-27"
   },
   {
    "cat": "imovel",
@@ -701,7 +591,2642 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F155552709825023.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-07-26",
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 3 quartos · 94 m² · 1 vaga(s) — BOA VISTA",
+   "descricao": "Casa, 0.00 de área total, 94.40 de área privativa, 171.78 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8444404538437",
+   "cidade": "ARAPIRACA",
+   "uf": "AL",
+   "endereco": "RUA PROJETADA G, N. 212, LT50 LOTEAMENTO RECANTO DA BOA VISTA",
+   "preco": 78050.72,
+   "avaliacao": 185000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444404538437",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440453843721.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440453843722.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440453843723.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "A página oficial do imóvel apresenta um CAPTCHA, impedindo o acesso às informações detalhadas. Não há dados disponíveis sobre o imóvel ou a oportunidade de leilão.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "A página oficial do imóvel não pôde ser acessada, exibindo um CAPTCHA."
+    ],
+    "veredito": "Não é possível avaliar a oportunidade, pois as informações do imóvel não estão disponíveis na página fornecida."
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 1 quartos · 99 m² · 1 vaga(s) — BOA VISTA",
+   "descricao": "Casa, 98.74 de área total, 98.74 de área privativa, 157.50 de área do terreno,  1 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8444402891997",
+   "cidade": "ARAPIRACA",
+   "uf": "AL",
+   "endereco": "RUA EXISTENTE, N. 703, LT 03 QD E",
+   "preco": 128928.68,
+   "avaliacao": 238000.0,
+   "modalidade": "Venda Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444402891997",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440289199721.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440289199722.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440289199723.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "Não informado",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "Impossibilidade de acesso às informações completas do imóvel devido à página de CAPTCHA."
+    ],
+    "veredito": "Não informado"
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Terreno",
+   "titulo": "Terreno — SENADOR NILO COELHO",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 172.00 de área do terreno.",
+   "numero": "8444425970834",
+   "cidade": "ARAPIRACA",
+   "uf": "AL",
+   "endereco": "PRACA LUIZ PEREIRA LIMA, N. SN, QD B LT 10",
+   "preco": 55967.56,
+   "avaliacao": 96676.18,
+   "modalidade": "Licitação Aberta",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444425970834",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844442597083421.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844442597083422.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844442597083423.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 70 m² — MASSARANDUBA",
+   "descricao": "Casa, 70.00 de área total, 70.00 de área privativa, 135.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "numero": "8444427737878",
+   "cidade": "ARAPIRACA",
+   "uf": "AL",
+   "endereco": "RUA PROJETADA 13, N. SN, QD O LT 14",
+   "preco": 74436.59,
+   "avaliacao": 128500.0,
+   "modalidade": "Licitação Aberta",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427737878",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844442773787821.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844442773787822.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844442773787823.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 89 m² · 1 vaga(s) — BOA VISTA",
+   "descricao": "Casa, 0.00 de área total, 88.69 de área privativa, 176.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8555507349060",
+   "cidade": "ARAPIRACA",
+   "uf": "AL",
+   "endereco": "RUA ANTÔNIO SATURNINO DE ALMEIDA, N. 61, LT 15, QD E",
+   "preco": 106074.43,
+   "avaliacao": 179000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555507349060",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855550734906021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855550734906022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855550734906023.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 3 quartos · 102 m² · 1 vaga(s) — SENADOR ARNON DE MELO",
+   "descricao": "Casa, 101.95 de área total, 101.95 de área privativa, 225.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8555508022480",
+   "cidade": "ARAPIRACA",
+   "uf": "AL",
+   "endereco": "RUA PROJETADA B, N. 333, LT 01 QD L",
+   "preco": 142066.35,
+   "avaliacao": 235048.28,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555508022480",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855550802248021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855550802248022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855550802248023.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Terreno",
+   "titulo": "Terreno · 131 m² — CENTRO",
+   "descricao": "Comercial, 0.00 de área total, 131.04 de área privativa, 0.00 de área do terreno.",
+   "numero": "10286369",
+   "cidade": "ARAPIRACA",
+   "uf": "AL",
+   "endereco": "AVENIDA RIO BRANCO, N. 712",
+   "preco": 499654.41,
+   "avaliacao": 784000.0,
+   "modalidade": "Licitação Aberta",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10286369",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F000001028636921.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F000001028636922.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F000001028636923.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 3 quartos · 80 m² · 1 vaga(s) — MASSARANDUBA",
+   "descricao": "Casa, 249.73 de área total, 80.30 de área privativa, 319.73 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "1444408877645",
+   "cidade": "ARAPIRACA",
+   "uf": "AL",
+   "endereco": "RUA PEDRO GALDINO DOS SANTOS, N. 19, LT 01 QD F",
+   "preco": 275482.39,
+   "avaliacao": 432255.15,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444408877645",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440887764521.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440887764522.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440887764523.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Terreno",
+   "titulo": "Terreno · 162 m² — BATINGAS",
+   "descricao": "Comercial, 0.00 de área total, 162.00 de área privativa, 180.00 de área do terreno.",
+   "numero": "1444416570448",
+   "cidade": "ARAPIRACA",
+   "uf": "AL",
+   "endereco": "AVENIDA NOSSA SENHORA DAS GRACAS, N. 179,",
+   "preco": 244609.85,
+   "avaliacao": 383813.53,
+   "modalidade": "Venda Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444416570448",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F144441657044821.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144441657044822.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144441657044823.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 80 m² · 1 vaga(s) — OLHO D'AGUA DOS CAZUZINHAS",
+   "descricao": "Casa, 79.73 de área total, 79.73 de área privativa, 160.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "numero": "8444417848650",
+   "cidade": "ARAPIRACA",
+   "uf": "AL",
+   "endereco": "RUA JOAO JOSE PEREIRA, N. 196, C08",
+   "preco": 178000.0,
+   "avaliacao": 178000.0,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417848650",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441784865021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441784865022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441784865023.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 539 m² — CENTRO",
+   "descricao": "Casa, 539.00 de área total, 539.00 de área privativa, 539.00 de área do terreno.",
+   "numero": "1555528557178",
+   "cidade": "CAJUEIRO",
+   "uf": "AL",
+   "endereco": "AVENIDA MANOEL ALVES DA SILVA, N. 369, 1º ANDAR",
+   "preco": 600189.81,
+   "avaliacao": 514200.36,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555528557178",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F155552855717821.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F155552855717822.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F155552855717823.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Terreno",
+   "titulo": "Terreno — CENTRO",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 1404.26 de área do terreno.",
+   "numero": "1444406952372",
+   "cidade": "COITE DO NOIA",
+   "uf": "AL",
+   "endereco": "RUA EM PROJETO A E B, N. SN, LT 01B",
+   "preco": 313880.2,
+   "avaliacao": 283400.0,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444406952372",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440695237221.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440695237222.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440695237223.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 3 quartos · 85 m² · 1 vaga(s) — Alto do Cruzeiro",
+   "descricao": "Casa, 87.35 de área total, 84.66 de área privativa, 100.00 de área do terreno,  3 qto(s), varanda, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8555508717631",
+   "cidade": "CORURIPE",
+   "uf": "AL",
+   "endereco": "RUA ANTONIO BRASIL ROCHA, N. SN,  AREA 02",
+   "preco": 46472.85,
+   "avaliacao": 80000.0,
+   "modalidade": "Licitação Aberta",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555508717631",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855550871763121.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855550871763122.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855550871763123.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Terreno",
+   "titulo": "Terreno · 655 m² — CENTRO",
+   "descricao": "Comercial, 0.00 de área total, 654.60 de área privativa, 6050.00 de área do terreno, WC, WC Emp, 1 sala(s), cozinha.",
+   "numero": "1444417683424",
+   "cidade": "CRAIBAS",
+   "uf": "AL",
+   "endereco": "RODOVIA AL 486, N. SN, 0",
+   "preco": 385529.31,
+   "avaliacao": 754610.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444417683424",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F144441768342421.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144441768342422.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144441768342423.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "O texto fornecido é uma página de verificação de segurança (CAPTCHA) da Caixa Econômica Federal, não contendo informações sobre o imóvel ou a oportunidade de leilão.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "O acesso às informações detalhadas do imóvel está bloqueado por uma página de CAPTCHA.",
+     "Não é possível avaliar a oportunidade sem os dados completos do leilão e do terreno."
+    ],
+    "veredito": "Não é possível formular um veredito, pois o texto fornecido não contém informações sobre o imóvel ou a oportunidade de leilão."
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 83 m² — ZONA URBANA",
+   "descricao": "Casa, 0.00 de área total, 82.84 de área privativa, 189.87 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "numero": "8444429995963",
+   "cidade": "GIRAU DO PONCIANO",
+   "uf": "AL",
+   "endereco": "RUA PROJETADA 08, N. 75, LT 14 QD BB",
+   "preco": 74425.23,
+   "avaliacao": 148000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444429995963",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844442999596321.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844442999596322.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844442999596323.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "Trata-se de uma casa com 2 quartos e 83 m² em Girau do Ponciano/AL, com preço de R$ 74.425,23 e avaliação de R$ 148.000,00. No entanto, a página oficial do imóvel não pôde ser acessada para obter mais detalhes, exibindo apenas um CAPTCHA.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "A página oficial do imóvel não pôde ser carregada, exibindo um CAPTCHA, o que impede a obtenção de informações cruciais sobre o bem."
+    ],
+    "veredito": "Não é possível determinar para quem esta oportunidade faz sentido, pois a falta de acesso aos detalhes completos do imóvel impede qualquer análise de viabilidade ou risco."
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 74 m² — POVOADO CAMPO ALEGRE",
+   "descricao": "Casa, 0.00 de área total, 73.72 de área privativa, 97.77 de área do terreno,  2 qto(s), WC, 2 sala(s), cozinha.",
+   "numero": "8444427060835",
+   "cidade": "JARAMATAIA",
+   "uf": "AL",
+   "endereco": "RUA PROJETADA, N. 7, .",
+   "preco": 34316.8,
+   "avaliacao": 105000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427060835",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844442706083521.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844442706083522.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844442706083523.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "Não informado",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "A página oficial do imóvel não está acessível, exibindo apenas uma verificação de segurança (CAPTCHA)."
+    ],
+    "veredito": "Não informado"
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 74 m² — POVOADO CAMPO ALEGRE",
+   "descricao": "Casa, 73.72 de área total, 73.72 de área privativa, 99.63 de área do terreno,  2 qto(s), WC, 2 sala(s), cozinha.",
+   "numero": "8444426489854",
+   "cidade": "JARAMATAIA",
+   "uf": "AL",
+   "endereco": "RUA PROJETADA, N. 01,",
+   "preco": 56564.62,
+   "avaliacao": 115000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444426489854",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844442648985421.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844442648985422.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844442648985423.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "Não foi possível obter um resumo do imóvel ou da oportunidade, pois o texto fornecido é uma página de verificação de segurança (CAPTCHA). Não há informações sobre o imóvel além do que foi apresentado na descrição inicial.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "Não foi possível acessar os detalhes do imóvel devido a uma verificação de segurança (CAPTCHA)."
+    ],
+    "veredito": "Não informado"
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 74 m² — POVOADO CAMPO ALEGRE",
+   "descricao": "Casa, 73.72 de área total, 73.72 de área privativa, 92.34 de área do terreno,  2 qto(s), WC, 2 sala(s), cozinha.",
+   "numero": "8444427280312",
+   "cidade": "JARAMATAIA",
+   "uf": "AL",
+   "endereco": "RUA PROJETADA 05, N. 05,",
+   "preco": 48710.09,
+   "avaliacao": 95362.72,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444427280312",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844442728031221.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844442728031222.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844442728031223.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "O texto fornecido é uma página de verificação de segurança (CAPTCHA) da Caixa Econômica Federal. Não há informações disponíveis sobre o imóvel, suas características ou a natureza da oportunidade de leilão.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "O texto fornecido é uma página de CAPTCHA, impedindo o acesso a qualquer detalhe real do imóvel ou da oportunidade de leilão."
+    ],
+    "veredito": "Não é possível formar um veredito, pois o texto não apresenta nenhuma informação sobre o imóvel ou a oportunidade de investimento."
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 75 m² · 1 vaga(s) — Alto do Cruzeiro",
+   "descricao": "Casa, 75.00 de área total, 75.00 de área privativa, 160.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8444403491240",
+   "cidade": "JUNQUEIRO",
+   "uf": "AL",
+   "endereco": "RUA FREI DAMIÃO, N. 254,",
+   "preco": 82490.41,
+   "avaliacao": 171498.59,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444403491240",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440349124021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440349124022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440349124023.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "Não informado. O texto fornecido é uma página de verificação de segurança (CAPTCHA) e não contém informações sobre o imóvel ou a oportunidade de leilão.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "Não informado"
+    ],
+    "veredito": "Não informado. O texto não contém dados suficientes para avaliar a oportunidade ou seu público-alvo."
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Apartamento",
+   "titulo": "Apartamento · 2 quartos · 42 m² · 1 vaga(s) — BENEDITO BENTES",
+   "descricao": "Apartamento, 0.00 de área total, 42.42 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8555533205142",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "RUA JOAO PAULO, N. 451, Apto 003, BL 03",
+   "preco": 87233.99,
+   "avaliacao": 149000.0,
+   "modalidade": "Venda Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555533205142",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553320514221.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553320514222.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553320514223.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Apartamento",
+   "titulo": "Apartamento · 3 quartos · 57 m² · 1 vaga(s) — BENEDITO BENTES",
+   "descricao": "Apartamento, 72.37 de área total, 56.65 de área privativa, 0.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8555516768207",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "RUA EM PROJETO, N. 771, Apto 202, BL 07",
+   "preco": 100415.16,
+   "avaliacao": 169450.0,
+   "modalidade": "Venda Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555516768207",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855551676820721.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855551676820722.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855551676820723.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Apartamento",
+   "titulo": "Apartamento · 2 quartos · 42 m² · 1 vaga(s) — BENEDITO BENTES",
+   "descricao": "Apartamento, 125.35 de área total, 42.42 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8555532261944",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "RUA JOÃO PAULO, N. 451, Apto 203, BL 09",
+   "preco": 97778.11,
+   "avaliacao": 165000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555532261944",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553226194421.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553226194422.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553226194423.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Apartamento",
+   "titulo": "Apartamento · 2 quartos · 42 m² · 1 vaga(s) — ANTARES",
+   "descricao": "Apartamento, 89.59 de área total, 42.46 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8555537699000",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "AVENIDA DOUTOR NEVES PINTO, N. 454, Apto 102, BL 05 VG 50",
+   "preco": 104474.43,
+   "avaliacao": 176300.0,
+   "modalidade": "Venda Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537699000",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553769900021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553769900022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553769900023.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Apartamento",
+   "titulo": "Apartamento · 2 quartos · 40 m² · 1 vaga(s) — TABULEIRO DO MARTINS",
+   "descricao": "Apartamento, 83.26 de área total, 40.28 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8787705243781",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "AVENIDA CARLOS GOMES DE BARROS, N. 278, Apto 304, BL 6",
+   "preco": 97185.51,
+   "avaliacao": 164000.0,
+   "modalidade": "Licitação Aberta",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705243781",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F878770524378121.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878770524378122.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878770524378123.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Apartamento",
+   "titulo": "Apartamento · 2 quartos · 38 m² · 1 vaga(s) — TABULEIRO DO MARTINS",
+   "descricao": "Apartamento, 0.00 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8787706020204",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "AVENIDA DOUTOR SEBASTIAO CORREIA DA ROCHA, N. 1213, Apto 403, BL 02 VG 235",
+   "preco": 97778.11,
+   "avaliacao": 165000.0,
+   "modalidade": "Licitação Aberta",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706020204",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F878770602020421.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878770602020422.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878770602020423.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Apartamento",
+   "titulo": "Apartamento · 2 quartos · 38 m² — TABULEIRO DO MARTINS",
+   "descricao": "Apartamento, 45.94 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "numero": "8787715781549",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "RUA DOS NAMBUS, N. 62, Apto 202, BL 03",
+   "preco": 100741.08,
+   "avaliacao": 170000.0,
+   "modalidade": "Licitação Aberta",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715781549",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F878771578154921.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878771578154922.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878771578154923.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 45 m² · 1 vaga(s) — CIDADE UNIVERSITARIA",
+   "descricao": "Casa, 52.29 de área total, 45.19 de área privativa, 46.07 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8444410498182",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "RUA EM PROJETO, N. 110, CS 30 BL 02",
+   "preco": 92444.76,
+   "avaliacao": 156000.0,
+   "modalidade": "Venda Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444410498182",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441049818221.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441049818222.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441049818223.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Apartamento",
+   "titulo": "Apartamento · 2 quartos · 46 m² — SANTA AMELIA",
+   "descricao": "Apartamento, 49.28 de área total, 46.25 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "numero": "8555519537290",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "RUA A, N. 160-A, Apto 202, BL 10",
+   "preco": 70293.54,
+   "avaliacao": 117500.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555519537290",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855551953729021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855551953729022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855551953729023.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Apartamento",
+   "titulo": "Apartamento · 2 quartos · 42 m² · 1 vaga(s) — BENEDITO BENTES",
+   "descricao": "Apartamento, 42.42 de área total, 42.42 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8787703813777",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "RUA PROJETADA O, N. 86, Apto 303, BL 09",
+   "preco": 114838.57,
+   "avaliacao": 190000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787703813777",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F878770381377721.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878770381377722.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878770381377723.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Apartamento",
+   "titulo": "Apartamento · 2 quartos · 44 m² · 1 vaga(s) — ANTARES",
+   "descricao": "Apartamento, 57.97 de área total, 44.00 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8555537494998",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "AVENIDA DOUTOR NEVES PINTO, N. 454, Apto 006, BL 01 VG 03",
+   "preco": 114234.15,
+   "avaliacao": 189000.0,
+   "modalidade": "Licitação Aberta",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537494998",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553749499821.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553749499822.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553749499823.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Apartamento",
+   "titulo": "Apartamento · 2 quartos · 38 m² · 1 vaga(s) — TABULEIRO DO MARTINS",
+   "descricao": "Apartamento, 45.94 de área total, 38.40 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8787715767090",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "RUA DOS NAMBUS, N. 62, Apto 401, BL 04",
+   "preco": 123904.77,
+   "avaliacao": 205000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715767090",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F878771576709021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878771576709022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878771576709023.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Apartamento",
+   "titulo": "Apartamento · 2 quartos · 50 m² · 1 vaga(s) — SANTA AMELIA",
+   "descricao": "Apartamento, 93.04 de área total, 50.49 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8555512292313",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "AVENIDA JORGE MONTENEGRO BARROS, N. 3200, Apto 404, BL B",
+   "preco": 123300.35,
+   "avaliacao": 204000.0,
+   "modalidade": "Licitação Aberta",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555512292313",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855551229231321.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855551229231322.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855551229231323.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 55 m² — CIDADE UNIVERSITARIA",
+   "descricao": "Casa, 76.64 de área total, 54.83 de área privativa, 89.46 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
+   "numero": "8787718530628",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "RODOVIA AL 105, N. 442, CS 76 QD A",
+   "preco": 122877.26,
+   "avaliacao": 203300.0,
+   "modalidade": "Licitação Aberta",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787718530628",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F878771853062821.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878771853062822.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878771853062823.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Apartamento",
+   "titulo": "Apartamento · 3 quartos · 60 m² · 1 vaga(s) — CANAA",
+   "descricao": "Apartamento, 88.14 de área total, 60.23 de área privativa, 0.00 de área do terreno,  3 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8787713171395",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "RUA PIACABUCU (RUA PIASSABUSSU), N. 350, Apto 12, TORRE 01 PAV TERREO",
+   "preco": 165322.22,
+   "avaliacao": 270000.0,
+   "modalidade": "Licitação Aberta",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787713171395",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F878771317139521.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878771317139522.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878771317139523.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Terreno",
+   "titulo": "Terreno · 3 quartos · 155 m² — PRADO",
+   "descricao": "Comercial, 154.52 de área total, 154.52 de área privativa, 151.80 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
+   "numero": "1444406448356",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "RUA AGNELO BARBOSA, N. 76,",
+   "preco": 280418.29,
+   "avaliacao": 440000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444406448356",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440644835621.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440644835622.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440644835623.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 3 quartos · 61 m² · 1 vaga(s) — TABULEIRO DO MARTINS",
+   "descricao": "Casa, 60.84 de área total, 60.84 de área privativa, 200.00 de área do terreno,  3 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "1444406943861",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "RUA ALCIDES GOMES DE MOURA, N. 120, LT 492 QD 21",
+   "preco": 154230.06,
+   "avaliacao": 242000.0,
+   "modalidade": "Licitação Aberta",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444406943861",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440694386121.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440694386122.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440694386123.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Apartamento",
+   "titulo": "Apartamento · 2 quartos · 49 m² · 1 vaga(s) — SANTA AMELIA",
+   "descricao": "Apartamento, 57.67 de área total, 49.02 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "numero": "8555527416676",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "AVENIDA JORGE MONTENEGRO BARROS, N. 3639, Apto 136, CS 136",
+   "preco": 220835.19,
+   "avaliacao": 220835.19,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555527416676",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552741667621.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552741667622.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552741667623.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Terreno",
+   "titulo": "Terreno — IPIOCA",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 767.25 de área do terreno.",
+   "numero": "1444410781790",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "RODOVIA GUNTHER FRANS OLIVEIRA AL-101-NORTE, N. SN, LOTE 7 QUADRA C",
+   "preco": 790000.0,
+   "avaliacao": 790000.0,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444410781790",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F144441078179021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144441078179022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144441078179023.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Apartamento",
+   "titulo": "Apartamento · 2 quartos · 50 m² · 1 vaga(s) — SERRARIA",
+   "descricao": "Apartamento, 110.82 de área total, 50.35 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "1444401933370",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "TRAVESSA PRES GET VARGAS 2 ANTIGA RUA PROJETO, N. 500, Apto 401, BL IV",
+   "preco": 275340.0,
+   "avaliacao": 275340.0,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444401933370",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440193337021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440193337022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440193337023.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Terreno",
+   "titulo": "Terreno — SERRARIA",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 275.55 de área do terreno.",
+   "numero": "1555513378353",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "AVENIDA MENINO MARCELO, N. SN, LT 08 QD E",
+   "preco": 360000.0,
+   "avaliacao": 360000.0,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555513378353",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F155551337835321.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F155551337835322.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F155551337835323.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Apartamento",
+   "titulo": "Apartamento · 3 quartos · 77 m² · 1 vaga(s) — TRAPICHE DA BARRA",
+   "descricao": "Apartamento, 148.23 de área total, 76.63 de área privativa, 0.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "1555502666549",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "RUA AMINADAB VALENTE, N. 594, Apto 103,",
+   "preco": 576000.0,
+   "avaliacao": 576000.0,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555502666549",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F155550266654921.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F155550266654922.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F155550266654923.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 662 m² · 1 vaga(s) — JARDIM PETROPOLIS",
+   "descricao": "Casa, 0.00 de área total, 661.87 de área privativa, 675.93 de área do terreno, 1 vaga(s) de garagem.",
+   "numero": "10297317",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "RUA EM PROJETO 53, N. 361, QD D, LT 07, CONDOMÍNIO ALDEBARAN",
+   "preco": 2060000.0,
+   "avaliacao": 2060000.0,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=10297317",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F000001029731721.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F000001029731722.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F000001029731723.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 53 m² · 1 vaga(s) — CIDADE UNIVERSITARIA",
+   "descricao": "Casa, 67.53 de área total, 52.63 de área privativa, 93.01 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "numero": "8555537227485",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "AVENIDA D, N. 175, CS 16 QD C TIPO 02",
+   "preco": 183000.0,
+   "avaliacao": 183000.0,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537227485",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553722748521.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553722748522.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553722748523.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 101 m² · 1 vaga(s) — CIDADE UNIVERSITARIA",
+   "descricao": "Casa, 78.70 de área total, 101.30 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "numero": "8787702622927",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "ALAMEDA DOS ANTURIOS, N. 275, CS 46  QD H  TIPO 02",
+   "preco": 202900.0,
+   "avaliacao": 202900.0,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702622927",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F878770262292721.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878770262292722.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878770262292723.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 58 m² — CIDADE UNIVERSITARIA",
+   "descricao": "Casa, 77.43 de área total, 58.48 de área privativa, 89.46 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
+   "numero": "8787704729265",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "ALAMEDA DAS AMENDOEIRAS, N. 406, CS 55  QD D",
+   "preco": 185000.0,
+   "avaliacao": 185000.0,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787704729265",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F878770472926521.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878770472926522.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878770472926523.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 55 m² · 1 vaga(s) — CIDADE UNIVERSITARIA",
+   "descricao": "Casa, 79.25 de área total, 54.83 de área privativa, 89.95 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8787715311615",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "RODOVIA AL105, N. 330, CASA 160, QD C",
+   "preco": 220000.0,
+   "avaliacao": 220000.0,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715311615",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F878771531161521.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878771531161522.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878771531161523.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 55 m² — CIDADE UNIVERSITARIA",
+   "descricao": "Casa, 76.63 de área total, 54.83 de área privativa, 89.96 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "numero": "8787716977560",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "RODOVIA AL 105, N. 442, CASA 24, QD C",
+   "preco": 220000.0,
+   "avaliacao": 220000.0,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716977560",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F878771697756021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878771697756022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878771697756023.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 49 m² — SANTOS DUMONT",
+   "descricao": "Casa, 83.84 de área total, 49.11 de área privativa, 49.11 de área do terreno,  2 qto(s), varanda, WC, 1 sala(s), cozinha.",
+   "numero": "8555512951090",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "AVENIDA ROSALVO BORGES DA SILVA, N. 624, CASA 16 LOTE 07 QUADRA N",
+   "preco": 116214.48,
+   "avaliacao": 115000.0,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555512951090",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855551295109021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855551295109022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855551295109023.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Apartamento",
+   "titulo": "Apartamento · 3 quartos · 58 m² · 1 vaga(s) — BENEDITO BENTES",
+   "descricao": "Apartamento, 123.26 de área total, 57.67 de área privativa, 0.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8555500903878",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "AVENIDA ANTONIO LISBOA DO AMORIM, N. 1419, Apto 107, BLOCO 06 1º PAVIMENTO",
+   "preco": 169588.26,
+   "avaliacao": 162164.57,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555500903878",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855550090387821.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855550090387822.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855550090387823.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 55 m² — CIDADE UNIVERSITARIA",
+   "descricao": "Casa, 54.83 de área total, 54.83 de área privativa, 89.95 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "numero": "8787715550628",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "RODOVIA AL 105, N. 330, CS 118, QD C  LT 03",
+   "preco": 187190.88,
+   "avaliacao": 172000.0,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787715550628",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F878771555062821.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878771555062822.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878771555062823.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 3 quartos · 79 m² · 1 vaga(s) — BENEDITO BENTES",
+   "descricao": "Casa, 78.55 de área total, 78.55 de área privativa, 120.00 de área do terreno,  3 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "numero": "8444403053030",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "RUA EM PROJETO, N. 878, RUA B CS 97",
+   "preco": 216287.43,
+   "avaliacao": 193200.0,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444403053030",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440305303021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440305303022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440305303023.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Apartamento",
+   "titulo": "Apartamento · 2 quartos · 42 m² · 1 vaga(s) — SAO JORGE",
+   "descricao": "Apartamento, 53.03 de área total, 42.42 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8787702641808",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "RUA SANTA AMALIA, N. 923, Apto 007, BL 02",
+   "preco": 224151.45,
+   "avaliacao": 200000.0,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787702641808",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F878770264180821.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878770264180822.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878770264180823.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 55 m² · 1 vaga(s) — CIDADE UNIVERSITARIA",
+   "descricao": "Casa, 76.89 de área total, 55.01 de área privativa, 157.35 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8787719239188",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "RODOVIA AL 105, N. 442, CASA 43 QD A",
+   "preco": 208600.53,
+   "avaliacao": 185000.0,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787719239188",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F878771923918821.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878771923918822.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878771923918823.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Apartamento",
+   "titulo": "Apartamento · 2 quartos · 41 m² · 1 vaga(s) — TABULEIRO DO MARTINS",
+   "descricao": "Apartamento, 66.75 de área total, 41.28 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8787716390411",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "RUA DOS NAMBUS, N. 62, Apto 502, BLOCO 02 5º PAVIMENTO",
+   "preco": 218851.24,
+   "avaliacao": 176600.0,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787716390411",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F878771639041121.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878771639041122.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878771639041123.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 55 m² — CIDADE UNIVERSITARIA",
+   "descricao": "Casa, 76.90 de área total, 55.01 de área privativa, 93.01 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "numero": "8787720921809",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "RODOVIA AL 105, N. 442, CS 132 QD C",
+   "preco": 233039.81,
+   "avaliacao": 178000.0,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787720921809",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F878772092180921.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878772092180922.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878772092180923.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Apartamento",
+   "titulo": "Apartamento · 3 quartos · 71 m² · 2 vaga(s) — SERRARIA",
+   "descricao": "Apartamento, 103.89 de área total, 70.91 de área privativa, 0.00 de área do terreno,  3 qto(s), varanda, a.serv, WC, WC Emp, 1 sala(s), cozinha, 2 vaga(s) de garagem.",
+   "numero": "1555531609590",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "RUA CARLOS ALBERTO NOVAES, N. 142, Apto 403,",
+   "preco": 427262.17,
+   "avaliacao": 315190.0,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555531609590",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F155553160959021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F155553160959022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F155553160959023.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Apartamento",
+   "titulo": "Apartamento · 5 quartos · 251 m² · 2 vaga(s) — PONTA VERDE",
+   "descricao": "Apartamento, 0.00 de área total, 251.15 de área privativa, 0.00 de área do terreno,  5 qto(s), varanda, a.serv, WC, WC Emp, 1 sala(s), 1 lavabo(s), DCE, cozinha, Terraco, 2 vaga(s) de garagem.",
+   "numero": "1444416018010",
+   "cidade": "MACEIO",
+   "uf": "AL",
+   "endereco": "RUA HELIO PRADINES, N. 148, Apto 802,",
+   "preco": 1678093.3,
+   "avaliacao": 1066680.0,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444416018010",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F144441601801021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144441601801022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144441601801023.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 3 quartos · 108 m² · 1 vaga(s) — CENTRO",
+   "descricao": "Casa, 0.00 de área total, 108.16 de área privativa, 268.50 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8555508233170",
+   "cidade": "MAJOR ISIDORO",
+   "uf": "AL",
+   "endereco": "RUA MANOEL FERREIRA DE SOUZA, N. S/N,  FUNDOS COM A RUA ANTONIO WANDERLEY",
+   "preco": 49186.62,
+   "avaliacao": 130000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555508233170",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855550823317021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855550823317022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855550823317023.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "Não informado",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "A página fornecida é um CAPTCHA e não contém as informações detalhadas do imóvel."
+    ],
+    "veredito": "Não informado"
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 56 m² — POVOADO TUQUANDUBA",
+   "descricao": "Casa, 118.17 de área total, 55.94 de área privativa, 118.17 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
+   "numero": "8444408692112",
+   "cidade": "MARECHAL DEODORO",
+   "uf": "AL",
+   "endereco": "ACESSO AO POVOADO TUQUANDUBA, N. SN, CS 25, CONDOMÍNIO VIVENDAS TUQUANDUBA",
+   "preco": 169000.0,
+   "avaliacao": 169000.0,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444408692112",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440869211221.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440869211222.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440869211223.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 74 m² — CENTRO",
+   "descricao": "Casa, 73.50 de área total, 73.50 de área privativa, 100.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "numero": "8444406558877",
+   "cidade": "MARIBONDO",
+   "uf": "AL",
+   "endereco": "RUA LINA DE ALBUQUERQUE, N. SN,",
+   "preco": 62815.5,
+   "avaliacao": 120000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406558877",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440655887721.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440655887722.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440655887723.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "Não informado. A página oficial do imóvel não pôde ser acessada, exibindo apenas uma verificação de segurança (CAPTCHA).",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "A página do imóvel não pôde ser carregada, apresentando um CAPTCHA.",
+     "Não há informações disponíveis sobre o imóvel, suas características ou condições de venda."
+    ],
+    "veredito": "Não informado. Não há dados suficientes para avaliar a oportunidade ou para quem ela faria sentido."
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Terreno",
+   "titulo": "Terreno · 2 quartos — CENTRO",
+   "descricao": "Terreno, 72.00 de área total, 0.00 de área privativa, 72.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "numero": "8444406779849",
+   "cidade": "MESSIAS",
+   "uf": "AL",
+   "endereco": "CONJUNTO JOSÉ RODRIGUES CALHEIROS, N. SN, QD A LT 18",
+   "preco": 107000.0,
+   "avaliacao": 107000.0,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406779849",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440677984921.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440677984922.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440677984923.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 96 m² — CENTRO",
+   "descricao": "Casa, 0.00 de área total, 96.00 de área privativa, 204.00 de área do terreno,  2 qto(s), a.serv, WC, 2 sala(s), cozinha.",
+   "numero": "8444409051943",
+   "cidade": "MESSIAS",
+   "uf": "AL",
+   "endereco": "RUA FLORIANO PEIXOTO, N. ., LOTE 10 E 11",
+   "preco": 132724.0,
+   "avaliacao": 69000.0,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444409051943",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440905194321.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440905194322.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440905194323.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 55 m² — CENTRO",
+   "descricao": "Casa, 54.60 de área total, 54.60 de área privativa, 96.46 de área do terreno.",
+   "numero": "8555519619210",
+   "cidade": "MURICI",
+   "uf": "AL",
+   "endereco": "RUA GILMAR ANTONIO ZARDO, N. 50,",
+   "preco": 71935.42,
+   "avaliacao": 120244.5,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555519619210",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855551961921021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855551961921022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855551961921023.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 52 m² — Murici",
+   "descricao": "Casa, 51.98 de área total, 51.98 de área privativa, 126.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "numero": "8444412265665",
+   "cidade": "MURICI",
+   "uf": "AL",
+   "endereco": "RUA JOSÉ ROSA DE CERQUEIRA, N. 27, LT 27",
+   "preco": 216952.04,
+   "avaliacao": 216952.04,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412265665",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441226566521.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441226566522.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441226566523.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 90 m² — Centro",
+   "descricao": "Casa, 0.00 de área total, 89.90 de área privativa, 167.96 de área do terreno.",
+   "numero": "8555520206501",
+   "cidade": "OLHO D'AGUA DAS FLORES",
+   "uf": "AL",
+   "endereco": "RUA PREFEITO ARNOBIO SILVA, N. 85, CS 01",
+   "preco": 115000.0,
+   "avaliacao": 115000.0,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555520206501",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552020650121.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552020650122.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552020650123.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 64 m² — CENTRO",
+   "descricao": "Casa, 63.54 de área total, 63.54 de área privativa, 124.48 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "numero": "8444415167621",
+   "cidade": "OLHO D'AGUA DO CASADO",
+   "uf": "AL",
+   "endereco": "RUA ANTONIO DE SOUZA BALBINO, N. 198,",
+   "preco": 53145.63,
+   "avaliacao": 88000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415167621",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441516762121.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441516762122.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441516762123.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 3 quartos · 95 m² · 1 vaga(s) — PALMEIRA DE FORA",
+   "descricao": "Casa, 0.00 de área total, 94.73 de área privativa, 210.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "1444407583907",
+   "cidade": "PALMEIRA DOS INDIOS",
+   "uf": "AL",
+   "endereco": "RUA PROJETADA 01, N. SN, LT 04 QD A",
+   "preco": 80973.91,
+   "avaliacao": 134000.0,
+   "modalidade": "Venda Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1444407583907",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440758390721.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440758390722.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F144440758390723.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 55 m² — CENTRO",
+   "descricao": "Casa, 0.00 de área total, 55.46 de área privativa, 80.48 de área do terreno.",
+   "numero": "8444406294519",
+   "cidade": "PILAR",
+   "uf": "AL",
+   "endereco": "R PROJETADA, N. 0,",
+   "preco": 44156.76,
+   "avaliacao": 90000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444406294519",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440629451921.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440629451922.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440629451923.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "Não informado. O texto da página é uma verificação de segurança (CAPTCHA) e não contém detalhes sobre o imóvel ou a oportunidade de leilão.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "A página oficial do imóvel não pôde ser acessada devido a uma verificação de segurança (CAPTCHA).",
+     "Nenhuma informação sobre o imóvel está disponível no texto fornecido."
+    ],
+    "veredito": "Não é possível avaliar a oportunidade, pois o texto fornecido é uma página de verificação de segurança e não contém detalhes sobre o imóvel."
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 53 m² — CHÃ DE PILAR",
+   "descricao": "Casa, 53.10 de área total, 53.10 de área privativa, 53.10 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "numero": "8444403762422",
+   "cidade": "PILAR",
+   "uf": "AL",
+   "endereco": "RUA PROJETADA, N. 77 F, LOT II",
+   "preco": 61768.57,
+   "avaliacao": 118000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444403762422",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440376242221.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440376242222.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440376242223.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "Este é um imóvel tipo casa, com 2 quartos e 53 m², localizado em Chã de Pilar, Pilar/AL. O preço de oferta é de R$ 61.768,57, representando um desconto significativo em relação à avaliação de R$ 118.000,00.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "As informações detalhadas do imóvel não estão disponíveis na página fornecida.",
+     "A página apresentada é apenas uma verificação de segurança (CAPTCHA), não a descrição completa do imóvel."
+    ],
+    "veredito": "Não informado"
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 3 quartos · 81 m² · 1 vaga(s) — CHA DO PILAR",
+   "descricao": "Casa, 81.20 de área total, 81.20 de área privativa, 126.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8555537078498",
+   "cidade": "PILAR",
+   "uf": "AL",
+   "endereco": "RUA ANA GENILDA COSTA BARROS, N. 12,",
+   "preco": 126343.78,
+   "avaliacao": 209035.34,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555537078498",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553707849821.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553707849822.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553707849823.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 81 m² · 1 vaga(s) — CENTRO",
+   "descricao": "Casa, 81.00 de área total, 81.00 de área privativa, 90.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8444404286780",
+   "cidade": "PORTO CALVO",
+   "uf": "AL",
+   "endereco": "RUA DO VARADOURO II, N. 63,",
+   "preco": 47885.09,
+   "avaliacao": 82431.09,
+   "modalidade": "Venda Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444404286780",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440428678021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440428678022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440428678023.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Terreno",
+   "titulo": "Terreno — CENTRO",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 10300.38 de área do terreno.",
+   "numero": "1555528022657",
+   "cidade": "PORTO CALVO",
+   "uf": "AL",
+   "endereco": "RUA PEDRO SUCUPIRA, N. SN,",
+   "preco": 329472.18,
+   "avaliacao": 516969.69,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555528022657",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F155552802265721.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F155552802265722.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F155552802265723.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 68 m² — FORENE",
+   "descricao": "Casa, 0.00 de área total, 67.68 de área privativa, 33.82 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "numero": "8555525018363",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "AVENIDA JOSE MANHAS, N. 35, CS 04, LT 04, QD A",
+   "preco": 35749.61,
+   "avaliacao": 86320.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555525018363",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552501836321.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552501836322.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552501836323.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "Não informado",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "Não informado"
+    ],
+    "veredito": "Não informado"
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 50 m² · 1 vaga(s) — FORENE",
+   "descricao": "Casa, 0.00 de área total, 50.13 de área privativa, 55.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8555523396972",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "AVENIDA JOSE MANHAS, N. 35, CS 8-A, LT 08, QD A",
+   "preco": 29095.26,
+   "avaliacao": 70000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555523396972",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552339697221.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552339697222.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552339697223.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "O texto fornecido é uma página de verificação de segurança (CAPTCHA) da Caixa Econômica Federal. Não há informações sobre o imóvel ou a oportunidade de leilão disponíveis neste conteúdo.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "A página fornecida é um CAPTCHA e não contém informações sobre o imóvel.",
+     "Não é possível analisar o imóvel sem acesso à página de detalhes."
+    ],
+    "veredito": "Não é possível emitir um veredito, pois o texto fornecido é uma página de verificação de segurança e não contém detalhes sobre o imóvel ou a oportunidade."
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 63 m² · 1 vaga(s) — TABULEIRO DO PINTO",
+   "descricao": "Casa, 0.00 de área total, 62.62 de área privativa, 125.00 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8444412153980",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "RUA 04, N. SN, LT 37B, QD C",
+   "preco": 59676.27,
+   "avaliacao": 135000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444412153980",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441215398021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441215398022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441215398023.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "O texto fornecido é uma página de CAPTCHA da Caixa Econômica Federal, que impede o acesso às informações detalhadas do imóvel. Não há dados sobre a casa, suas características ou a oportunidade de leilão disponíveis neste conteúdo.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "Completa ausência de informações sobre o imóvel e suas condições devido à página de segurança (CAPTCHA)",
+     "Impossibilidade de avaliar a oportunidade sem acesso aos detalhes do imóvel"
+    ],
+    "veredito": "Esta oportunidade não faz sentido para nenhum investidor no momento, pois não há informações disponíveis para qualquer tipo de análise ou tomada de decisão."
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 3 quartos · 54 m² · 1 vaga(s) — Lourenço Albuquerque",
+   "descricao": "Casa, 0.00 de área total, 53.58 de área privativa, 126.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8444417941014",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "RUA DOUTOR EMILIO DE MAIA, N. S/N, QD C LT 13",
+   "preco": 60499.55,
+   "avaliacao": 123000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417941014",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441794101421.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441794101422.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441794101423.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "Não informado",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "Acesso às informações detalhadas do imóvel está bloqueado por CAPTCHA."
+    ],
+    "veredito": "Não informado"
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 50 m² · 1 vaga(s) — FORENE",
+   "descricao": "Casa, 0.00 de área total, 50.13 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8555523354005",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "AVENIDA JOSE MANHAS, N. 35, CS 4-A, LT 04, QD A",
+   "preco": 34914.32,
+   "avaliacao": 70000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555523354005",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552335400521.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552335400522.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552335400523.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "Não informado. A página apresenta um bloqueio de segurança (CAPTCHA) e não contém detalhes sobre o imóvel ou a oportunidade de leilão.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "Informações do imóvel não disponíveis devido a bloqueio de segurança (CAPTCHA).",
+     "Não há detalhes sobre o estado de conservação, localização exata ou condições de venda."
+    ],
+    "veredito": "Não informado. Não há informações suficientes para avaliar a oportunidade ou para quem ela faria sentido."
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 54 m² · 1 vaga(s) — FORENE",
+   "descricao": "Casa, 54.39 de área total, 54.39 de área privativa, 54.39 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8555523354480",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "AVENIDA JOSE MANHAS, N. 35, CS 1-A, LT 01, QD A",
+   "preco": 35560.26,
+   "avaliacao": 71295.06,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555523354480",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552335448021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552335448022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552335448023.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "O texto fornecido é uma página de verificação de segurança (CAPTCHA) da Caixa Econômica Federal. Não há informações sobre o imóvel, suas características ou a oportunidade de leilão neste conteúdo.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "A página fornecida é um CAPTCHA, impedindo o acesso às informações detalhadas do imóvel.",
+     "Não é possível identificar riscos específicos do imóvel devido à ausência de dados."
+    ],
+    "veredito": "Com base exclusivamente no texto fornecido, que é apenas uma página de CAPTCHA, não é possível fazer qualquer avaliação sobre a oportunidade ou para quem ela seria adequada."
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 50 m² — FORENE",
+   "descricao": "Casa, 50.13 de área total, 50.13 de área privativa, 1.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "numero": "8555525191448",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "AVENIDA JOSE MANHAS, N. 35, CS 5-A, LT 5, QD A",
+   "preco": 34914.32,
+   "avaliacao": 70000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555525191448",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552519144821.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552519144822.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552519144823.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "O texto fornecido é uma página de verificação de segurança (CAPTCHA) da Caixa Econômica Federal, que impede o acesso às informações detalhadas do imóvel. Não há dados sobre a casa, sua condição ou a oportunidade de leilão.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "Impossibilidade de acesso às informações detalhadas do imóvel devido a bloqueio de segurança (CAPTCHA).",
+     "Ausência total de dados sobre o imóvel, seu estado ou condições de venda."
+    ],
+    "veredito": "Não informado"
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 68 m² — FORENE",
+   "descricao": "Casa, 67.68 de área total, 67.68 de área privativa, 69.19 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco.",
+   "numero": "8555525348010",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "AVENIDA JOSE MANHAS, N. 35, CS 02 LT 02 QD A",
+   "preco": 86579.57,
+   "avaliacao": 170000.0,
+   "modalidade": "Venda Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555525348010",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552534801021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552534801022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552534801023.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "Não informado",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "Não foi possível acessar as informações detalhadas do imóvel devido a uma verificação de segurança (CAPTCHA)."
+    ],
+    "veredito": "Não informado"
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 68 m² · 1 vaga(s) — FORENE",
+   "descricao": "Casa, 67.68 de área total, 67.68 de área privativa, 69.19 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8555523402786",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "AVENIDA JOSE MANHAS, N. 35, CS 14, LT 14, QD A",
+   "preco": 67978.46,
+   "avaliacao": 133000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555523402786",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552340278621.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552340278622.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552340278623.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "O texto fornecido é uma página de CAPTCHA da Caixa Econômica Federal e não contém informações sobre o imóvel ou a oportunidade de leilão. Não é possível analisar o imóvel com base neste conteúdo.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "A página fornecida é um CAPTCHA, impedindo o acesso às informações detalhadas do imóvel.",
+     "Não há dados disponíveis para avaliar a oportunidade ou riscos associados ao imóvel."
+    ],
+    "veredito": "Não é possível fornecer um veredito, pois o texto da página não contém nenhuma informação sobre o imóvel ou a oportunidade de leilão."
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 62 m² — FORENE",
+   "descricao": "Casa, 62.02 de área total, 62.02 de área privativa, 0.01 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "numero": "8555525355220",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "AVENIDA JOSE MANHAS, N. 35, CS 08 PAV TERREO LT08 QD A",
+   "preco": 77526.28,
+   "avaliacao": 150000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555525355220",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552535522021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552535522022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552535522023.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "Não informado. O texto fornecido é uma página de CAPTCHA e não contém detalhes sobre o imóvel ou a oportunidade de leilão.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "Não informado. O texto é uma página de CAPTCHA e não detalha riscos do imóvel."
+    ],
+    "veredito": "Não informado. Não há dados suficientes no texto para avaliar a oportunidade."
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 50 m² · 1 vaga(s) — Pref Antônio L Souza",
+   "descricao": "Casa, 49.60 de área total, 49.60 de área privativa, 49.60 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8555533842533",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "RUA JOSE MONTEIRO DE MELO, N. SN, CS09",
+   "preco": 71945.72,
+   "avaliacao": 138000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555533842533",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553384253321.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553384253322.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553384253323.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "Não informado. O texto fornecido é uma página de verificação de segurança (CAPTCHA) e não contém informações sobre o imóvel ou a oportunidade de leilão.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "A página oficial do imóvel não pôde ser acessada, exibindo apenas uma verificação de segurança (CAPTCHA).",
+     "Nenhuma informação sobre o imóvel, preço, condições de venda ou riscos foi disponibilizada."
+    ],
+    "veredito": "Não informado. Sem detalhes sobre o imóvel ou as condições de venda, não é possível determinar para quem esta oportunidade faria sentido."
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 51 m² · 1 vaga(s) — Pref Antônio L Souza",
+   "descricao": "Casa, 92.59 de área total, 51.35 de área privativa, 51.35 de área do terreno,  2 qto(s), a.serv, WC, 2 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8787705833074",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "RUA SANTA CLARA, N. 90, CS74, LT89/90/91",
+   "preco": 74295.25,
+   "avaliacao": 141000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787705833074",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F878770583307421.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878770583307422.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878770583307423.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "Não foi possível obter informações sobre o imóvel ou a oportunidade, pois o texto da página oficial consiste apenas em uma verificação de segurança (CAPTCHA).",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "A página oficial do imóvel não pôde ser acessada, exibindo apenas uma verificação de segurança (CAPTCHA)."
+    ],
+    "veredito": "Não informado, pois o texto da página não contém detalhes sobre o imóvel ou a oportunidade."
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 65 m² — TABULEIRO DO PINTO",
+   "descricao": "Casa, 65.00 de área total, 65.00 de área privativa, 101.25 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "numero": "8444413053513",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "RUA 6C, N. 06, LT 06, QD C-11",
+   "preco": 63947.06,
+   "avaliacao": 117776.75,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444413053513",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441305351321.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441305351322.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441305351323.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "O texto fornecido é uma página de verificação de segurança (CAPTCHA) da Caixa Econômica Federal. Não há informações sobre o imóvel, suas características ou a oportunidade de leilão disponíveis neste conteúdo.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "Informações detalhadas do imóvel não estão acessíveis devido ao bloqueio de segurança (CAPTCHA) na página."
+    ],
+    "veredito": "Não é possível avaliar a oportunidade ou para quem ela faria sentido, pois as informações cruciais do imóvel não foram fornecidas no texto."
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Terreno",
+   "titulo": "Terreno — CENTRO",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 140.00 de área do terreno.",
+   "numero": "8444432786822",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "RUA EM PROJETO, N. 40, QD 04",
+   "preco": 28319.39,
+   "avaliacao": 50000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444432786822",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844443278682221.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844443278682222.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844443278682223.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Terreno",
+   "titulo": "Terreno — CENTRO",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 140.00 de área do terreno.",
+   "numero": "8444436352959",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "RUA EM PROJETO, N. SN, LT 49 QD 04",
+   "preco": 26620.23,
+   "avaliacao": 47000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444436352959",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844443635295921.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844443635295922.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844443635295923.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Terreno",
+   "titulo": "Terreno — TABULEIRO MATA ROLO",
+   "descricao": "Terreno, 0.00 de área total, 0.00 de área privativa, 126.00 de área do terreno.",
+   "numero": "8444436008298",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "RUA 01 EM PROJETO, N. SN, LT 01 / 09 H QD B",
+   "preco": 60856.04,
+   "avaliacao": 106498.53,
+   "modalidade": "Venda Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444436008298",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844443600829821.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844443600829822.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844443600829823.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 50 m² — TABULEIRO DO PINTO",
+   "descricao": "Casa, 50.13 de área total, 50.13 de área privativa, 50.13 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "numero": "8555525163401",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "AV JOSE MANHAS, N. 35, 12A, QD A, LT 12",
+   "preco": 57271.15,
+   "avaliacao": 100224.95,
+   "modalidade": "Venda Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555525163401",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552516340121.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552516340122.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552516340123.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 3 quartos · 54 m² · 1 vaga(s) — RES ERALDO CAVALCANT",
+   "descricao": "Casa, 53.58 de área total, 53.58 de área privativa, 126.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8444417508132",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "RUA DR. EMILIO DE MAIA, N. SN, QD D LT28",
+   "preco": 65753.51,
+   "avaliacao": 114706.41,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444417508132",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441750813221.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441750813222.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441750813223.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 59 m² · 1 vaga(s) — TABULEIRO DO PINTO",
+   "descricao": "Casa, 98.55 de área total, 59.39 de área privativa, 59.39 de área do terreno,  2 qto(s), a.serv, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8555522233956",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "RUA DO PINTO, N. 31, LT 31 QD B",
+   "preco": 110918.11,
+   "avaliacao": 192000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555522233956",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552223395621.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552223395622.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552223395623.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 68 m² · 1 vaga(s) — FORENE",
+   "descricao": "Casa, 67.68 de área total, 67.68 de área privativa, 69.18 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8555523351936",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "AVENIDA JOSE MANHAS, N. 35, CS 07 QD A",
+   "preco": 53839.36,
+   "avaliacao": 93000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555523351936",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552335193621.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552335193622.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552335193623.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 50 m² — FORENE",
+   "descricao": "Casa, 50.13 de área total, 50.13 de área privativa, 50.13 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "numero": "8555525031289",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "AVENIDA JOSÉ MANHÃS, N. 35, 14A",
+   "preco": 57891.78,
+   "avaliacao": 100000.0,
+   "modalidade": "Licitação Aberta",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555525031289",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552503128921.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552503128922.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552503128923.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 56 m² · 1 vaga(s) — TABULEIRO DO PINTO",
+   "descricao": "Casa, 57.51 de área total, 56.20 de área privativa, 57.51 de área do terreno,  2 qto(s), varanda, a.serv, WC, 1 sala(s), 1 lavabo(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8555503007709",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "LOTEAMENTO SÃO CAETANO, N. 16, CS 15 BL A QD G",
+   "preco": 52681.52,
+   "avaliacao": 91000.0,
+   "modalidade": "Licitação Aberta",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555503007709",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855550300770921.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855550300770922.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855550300770923.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Apartamento",
+   "titulo": "Apartamento · 2 quartos · 48 m² — TABULEIRO DO PINTO",
+   "descricao": "Apartamento, 47.58 de área total, 47.58 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha.",
+   "numero": "8787706412331",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "RUA MANOEL NASCIMENTO PONTES, N. 1, Apto 102, BL 05",
+   "preco": 78201.87,
+   "avaliacao": 135000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787706412331",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F878770641233121.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878770641233122.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878770641233123.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 48 m² · 1 vaga(s) — TABULEIRO DO PINTO",
+   "descricao": "Casa, 47.82 de área total, 47.82 de área privativa, 42.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "numero": "8555535973902",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "RUA NAPOLEÃO VIANA, N. SN, CS 87 VG 87",
+   "preco": 82710.48,
+   "avaliacao": 141273.62,
+   "modalidade": "Licitação Aberta",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555535973902",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553597390221.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553597390222.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553597390223.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 3 quartos · 85 m² · 1 vaga(s) — TABULEIRO MATA ROLO",
+   "descricao": "Casa, 85.43 de área total, 85.43 de área privativa, 166.25 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8444419138405",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "ESTRADA VICINAL, N. 0102, QD D",
+   "preco": 106074.43,
+   "avaliacao": 179000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444419138405",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441913840521.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441913840522.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441913840523.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 51 m² · 1 vaga(s) — TABULEIRO DO PINTO",
+   "descricao": "Casa, 50.81 de área total, 50.81 de área privativa, 75.57 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, Terraco, 1 vaga(s) de garagem.",
+   "numero": "8555515551549",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "COND RES SAO FRANCISCO II, N. 07, QD 1",
+   "preco": 85466.19,
+   "avaliacao": 140000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555515551549",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855551555154921.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855551555154922.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855551555154923.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 3 quartos · 80 m² — TABULEIRO DO PINTO",
+   "descricao": "Casa, 80.40 de área total, 80.40 de área privativa, 176.34 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "numero": "1555533678638",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "RUA EM PROJETO A, N. 01,",
+   "preco": 130101.79,
+   "avaliacao": 212000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=1555533678638",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F155553367863821.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F155553367863822.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F155553367863823.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 68 m² — FORENE",
+   "descricao": "Casa, 67.68 de área total, 67.68 de área privativa, 67.68 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "numero": "8555526304238",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "AVENIDA JOSÉ MANHÃS, N. 35, QD A LT 01",
+   "preco": 36000.0,
+   "avaliacao": 36000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555526304238",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552630423821.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552630423822.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552630423823.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Apartamento",
+   "titulo": "Apartamento · 2 quartos · 48 m² · 1 vaga(s) — TABULEIRO DO PINTO",
+   "descricao": "Apartamento, 55.66 de área total, 47.58 de área privativa, 0.00 de área do terreno,  2 qto(s), WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8787700813601",
+   "cidade": "RIO LARGO",
+   "uf": "AL",
+   "endereco": "RUA MANOEL NASCIMENTO, N. SN, Apto 203, COND.RES PORTO MILAZZO BL 13",
+   "preco": 122000.0,
+   "avaliacao": 122000.0,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8787700813601",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F878770081360121.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878770081360122.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F878770081360123.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 18 m² · 1 vaga(s) — PORTAL DO RENASCER",
+   "descricao": "Casa, 79.24 de área total, 17.74 de área privativa, 167.26 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8444418119911",
+   "cidade": "SATUBA",
+   "uf": "AL",
+   "endereco": "RUA EM PROJETO, N. 02, QD K LT 03",
+   "preco": 63942.61,
+   "avaliacao": 120000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444418119911",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441811991121.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441811991122.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441811991123.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "Não informado. O texto é uma página de verificação de segurança e não contém detalhes sobre o imóvel ou a oportunidade.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "A página oficial do imóvel não pôde ser acessada devido a uma verificação de segurança (CAPTCHA)."
+    ],
+    "veredito": "Não informado. Não há dados no texto para avaliar a oportunidade ou seu público-alvo."
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Apartamento",
+   "titulo": "Apartamento · 2 quartos · 50 m² · 1 vaga(s) — PORTAL DO RENASCER",
+   "descricao": "Apartamento, 49.90 de área total, 49.90 de área privativa, 0.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8444415383103",
+   "cidade": "SATUBA",
+   "uf": "AL",
+   "endereco": "RUA EM PROJETO N, N. SN, Apto 102, 1 PAV",
+   "preco": 77938.07,
+   "avaliacao": 145906.72,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444415383103",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441538310321.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441538310322.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441538310323.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "O texto fornecido é uma página de verificação de segurança (CAPTCHA) da Caixa Econômica Federal. Ele não contém nenhuma informação sobre o imóvel, suas características, estado de ocupação ou detalhes da oportunidade de leilão.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "Não é possível identificar riscos relacionados ao imóvel ou à oportunidade de leilão com base no texto fornecido, pois ele é uma página de CAPTCHA."
+    ],
+    "veredito": "Não é possível formar um veredito sobre a oportunidade, pois o texto fornecido não contém detalhes sobre o imóvel ou as condições do leilão."
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 3 quartos · 61 m² — CENTRO",
+   "descricao": "Casa, 61.43 de área total, 61.43 de área privativa, 120.00 de área do terreno,  3 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "numero": "8555532233746",
+   "cidade": "SATUBA",
+   "uf": "AL",
+   "endereco": "AVENIDA EM PROJETO (RUA EM PROJETO), N. SN, CS 32",
+   "preco": 97185.51,
+   "avaliacao": 164000.0,
+   "modalidade": "Licitação Aberta",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555532233746",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553223374621.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553223374622.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553223374623.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 47 m² · 1 vaga(s) — CENTRO",
+   "descricao": "Casa, 47.42 de área total, 47.42 de área privativa, 172.68 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8444414316917",
+   "cidade": "SATUBA",
+   "uf": "AL",
+   "endereco": "RUA PROJETADA J, N. SN, LT 4 QD G",
+   "preco": 101364.98,
+   "avaliacao": 164126.07,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444414316917",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441431691721.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441431691722.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844441431691723.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 3 quartos · 55 m² — Recanto das Lagoas",
+   "descricao": "Casa, 54.93 de área total, 54.93 de área privativa, 279.72 de área do terreno,  3 qto(s), varanda, a.serv, WC, 1 sala(s), cozinha.",
+   "numero": "8555527222081",
+   "cidade": "SATUBA",
+   "uf": "AL",
+   "endereco": "RUA F, N. SN, CS 249 AV EM PROJETO",
+   "preco": 152300.0,
+   "avaliacao": 152300.0,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555527222081",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552722208121.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552722208122.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855552722208123.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 3 quartos · 105 m² · 1 vaga(s) — SEBASTIAO VILELA DOS SANTOS",
+   "descricao": "Casa, 0.00 de área total, 105.00 de área privativa, 133.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8555514093440",
+   "cidade": "TEOTONIO VILELA",
+   "uf": "AL",
+   "endereco": "RUA PROJETADA, N. 09, QD D",
+   "preco": 51443.16,
+   "avaliacao": 133000.0,
+   "modalidade": "Venda Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555514093440",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855551409344021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855551409344022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855551409344023.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
    "ia": {
     "resumo": "Não informado",
     "ocupacao": "Não informado",
@@ -710,7 +3235,158 @@
     "riscos": [],
     "veredito": "Não informado"
    }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 3 quartos · 90 m² — SAO JORGE",
+   "descricao": "Casa, 0.00 de área total, 90.00 de área privativa, 160.00 de área do terreno,  3 qto(s), WC, 2 sala(s), cozinha.",
+   "numero": "8555515680985",
+   "cidade": "TEOTONIO VILELA",
+   "uf": "AL",
+   "endereco": "RUA BERENICE OLIVIA DOS SANTOS, N. 24, QD C LT 24",
+   "preco": 45455.48,
+   "avaliacao": 90000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555515680985",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855551568098521.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855551568098522.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855551568098523.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "Trata-se de uma casa de 3 quartos e 90 m² em Teotônio Vilela/AL, ofertada por R$ 45.455,48, valor significativamente abaixo da avaliação de R$ 90.000,00.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "Acesso à página de detalhes do imóvel foi bloqueado por um CAPTCHA, impedindo a obtenção de informações essenciais.",
+     "Ausência de dados sobre ocupação, dívidas e condições de financiamento."
+    ],
+    "veredito": "Esta oportunidade pode ser interessante para investidores dispostos a realizar uma investigação aprofundada, devido ao potencial desconto, mas carece de informações essenciais para uma decisão segura."
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 72 m² — CENTRO (GULANDIM)",
+   "descricao": "Casa, 72.00 de área total, 72.00 de área privativa, 175.00 de área do terreno,  2 qto(s), a.serv, WC, 2 sala(s), cozinha.",
+   "numero": "8555519639831",
+   "cidade": "TEOTONIO VILELA",
+   "uf": "AL",
+   "endereco": "RUA EM PROJETO, N. 680,",
+   "preco": 48455.79,
+   "avaliacao": 90000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555519639831",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855551963983121.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855551963983122.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855551963983123.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27",
+   "ia": {
+    "resumo": "O texto fornecido é uma página de verificação de segurança (CAPTCHA) da Caixa Econômica Federal. Ele não contém nenhuma informação sobre o imóvel, suas características, localização ou a oportunidade de leilão. Não é possível analisar o imóvel com base neste conteúdo.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [],
+    "veredito": "Não é possível formar um veredito, pois o texto fornecido é apenas uma página de verificação de segurança e não contém informações sobre o imóvel ou a oportunidade."
+   }
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 3 quartos · 94 m² · 1 vaga(s) — ALTO DA ROSA",
+   "descricao": "Casa, 0.00 de área total, 93.60 de área privativa, 169.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8444403685550",
+   "cidade": "TEOTONIO VILELA",
+   "uf": "AL",
+   "endereco": "RUA JOSE FRANCISCO DOS SANTOS, N. 69,",
+   "preco": 93452.16,
+   "avaliacao": 166000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444403685550",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440368555021.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440368555022.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440368555023.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 71 m² · 1 vaga(s) — VEREADOR JOSE QUINCA VIEIRA DA SILVA",
+   "descricao": "Casa, 71.40 de área total, 71.40 de área privativa, 120.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8444405765909",
+   "cidade": "TEOTONIO VILELA",
+   "uf": "AL",
+   "endereco": "RUA CHARLTON DE ARAUJO MORAES, N. 49, QD B LT 11",
+   "preco": 111168.79,
+   "avaliacao": 180000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405765909",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440576590921.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440576590922.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440576590923.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 3 quartos · 82 m² · 1 vaga(s) — DEPUTADO BENEDITO DE LIRA",
+   "descricao": "Casa, 82.50 de área total, 82.50 de área privativa, 182.00 de área do terreno,  3 qto(s), a.serv, WC, 1 sala(s), cozinha, 1 vaga(s) de garagem.",
+   "numero": "8444405300671",
+   "cidade": "TEOTONIO VILELA",
+   "uf": "AL",
+   "endereco": "AVENIDA MANOEL FIRMINO DOS SANTOS, N. 259, QD D",
+   "preco": 108080.77,
+   "avaliacao": 175000.0,
+   "modalidade": "Venda Direta Online",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8444405300671",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440530067121.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440530067122.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F844440530067123.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
+  },
+  {
+   "cat": "imovel",
+   "tipo": "Casa",
+   "titulo": "Casa · 2 quartos · 72 m² — SAO JORGE",
+   "descricao": "Casa, 72.00 de área total, 72.00 de área privativa, 140.00 de área do terreno,  2 qto(s), a.serv, WC, 1 sala(s), cozinha.",
+   "numero": "8555534466675",
+   "cidade": "TEOTONIO VILELA",
+   "uf": "AL",
+   "endereco": "RUA 16 DE SETEMBRO, N. 567, LT 16 QD S-2",
+   "preco": 92000.0,
+   "avaliacao": 92000.0,
+   "modalidade": "Leilão SFI - Edital Único",
+   "fonte": "Caixa",
+   "url": "https://venda-imoveis.caixa.gov.br/sistema/detalhe-imovel.asp?hdnimovel=8555534466675",
+   "fotos": [
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553446667521.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553446667522.jpg",
+    "https://venda-imoveis.caixa.gov.br/fotos/F855553446667523.jpg"
+   ],
+   "real": true,
+   "coletadoEm": "2026-07-27"
   }
  ],
- "iaAtualizadoEm": "2026-07-26 10:48"
+ "iaAtualizadoEm": "2026-07-27 12:31"
 }

@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-10-16 13:52",
+ "atualizadoEm": "2026-10-17 12:51",
  "totalLotes": 23841,
  "fontes": [
   "Caixa"
@@ -25,17 +25,17 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F000001000512023.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-16",
+   "coletadoEm": "2026-10-17",
    "ia": {
-    "resumo": "A página oficial do imóvel não pôde ser acessada, exibindo apenas um CAPTCHA. Nenhuma informação sobre o terreno, sua localização ou a oportunidade de leilão está disponível no texto fornecido.",
+    "resumo": "Este é um terreno localizado no bairro COHAB em Cruzeiro do Sul/AC, com preço de R$ 50074.26 e avaliação de R$ 150000.0. No entanto, as informações detalhadas sobre o imóvel não puderam ser acessadas devido a uma página de verificação de segurança (CAPTCHA).",
     "ocupacao": "Não informado",
     "dividas": "Não informado",
     "financiamento": "Não informado (aceita financiamento/FGTS?)",
     "riscos": [
-     "Não foi possível acessar a página de detalhes do imóvel devido a um CAPTCHA.",
-     "Nenhuma informação sobre o imóvel está disponível no texto fornecido, impedindo qualquer análise."
+     "A página oficial com os detalhes do imóvel não pôde ser acessada devido a uma verificação de segurança (CAPTCHA), impedindo a análise completa das informações.",
+     "Não há informações disponíveis sobre o imóvel, como ocupação, dívidas ou condições de venda."
     ],
-    "veredito": "Não é possível avaliar a oportunidade ou para quem ela faz sentido, pois nenhuma informação sobre o imóvel foi fornecida na página."
+    "veredito": "Não é possível emitir um veredito sobre esta oportunidade, pois as informações essenciais do imóvel não foram disponibilizadas na página oficial."
    }
   },
   {
@@ -58,16 +58,17 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F000001000512123.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-16",
+   "coletadoEm": "2026-10-17",
    "ia": {
-    "resumo": "A página oficial do imóvel não pôde ser acessada, exibindo apenas uma verificação de segurança (CAPTCHA) da Caixa Econômica Federal. O conteúdo da página é exclusivamente sobre o CAPTCHA, sem detalhes do imóvel.",
+    "resumo": "O texto fornecido é uma página de verificação de segurança (CAPTCHA) da Caixa Econômica Federal. Ele não contém nenhuma informação sobre um imóvel específico, seu preço, localização ou qualquer detalhe relevante para uma oportunidade de leilão.",
     "ocupacao": "Não informado",
     "dividas": "Não informado",
     "financiamento": "Não informado (aceita financiamento/FGTS?)",
     "riscos": [
-     "Acesso à página de detalhes do imóvel bloqueado por CAPTCHA, impedindo a obtenção de informações cruciais para análise."
+     "A página apresentada é um bloqueio de segurança (CAPTCHA) e não contém informações sobre o imóvel",
+     "Não há dados disponíveis para avaliar a oportunidade de leilão ou compra do imóvel"
     ],
-    "veredito": "Não informado"
+    "veredito": "Esta página não oferece os detalhes necessários para analisar qualquer oportunidade de investimento em imóveis, sendo apenas um mecanismo de segurança."
    }
   },
   {
@@ -90,17 +91,16 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F000001000512223.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-16",
+   "coletadoEm": "2026-10-17",
    "ia": {
-    "resumo": "O texto fornecido é uma página de verificação de segurança (CAPTCHA) da Caixa Econômica Federal. Não há informações sobre o imóvel ou a oportunidade de leilão neste conteúdo.",
+    "resumo": "O texto fornecido é uma página de verificação de segurança (CAPTCHA) da Caixa Econômica Federal. Ele não contém nenhuma informação sobre o imóvel, suas características ou a oportunidade de leilão. Portanto, não é possível analisar o imóvel com base neste conteúdo.",
     "ocupacao": "Não informado",
     "dividas": "Não informado",
-    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "financiamento": "Não informado",
     "riscos": [
-     "Não há informações sobre o imóvel disponíveis para análise.",
-     "Acesso à página de detalhes do imóvel está bloqueado por uma verificação de segurança."
+     "As informações detalhadas do imóvel não estão disponíveis no texto fornecido, pois se trata de uma página de CAPTCHA."
     ],
-    "veredito": "Não é possível fornecer um veredito, pois as informações essenciais do imóvel não estão disponíveis no texto fornecido."
+    "veredito": "Não é possível emitir um veredito sobre a oportunidade, pois o texto não apresenta dados do imóvel para análise."
    }
   },
   {
@@ -123,16 +123,18 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F144442069944123.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-16",
+   "coletadoEm": "2026-10-17",
    "ia": {
-    "resumo": "O texto fornecido é uma página de CAPTCHA da Caixa Econômica Federal e não contém informações sobre o imóvel, suas características ou a oportunidade de leilão.",
+    "resumo": "O texto fornecido é uma página de verificação de segurança (CAPTCHA) e não contém nenhuma informação sobre o imóvel ou a oportunidade de leilão. Não é possível descrever o imóvel com base neste conteúdo.",
     "ocupacao": "Não informado",
     "dividas": "Não informado",
     "financiamento": "Não informado (aceita financiamento/FGTS?)",
     "riscos": [
-     "Não informado"
+     "O texto apresentado é uma página de CAPTCHA, impedindo o acesso às informações reais do imóvel.",
+     "Nenhum detalhe sobre o imóvel, seu estado de conservação, localização exata ou condições de venda está disponível no texto.",
+     "Não é possível realizar qualquer análise ou tomar decisões sem os dados completos do imóvel."
     ],
-    "veredito": "Não informado"
+    "veredito": "Não é possível emitir um veredito, pois o texto não contém dados sobre o imóvel para análise da oportunidade."
    }
   },
   {
@@ -155,7 +157,7 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F844441120083723.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-16"
+   "coletadoEm": "2026-10-17"
   },
   {
    "cat": "imovel",
@@ -166,7 +168,7 @@
    "cidade": "EPITACIOLANDIA",
    "uf": "AC",
    "endereco": "RUA DUQUE DE CAXIAS, N. 647, LT 10, QD 11",
-   "preco": 170000.0,
+   "preco": 223535.58,
    "avaliacao": 170000.0,
    "modalidade": "Leilão SFI - Edital Único",
    "fonte": "Caixa",
@@ -177,7 +179,7 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F155551764601823.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-16"
+   "coletadoEm": "2026-10-17"
   },
   {
    "cat": "imovel",
@@ -199,7 +201,7 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F155550909975523.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-16"
+   "coletadoEm": "2026-10-17"
   },
   {
    "cat": "imovel",
@@ -221,16 +223,17 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F160000016128823.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-16",
+   "coletadoEm": "2026-10-17",
    "ia": {
-    "resumo": "Não foi possível obter informações detalhadas sobre o imóvel ou a oportunidade de leilão, pois a página oficial apresenta um CAPTCHA de segurança.",
+    "resumo": "O texto fornecido é uma página de verificação de segurança (CAPTCHA) da Caixa Econômica Federal. Não há informações sobre o imóvel, suas características ou a oportunidade de leilão disponíveis nesta página.",
     "ocupacao": "Não informado",
     "dividas": "Não informado",
     "financiamento": "Não informado (aceita financiamento/FGTS?)",
     "riscos": [
-     "Não foi possível acessar os detalhes do imóvel devido a um CAPTCHA"
+     "A página oficial do imóvel não foi acessada, apenas uma tela de verificação de segurança.",
+     "Não há informações detalhadas sobre o imóvel ou o leilão disponíveis no texto fornecido."
     ],
-    "veredito": "Não é possível avaliar a oportunidade, pois as informações do imóvel não foram acessadas devido ao CAPTCHA."
+    "veredito": "Não informado"
    }
   },
   {
@@ -253,16 +256,16 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F144440669732123.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-16",
+   "coletadoEm": "2026-10-17",
    "ia": {
-    "resumo": "O texto fornecido é uma página de verificação de segurança (CAPTCHA) e não contém nenhuma informação sobre as características do imóvel ou detalhes da oportunidade de leilão. Portanto, não é possível descrever o imóvel ou a oportunidade com base neste conteúdo.",
+    "resumo": "Não informado",
     "ocupacao": "Não informado",
     "dividas": "Não informado",
     "financiamento": "Não informado (aceita financiamento/FGTS?)",
     "riscos": [
-     "Não foi possível acessar as informações do imóvel devido a uma verificação de segurança (CAPTCHA)."
+     "A página de detalhes do imóvel não pôde ser acessada devido a um CAPTCHA, impossibilitando a obtenção de informações sobre o bem."
     ],
-    "veredito": "Não é possível emitir um veredito sobre a oportunidade, pois as informações do imóvel não foram acessadas."
+    "veredito": "Não informado"
    }
   },
   {
@@ -285,17 +288,16 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F144440512940023.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-16",
+   "coletadoEm": "2026-10-17",
    "ia": {
-    "resumo": "O texto da página oficial do imóvel consiste em uma verificação de segurança (CAPTCHA) da Caixa Econômica Federal. Não há informações sobre o imóvel ou a oportunidade de leilão disponíveis neste conteúdo.",
+    "resumo": "O texto fornecido é uma página de verificação de segurança (CAPTCHA) da Caixa Econômica Federal. Não há informações sobre o imóvel, suas características ou a oportunidade de leilão.",
     "ocupacao": "Não informado",
     "dividas": "Não informado",
     "financiamento": "Não informado (aceita financiamento/FGTS?)",
     "riscos": [
-     "A página oficial do imóvel não está acessível, exibindo apenas uma verificação de segurança (CAPTCHA).",
-     "Não há informações detalhadas sobre o imóvel ou as condições do leilão no texto fornecido."
+     "As informações detalhadas do imóvel não estão disponíveis, pois o texto é uma página de CAPTCHA."
     ],
-    "veredito": "Não é possível realizar uma análise da oportunidade, pois o conteúdo da página oficial do imóvel é apenas uma verificação de segurança, sem detalhes da propriedade."
+    "veredito": "Não é possível avaliar a oportunidade ou para quem ela faz sentido, pois as informações do imóvel não foram disponibilizadas no texto."
    }
   },
   {
@@ -318,7 +320,7 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F000001015142023.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-16"
+   "coletadoEm": "2026-10-17"
   },
   {
    "cat": "imovel",
@@ -340,7 +342,7 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F144440037371023.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-16"
+   "coletadoEm": "2026-10-17"
   },
   {
    "cat": "imovel",
@@ -362,7 +364,7 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F144440565191323.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-16"
+   "coletadoEm": "2026-10-17"
   },
   {
    "cat": "imovel",
@@ -384,7 +386,7 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F844441036244223.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-16"
+   "coletadoEm": "2026-10-17"
   },
   {
    "cat": "imovel",
@@ -406,7 +408,7 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F133400000007723.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-16"
+   "coletadoEm": "2026-10-17"
   },
   {
    "cat": "imovel",
@@ -428,7 +430,7 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F155552860877523.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-16"
+   "coletadoEm": "2026-10-17"
   },
   {
    "cat": "imovel",
@@ -450,7 +452,7 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F844441056589023.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-16"
+   "coletadoEm": "2026-10-17"
   },
   {
    "cat": "imovel",
@@ -472,7 +474,7 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F144441901830423.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-16"
+   "coletadoEm": "2026-10-17"
   },
   {
    "cat": "imovel",
@@ -494,17 +496,16 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F155553127265023.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-16",
+   "coletadoEm": "2026-10-17",
    "ia": {
-    "resumo": "O texto fornecido é uma página de verificação de segurança (CAPTCHA) da Caixa Econômica Federal, que impede o acesso às informações detalhadas do imóvel. Não há dados sobre o terreno ou a oportunidade de leilão.",
+    "resumo": "O texto fornecido é uma página de verificação de segurança (CAPTCHA) da Caixa Econômica Federal. Não há informações detalhadas sobre o imóvel ou a oportunidade de leilão neste conteúdo.",
     "ocupacao": "Não informado",
     "dividas": "Não informado",
     "financiamento": "Não informado (aceita financiamento/FGTS?)",
     "riscos": [
-     "A página oficial do imóvel não está acessível, exibindo um CAPTCHA.",
-     "Nenhuma informação sobre o imóvel, seu estado ou condições de venda está disponível no texto."
+     "Acesso à página de detalhes do imóvel bloqueado por CAPTCHA, impedindo a obtenção de informações cruciais."
     ],
-    "veredito": "Não é possível avaliar a oportunidade, pois o texto fornecido é apenas uma página de verificação de segurança, sem detalhes do imóvel."
+    "veredito": "Não informado"
    }
   },
   {
@@ -527,7 +528,7 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F155552709825023.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-16"
+   "coletadoEm": "2026-10-17"
   },
   {
    "cat": "imovel",
@@ -13702,7 +13703,17 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F844441083016023.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "Não informado",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "Acesso à página do imóvel bloqueado por CAPTCHA, impedindo a obtenção de detalhes essenciais para análise da oportunidade."
+    ],
+    "veredito": "Não informado"
+   }
   },
   {
    "cat": "imovel",
@@ -13724,7 +13735,18 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F844440623989523.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "Não informado",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "A página oficial do imóvel não pôde ser acessada, exibindo apenas uma mensagem de CAPTCHA.",
+     "Não há informações detalhadas sobre o imóvel, sua situação ou condições de venda disponíveis no texto fornecido."
+    ],
+    "veredito": "Esta oportunidade não faz sentido para ninguém no momento, pois a ausência de informações do imóvel impede qualquer análise ou decisão de compra."
+   }
   },
   {
    "cat": "imovel",
@@ -13746,7 +13768,17 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F844441538783423.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "Não informado. O texto fornecido é uma página de verificação de segurança (CAPTCHA) e não contém detalhes sobre o imóvel ou a oportunidade de leilão.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "Não informado. O texto é uma página de CAPTCHA e não detalha riscos do imóvel."
+    ],
+    "veredito": "Não informado. O texto não oferece dados suficientes para avaliar a oportunidade."
+   }
   },
   {
    "cat": "imovel",
@@ -13768,7 +13800,17 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F844441763514223.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "Não há informações disponíveis sobre o imóvel ou a oportunidade de leilão, pois a página oficial apresenta apenas um desafio de segurança CAPTCHA. Não é possível analisar as características da casa, seu estado ou as condições da venda.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "Acesso bloqueado por CAPTCHA, impedindo a obtenção de detalhes do imóvel e das condições de venda."
+    ],
+    "veredito": "Não é possível formar um veredito sobre esta oportunidade, pois não há informações disponíveis sobre o imóvel ou suas condições de venda."
+   }
   },
   {
    "cat": "imovel",
@@ -13790,7 +13832,15 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F844441511358023.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "Esta é uma casa de 2 quartos com 78 m² e 1 vaga de garagem, localizada em Boiadeira, Iacu/BA. O imóvel está sendo ofertado por R$ 52.456,91, representando um deságio significativo em relação à sua avaliação de R$ 102.000,00.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [],
+    "veredito": "Esta oportunidade é para investidores que buscam um imóvel com grande potencial de valorização, mas que exige pesquisa aprofundada sobre sua situação atual e legal devido à falta de informações."
+   }
   },
   {
    "cat": "imovel",
@@ -13812,7 +13862,18 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F844440183594523.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "Não foi possível obter um resumo do imóvel ou da oportunidade, pois o texto fornecido é uma página de verificação de segurança (CAPTCHA) e não contém detalhes sobre o bem.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "O texto fornecido é uma página de CAPTCHA, impedindo o acesso a qualquer informação relevante sobre o imóvel.",
+     "Detalhes cruciais como estado de conservação, localização exata, dívidas e situação de ocupação não estão disponíveis."
+    ],
+    "veredito": "Não é possível emitir um veredito sobre a oportunidade, pois as informações essenciais do imóvel não estão disponíveis no texto fornecido."
+   }
   },
   {
    "cat": "imovel",
@@ -13834,7 +13895,18 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F844441125131823.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "Não há informações sobre o imóvel ou a oportunidade de leilão no texto fornecido. A página apresentada é uma verificação de segurança (CAPTCHA) da Caixa Econômica Federal. Portanto, não é possível realizar uma análise do imóvel com base neste conteúdo.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "Total ausência de informações sobre o imóvel para qualquer análise.",
+     "Não foi possível acessar a página de detalhes do imóvel devido a um CAPTCHA."
+    ],
+    "veredito": "Não informado. Não há dados sobre o imóvel para avaliar a oportunidade."
+   }
   },
   {
    "cat": "imovel",
@@ -13856,7 +13928,17 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F844441100810323.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "Não informado. O texto da página é um CAPTCHA e não contém informações sobre o imóvel.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "As informações detalhadas do imóvel não estão disponíveis, pois a página oficial retornou um CAPTCHA."
+    ],
+    "veredito": "Não é possível avaliar a oportunidade para qualquer perfil de comprador, pois as informações essenciais do imóvel não foram carregadas devido a um erro na página."
+   }
   },
   {
    "cat": "imovel",
@@ -13922,7 +14004,18 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F155552934510723.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "Este é um terreno em Chicha, Ibotirama/BA, com preço de R$ 154.390,03 e avaliação de R$ 389.000,00. A página de detalhes do imóvel está inacessível devido a uma verificação de segurança, impedindo a obtenção de informações cruciais.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "Página oficial do imóvel inacessível, impedindo a consulta de detalhes cruciais.",
+     "Área do terreno informada como 0 m², o que pode ser um erro ou indicar uma particularidade que requer investigação."
+    ],
+    "veredito": "Esta oportunidade não faz sentido para nenhum investidor no momento, pois a ausência de informações detalhadas impede qualquer análise de viabilidade ou risco."
+   }
   },
   {
    "cat": "imovel",
@@ -13944,7 +14037,17 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F155553060463323.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "Não informado",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "Acesso às informações detalhadas do imóvel está bloqueado por uma verificação de segurança (CAPTCHA)."
+    ],
+    "veredito": "Não informado"
+   }
   },
   {
    "cat": "imovel",
@@ -13966,7 +14069,17 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F155552369069423.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "Este é um terreno de 300 m² no Centro de Ibotirama/BA, com um preço de R$ 228.608,38, representando um desconto significativo sobre a avaliação de R$ 576.000,00. No entanto, as informações detalhadas do imóvel não foram acessíveis na página oficial.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "A página oficial do imóvel não apresenta detalhes, sendo apenas um CAPTCHA, o que impede a análise completa da oportunidade."
+    ],
+    "veredito": "Esta oportunidade pode ser interessante para investidores que buscam um terreno com grande potencial de valorização devido ao desconto, mas exige a obtenção das informações completas do imóvel antes de qualquer decisão."
+   }
   },
   {
    "cat": "imovel",
@@ -14098,7 +14211,18 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F144440482617523.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "O texto fornecido é uma página de verificação de segurança (CAPTCHA) e não contém informações sobre o imóvel ou a oportunidade de leilão.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "O acesso às informações detalhadas do imóvel foi bloqueado por um CAPTCHA.",
+     "Não há dados disponíveis no texto para avaliar o imóvel ou a oportunidade de investimento."
+    ],
+    "veredito": "Não é possível analisar a oportunidade de investimento, pois o texto fornecido é apenas uma página de verificação de segurança, sem dados sobre o imóvel."
+   }
   },
   {
    "cat": "imovel",
@@ -14164,7 +14288,19 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F155551418434023.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "Não foi possível obter informações sobre o imóvel ou a oportunidade, pois o texto fornecido é uma página de verificação de segurança (CAPTCHA) da Caixa Econômica Federal.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado",
+    "riscos": [
+     "A página oficial do imóvel não pôde ser acessada, exibindo um CAPTCHA.",
+     "Não há informações detalhadas sobre o imóvel, seu estado ou condições de venda no texto fornecido.",
+     "A impossibilidade de acesso à página impede qualquer análise da oportunidade."
+    ],
+    "veredito": "Não é possível emitir um veredito sobre esta oportunidade, pois o texto fornecido não contém nenhuma informação relevante sobre o imóvel ou as condições do leilão."
+   }
   },
   {
    "cat": "imovel",
@@ -14384,7 +14520,18 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F844441543874923.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "Não informado. O texto fornecido é uma página de verificação de segurança (CAPTCHA) e não contém detalhes sobre o imóvel ou a oportunidade de leilão.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "A página fornecida é um CAPTCHA, impedindo o acesso às informações detalhadas do imóvel.",
+     "Não há dados sobre o imóvel para análise de riscos específicos."
+    ],
+    "veredito": "Não é possível emitir um veredito, pois o texto fornecido não contém informações sobre o imóvel ou a oportunidade de leilão."
+   }
   },
   {
    "cat": "imovel",
@@ -14406,7 +14553,18 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F844440508282823.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "Não informado. O texto fornecido é uma página de verificação de segurança (CAPTCHA) e não contém detalhes sobre o imóvel ou a oportunidade de leilão.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "A página oficial do imóvel não pôde ser acessada, exibindo apenas uma verificação de segurança (CAPTCHA).",
+     "Nenhuma informação sobre o imóvel ou a oportunidade de leilão está disponível no texto fornecido."
+    ],
+    "veredito": "Não informado. Sem acesso às informações do imóvel, não é possível emitir um veredito sobre a oportunidade."
+   }
   },
   {
    "cat": "imovel",
@@ -14560,7 +14718,18 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F000001017123123.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "A página oficial do imóvel apresenta uma verificação de segurança CAPTCHA, impedindo o acesso às informações detalhadas. Não há dados disponíveis sobre o terreno ou a oportunidade de leilão neste momento.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "O principal risco é a impossibilidade de acessar as informações detalhadas do imóvel devido à verificação de segurança.",
+     "Não há dados disponíveis para identificar outros riscos específicos do imóvel."
+    ],
+    "veredito": "Não é possível avaliar esta oportunidade sem acesso às informações completas do imóvel, que estão bloqueadas por uma verificação de segurança."
+   }
   },
   {
    "cat": "imovel",
@@ -14780,7 +14949,18 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F878770301529323.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "A página fornecida é um CAPTCHA da Caixa Econômica Federal, que impede o acesso às informações detalhadas do imóvel. Não há dados disponíveis sobre o apartamento, sua localização ou preço nesta página. A oportunidade não pode ser avaliada com base no texto apresentado.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "A página exibida é um CAPTCHA, impedindo o acesso a qualquer informação relevante sobre o imóvel.",
+     "Não é possível avaliar a oportunidade de investimento sem os detalhes completos do imóvel."
+    ],
+    "veredito": "Não é possível analisar esta oportunidade, pois a página oficial do imóvel está bloqueada por um CAPTCHA, não fornecendo dados para avaliação."
+   }
   },
   {
    "cat": "imovel",
@@ -14802,7 +14982,17 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F878770308981523.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "A página fornecida é um CAPTCHA da Caixa Econômica Federal, impedindo o acesso às informações detalhadas do imóvel. Não há dados sobre o apartamento ou a oportunidade de leilão.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "As informações detalhadas do imóvel não estão disponíveis, pois a página é um CAPTCHA."
+    ],
+    "veredito": "Não é possível avaliar a oportunidade, pois as informações do imóvel não estão disponíveis no texto fornecido."
+   }
   },
   {
    "cat": "imovel",
@@ -14824,7 +15014,17 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F844441490221223.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "O texto fornecido é uma página de verificação de segurança (CAPTCHA) da Caixa Econômica Federal. Não há informações disponíveis sobre o imóvel, suas características ou a oportunidade de leilão.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "Informações detalhadas do imóvel não acessíveis devido à página de CAPTCHA."
+    ],
+    "veredito": "Não é possível fornecer um veredito, pois o texto da página é um CAPTCHA e não contém detalhes sobre o imóvel ou a oportunidade."
+   }
   },
   {
    "cat": "imovel",
@@ -15836,7 +16036,17 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F844442104671723.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "A página oficial do imóvel apresenta apenas uma verificação de segurança CAPTCHA, sem fornecer quaisquer detalhes sobre o apartamento, suas características ou a natureza da oportunidade de leilão.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "A página oficial do imóvel não exibe informações detalhadas, apresentando apenas uma verificação de segurança CAPTCHA."
+    ],
+    "veredito": "Não é possível emitir um veredito sobre esta oportunidade, pois a página oficial do imóvel não apresenta nenhuma informação relevante além de uma verificação de segurança."
+   }
   },
   {
    "cat": "imovel",
@@ -15858,7 +16068,15 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F844441920665623.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "Não é possível gerar um resumo do imóvel ou da oportunidade. O texto fornecido é um aviso de segurança e não contém informações relevantes sobre o bem.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [],
+    "veredito": "Não é possível emitir um veredito, pois o texto não oferece dados sobre o imóvel ou a oportunidade de leilão."
+   }
   },
   {
    "cat": "imovel",
@@ -16012,7 +16230,15 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F844441962244723.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "Não informado",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [],
+    "veredito": "Não informado"
+   }
   },
   {
    "cat": "imovel",
@@ -16078,7 +16304,17 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F844441998980423.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "Não há informações detalhadas sobre o imóvel ou a oportunidade de leilão no texto fornecido. O conteúdo da página consiste apenas em uma verificação de segurança (CAPTCHA).",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado",
+    "riscos": [
+     "A página oficial do imóvel não pôde ser acessada, exibindo apenas um CAPTCHA, o que impede a obtenção de qualquer informação relevante sobre o bem."
+    ],
+    "veredito": "Não é possível determinar para quem esta oportunidade faz sentido, pois o texto fornecido não contém detalhes sobre o imóvel ou as condições do leilão."
+   }
   },
   {
    "cat": "imovel",
@@ -16100,7 +16336,18 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F844441899735823.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "Não foi possível obter informações sobre o imóvel ou a oportunidade, pois a página apresentada é uma verificação de segurança (CAPTCHA) da Caixa Econômica Federal.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "A página oficial do imóvel não foi acessada, sendo exibida uma verificação de segurança (CAPTCHA).",
+     "Nenhuma informação sobre o imóvel, seu estado ou condições de venda está disponível no texto fornecido."
+    ],
+    "veredito": "Não é possível avaliar a oportunidade, pois o texto fornecido não contém detalhes do imóvel ou das condições de leilão."
+   }
   },
   {
    "cat": "imovel",
@@ -16122,7 +16369,17 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F844441908545023.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "O texto fornecido corresponde a uma página de verificação de segurança (CAPTCHA) da Caixa Econômica Federal. Ele não contém informações detalhadas sobre o imóvel ou a oportunidade de leilão, apenas um aviso de segurança.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "O acesso à página de detalhes do imóvel foi bloqueado por uma verificação de segurança (CAPTCHA), impedindo a obtenção de informações sobre o bem."
+    ],
+    "veredito": "Não informado"
+   }
   },
   {
    "cat": "imovel",
@@ -16144,7 +16401,15 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F844441011331023.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "Não informado. A página exibida é um CAPTCHA e não contém detalhes sobre o imóvel ou a oportunidade de leilão.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [],
+    "veredito": "Não informado. A falta de informações impede uma análise da oportunidade."
+   }
   },
   {
    "cat": "imovel",
@@ -16254,7 +16519,18 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F144440314669323.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "Não informado. O texto fornecido é uma página de verificação de segurança (CAPTCHA) e não contém detalhes sobre o imóvel ou a oportunidade de leilão. Portanto, não é possível descrever o imóvel ou a natureza da oferta.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "A página fornecida é um CAPTCHA e não contém informações sobre o imóvel.",
+     "Não é possível analisar a oportunidade sem os detalhes do imóvel."
+    ],
+    "veredito": "Não é possível emitir um veredito sobre esta oportunidade, pois o texto da página não apresenta nenhuma informação relevante sobre o imóvel ou as condições do leilão."
+   }
   },
   {
    "cat": "imovel",
@@ -16276,7 +16552,17 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F000001000438823.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "O texto fornecido é uma página de verificação de segurança (CAPTCHA) da Caixa Econômica Federal e não contém informações detalhadas sobre o imóvel ou a oportunidade de leilão.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "Não informado"
+    ],
+    "veredito": "Não é possível formular um veredito sobre a oportunidade, pois o texto não apresenta detalhes do imóvel ou do leilão."
+   }
   },
   {
    "cat": "imovel",
@@ -16320,7 +16606,17 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F844441737367923.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "O texto fornecido é uma página de verificação de segurança (CAPTCHA) da Caixa Econômica Federal. Não há informações sobre o imóvel ou a oportunidade de leilão disponíveis neste texto.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "Não foi possível acessar os detalhes do imóvel devido a uma verificação de segurança."
+    ],
+    "veredito": "Não é possível fornecer um veredito, pois o texto não contém informações sobre o imóvel ou a oportunidade de leilão."
+   }
   },
   {
    "cat": "imovel",
@@ -16342,7 +16638,17 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F144440579773023.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "Não informado",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "Acesso à página do imóvel bloqueado por CAPTCHA, impedindo a obtenção de informações detalhadas."
+    ],
+    "veredito": "Não informado"
+   }
   },
   {
    "cat": "imovel",
@@ -16430,7 +16736,17 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F844440699957123.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "Não informado. A página apresenta apenas um CAPTCHA de segurança e não contém detalhes sobre o imóvel ou a oportunidade de leilão.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "A página oficial do imóvel não está acessível, exibindo apenas um CAPTCHA de segurança, impedindo a análise de qualquer informação sobre o bem."
+    ],
+    "veredito": "Não informado. Sem acesso às informações do imóvel, não é possível emitir um veredito sobre a oportunidade."
+   }
   },
   {
    "cat": "imovel",
@@ -16452,7 +16768,18 @@
     "https://venda-imoveis.caixa.gov.br/fotos/F844440079856623.jpg"
    ],
    "real": true,
-   "coletadoEm": "2026-10-13"
+   "coletadoEm": "2026-10-13",
+   "ia": {
+    "resumo": "Apartamento de 2 quartos e 49 m² em Cajazeiras VII, Salvador/BA. O imóvel é ofertado por R$ 37.109,31, um valor significativamente abaixo da avaliação de R$ 128.501,99.",
+    "ocupacao": "Não informado",
+    "dividas": "Não informado",
+    "financiamento": "Não informado (aceita financiamento/FGTS?)",
+    "riscos": [
+     "O texto fornecido é uma página de verificação de segurança (CAPTCHA), o que impede o acesso às informações detalhadas do imóvel.",
+     "Não há dados disponíveis sobre a ocupação, dívidas, estado de conservação ou outras características essenciais do imóvel."
+    ],
+    "veredito": "Esta oportunidade pode ser interessante para investidores com alta tolerância a risco que buscam um imóvel com grande desconto, mas que precisam estar cientes da total ausência de informações detalhadas sobre o bem devido ao bloqueio da página."
+   }
   },
   {
    "cat": "imovel",
@@ -525909,5 +526236,5 @@
    "coletadoEm": "2026-08-10"
   }
  ],
- "iaAtualizadoEm": "2026-10-16 13:52"
+ "iaAtualizadoEm": "2026-10-17 12:51"
 }
